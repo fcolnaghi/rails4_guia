@@ -32,7 +32,7 @@ require 'bundler/capistrano'
 #############################################
 GITHUB_ACCOUNT = 'guia041'
 GITHUB_REPOSITORY_NAME = 'site.guia041.com.br'
-EC2_SERVER_HOSTNAME = 'ec2-54-204-137-78.compute-1.amazonaws.com'
+EC2_SERVER_HOSTNAME = 'ec2-54-204-69-57.compute-1.amazonaws.com'
 
 #############################################
 #############################################
