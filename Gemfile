@@ -4,12 +4,13 @@ gem 'rails', '4.0.1'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 1.2'
-gem 'capistrano', '~> 2.15'
+
+gem 'pg'
+gem 'sunspot_rails'
+gem 'sunspot_solr'
 
 group :development do
-  gem 'pg'
-  gem 'sunspot_rails'
-  gem 'sunspot_solr'
+	gem 'capistrano', '~> 2.15'  
 end
 
 group :doc do
