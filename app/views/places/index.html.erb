@@ -14,13 +14,12 @@
   </thead>
 
   <tbody>
-    <td>Distancia<%=  %> / Post<%= @post %></td>
-    <% @places.each_with_index do |place, i| %>
+      <% @places.each_with_index do |place, i| %>
       <tr>
         <td><%= place.title %></td>
-        <td><%= @distance[i].score %></td>
-        <td><%#= place.result.lat %></td>
-        <td><%#= place.result.lon %></td>
+        <td><%= place.description %></td>
+        <td><%= place.result.lat %></td>
+        <td><%= place.result.lon %></td>
 
         <td><%= link_to 'Show', place %></td>
         <td><%= link_to 'Edit', edit_place_path(place) %></td>
