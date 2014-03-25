@@ -5,7 +5,7 @@ class PlacesController < ApplicationController
   # GET /places.json
   def index
     search = Place.search do
-      fulltext('pizza')
+      fulltext(params[:q])
     end
 
     @places = search.results
