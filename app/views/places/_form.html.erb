@@ -20,6 +20,11 @@
     <%= f.text_area :description %>
   </div>
   <div class="field">
+    <%= f.label :address %><br>
+    <%= f.text_area :address %>
+  </div>
+
+  <div class="field">
     <%#= f.label :lat %><br>
     <%= f.text_field :lat %>
   </div>
@@ -27,6 +32,11 @@
     <%#= f.label :log %><br>
     <%= f.text_field :lon %>
   </div>
+
+<div style='width: 800px;'>
+  <div id="map" style='width: 800px; height: 400px;'></div>
+</div>
+
   <script>
     navigator.geolocation.getCurrentPosition(function(position) {
       document.querySelector('#place_lat').value = position.coords.latitude;

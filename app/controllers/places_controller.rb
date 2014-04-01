@@ -5,6 +5,58 @@ class PlacesController < ApplicationController
   # GET /places.json
   def index
     @places = Place.all
+
+    @hash = Gmaps4rails.build_markers(@places) do |place, marker|
+      marker.lat place.lat
+      marker.lng place.lon
+    end
+
+  end
+
+  def search
+    lat = -25.480876
+    lng = -49.304425
+    #search = Place.search do
+    #  keywords( params[:q] )
+    #end
+
+    #@places = search.results
+
+
+    search = Place.search do
+        #fulltext "{!func}geodist(location_ll, #{lat}, #{lng})"
+        with(:location).in_radius( -25.480876, -49.304425, 1 )
+        order_by(:score, :asc)
+    end
+    @places = search
+    render 'index'
+  end
+
+
+  def nearby
+
+    search = Place.search do
+       keywords( params[:q] ) if params[:q].present?
+       with(:location).in_radius( params[:lat], params[:lon], 10 )
+       order_by(:score, :asc)
+       #with(:geohash).near( -25.480876, -49.304425, :precision => 1)
+    end
+
+    @place =  Place.first
+    @place.lat = params[:lat]
+    @place.lon = params[:lon]
+
+    search.results.unshift @place
+    @places = search.results # Adiciona um lugar para traçar o trajeto # Adiciona um lugar para traçar o trajeto
+
+    @distances = search
+
+    @hash = Gmaps4rails.build_markers(@places) do |place, marker|
+      marker.lat place.lat
+      marker.lng place.lon
+    end
+
+    render 'index'
   end
 
   # GET /places/1
@@ -69,6 +121,6 @@ class PlacesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def place_params
-      params.require(:place).permit(:title, :description, :lat, :lon)
+      params.require(:place).permit(:title, :description, :lat, :lon, :address)
     end
 end

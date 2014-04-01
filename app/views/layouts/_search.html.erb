@@ -1,0 +1,9 @@
+<%= form_tag(search_places_path, :id => 'search-form', :method => :get) do |f| %>
+	<%= text_field_tag :q, params[:q] %>
+	<%= submit_tag 'Search', :name => nil %>
+<% end %>
+
+<%= form_tag(nearby_places_path, :id => 'search-form', :method => :get) do |f| %>
+	<%= text_field_tag :q, params[:q] %>
+	<%= submit_tag 'Nearby', :name => nil %>
+<% end %>

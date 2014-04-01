@@ -4,13 +4,19 @@ gem 'rails', '4.0.1'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 1.2'
+gem 'coffee-rails'
 
-gem 'pg'
+# Geolocation
+gem 'geocoder'
+gem 'gmaps4rails'
 gem 'sunspot_rails'
-gem 'sunspot_solr'
+
+# Postgres
+gem 'pg'
 
 group :development do
-	gem 'capistrano', '~> 2.15'  
+	gem 'sunspot_solr'
+	gem 'capistrano', '~> 2.15'
 end
 
 group :doc do
