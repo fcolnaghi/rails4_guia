@@ -1,0 +1,13 @@
+
+---
+places:
+  columns:
+  - id
+  - title
+  - description
+  - lat
+  - lon
+  - created_at
+  - updated_at
+  - address
+  records: 

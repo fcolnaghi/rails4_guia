@@ -1,4 +1,6 @@
 Guia041::Application.routes.draw do
+  resources :categories
+
   resources :places do
     collection do
       get "search"

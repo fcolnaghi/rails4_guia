@@ -4,7 +4,7 @@ class PlacesController < ApplicationController
   # GET /places
   # GET /places.json
   def index
-    @places = Place.all
+    @places = Place.take(50)
 
     @hash = Gmaps4rails.build_markers(@places) do |place, marker|
       marker.lat place.lat
@@ -14,21 +14,17 @@ class PlacesController < ApplicationController
   end
 
   def search
-    lat = -25.480876
-    lng = -49.304425
-    #search = Place.search do
-    #  keywords( params[:q] )
-    #end
-
-    #@places = search.results
-
-
     search = Place.search do
-        #fulltext "{!func}geodist(location_ll, #{lat}, #{lng})"
-        with(:location).in_radius( -25.480876, -49.304425, 1 )
-        order_by(:score, :asc)
+      fulltext( params[:q] )
     end
-    @places = search
+
+    @places = search.results
+
+    @hash = Gmaps4rails.build_markers(@places) do |place, marker|
+      marker.lat place.lat
+      marker.lng place.lon
+    end
+
     render 'index'
   end
 
@@ -37,16 +33,11 @@ class PlacesController < ApplicationController
 
     search = Place.search do
        keywords( params[:q] ) if params[:q].present?
-       with(:location).in_radius( params[:lat], params[:lon], 10 )
+       with(:location).near([ params[:lat], params[:lon] ], 10 ) if (params[:lat].present?) && (params[:lon].present?)
        order_by(:score, :asc)
        #with(:geohash).near( -25.480876, -49.304425, :precision => 1)
     end
 
-    @place =  Place.first
-    @place.lat = params[:lat]
-    @place.lon = params[:lon]
-
-    search.results.unshift @place
     @places = search.results # Adiciona um lugar para traçar o trajeto # Adiciona um lugar para traçar o trajeto
 
     @distances = search
