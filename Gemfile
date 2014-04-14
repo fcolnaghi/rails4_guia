@@ -4,15 +4,26 @@ gem 'rails', '4.0.1'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 1.2'
-gem 'sqlite3'
-gem 'capistrano', '~> 2.15'
+gem 'coffee-rails'
+
+# Geolocation
+gem 'geocoder'
+gem 'gmaps4rails'
+gem 'sunspot_rails'
+
+# Postgres
+gem 'pg'
+
+group :development do
+	gem 'sunspot_solr'
+	gem 'capistrano', '~> 2.15'
+end
 
 group :doc do
   gem 'sdoc', require: false
 end
 
 group :production do
-	gem 'pg', '~> 0.16.0'
 	gem 'therubyracer'
 end
 
