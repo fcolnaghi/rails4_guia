@@ -18,4 +18,6 @@ pickle-email-*.html
 .project
 config/secrets.yml
 config/initializers/secret_token.rb
+/solr
 /solr/*
+
