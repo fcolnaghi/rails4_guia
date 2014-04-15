@@ -2,7 +2,7 @@ class Place < ActiveRecord::Base
 
   geocoded_by :address,
   	:latitude => :lat, :longitude => :lon
-  geocoded_by :q
+  #geocoded_by :q
   after_validation :geocode
 
   searchable do
