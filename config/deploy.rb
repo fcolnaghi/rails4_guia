@@ -78,6 +78,7 @@ after 'deploy:update_code' do
 
   # Compile Assets
   run "cd #{release_path}; RAILS_ENV=production bundle exec rake assets:precompile"
+  run "cd /usr/local/lib/ruby/gems/2.1.0/gems/sunspot_solr-2.1.0/bin; sunspot-solr start"
 end
 
 # Restart Passenger
