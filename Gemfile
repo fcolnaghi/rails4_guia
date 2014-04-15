@@ -15,6 +15,7 @@ gem 'sunspot_rails'
 gem 'pg'
 
 group :development do
+ gem 'progress_bar'
   gem 'sunspot_solr'
   gem 'capistrano', '~> 2.15'
 end

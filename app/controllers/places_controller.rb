@@ -33,7 +33,7 @@ class PlacesController < ApplicationController
 
     search = Place.search do
        keywords( params[:q] ) if params[:q].present?
-       with(:location).near([ params[:lat], params[:lon] ], 10 ) if (params[:lat].present?) && (params[:lon].present?)
+       with(:location).near([ params[:lat], params[:lon] ], 5 ) if (params[:lat].present?) && (params[:lon].present?)
        order_by(:score, :asc)
        #with(:geohash).near( -25.480876, -49.304425, :precision => 1)
     end
