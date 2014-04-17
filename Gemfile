@@ -15,8 +15,9 @@ gem 'sunspot_rails'
 gem 'pg'
 
 group :development do
-	gem 'sunspot_solr'
-	gem 'capistrano', '~> 2.15'
+ gem 'progress_bar'
+  gem 'sunspot_solr'
+  gem 'capistrano', '~> 2.15'
 end
 
 group :doc do

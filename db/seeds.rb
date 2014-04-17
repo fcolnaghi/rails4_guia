@@ -5,3 +5,18 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+File.open("db/anuncios.yml", 'r') do |file|
+        YAML::load(file).each do |record|
+	  		Place.create(
+	  			title: record['nome'],
+				description: record['keywords']	,
+				address: record['endereco'],
+				neighborhood: record['bairro'],
+				number: record['numero'],
+				city: record['cidade'],
+				state: record['estado'],
+				cep: record['cep']
+			)
+        end
+end
+
