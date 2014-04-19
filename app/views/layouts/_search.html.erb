@@ -1,9 +1,14 @@
-<%= form_tag(search_places_path, :id => 'search-form', :method => :get) do |f| %>
-	<%= text_field_tag :q, params[:q] %>
-	<%= submit_tag 'Search', :name => nil %>
-<% end %>
-
-<%= form_tag(nearby_places_path, :id => 'search-form', :method => :get) do |f| %>
-	<%= text_field_tag :q, params[:q] %>
-	<%= submit_tag 'Nearby', :name => nil %>
+<%= form_tag(search_places_path, :class => 'search-form', :method => :get) do |f| %>
+	<div class="form-group">
+	    <div class="input-search">
+	      <%= text_field_tag :q, params[:q], :class => "form-control typeahead" , :placeholder => 'O que você quer encontrar?' %>
+	    </div>
+	</div>
+    <span>próximo de</span>
+    <div class="form-group">
+	    <div class="input-search-small">
+      		<%= text_field_tag :w, params[:w], :class => "form-control" , :placeholder => 'Aonde ?' %>
+    	</div>
+    </div>
+    <%= submit_tag 'Search', :name => nil, :class => "btn btn-success" %>
 <% end %>

@@ -4,7 +4,13 @@ class PlacesController < ApplicationController
   # GET /places
   # GET /places.json
   def index
-    @places = Place.take(50)
+
+    geo = request.location
+
+    @latitude  = geo.latitude
+    @longitude = geo.longitude
+
+    @places = Place.take(10)
 
     @hash = Gmaps4rails.build_markers(@places) do |place, marker|
       marker.lat place.lat
@@ -15,14 +21,15 @@ class PlacesController < ApplicationController
 
   def search
     search = Place.search do
-      fulltext( params[:q] )
+      keywords( params[:q] ) if params[:q].present?
+      keywords( params[:w] ) if params[:w].present?
     end
 
     @places = search.results
 
     @hash = Gmaps4rails.build_markers(@places) do |place, marker|
-      marker.lat place.lat
-      marker.lng place.lon
+      marker.lat place.lat if place.lat.present?
+      marker.lng place.lon if place.lon.present?
     end
 
     render 'index'
@@ -43,8 +50,8 @@ class PlacesController < ApplicationController
     @distances = search
 
     @hash = Gmaps4rails.build_markers(@places) do |place, marker|
-      marker.lat place.lat
-      marker.lng place.lon
+      marker.lat place.lat if place.lat.present?
+      marker.lng place.lon if place.lon.present?
     end
 
     render 'index'

@@ -3,11 +3,27 @@
 <head>
   <title>Guia041</title>
   <%= stylesheet_link_tag    "application", media: "all"%>
-  <%= javascript_include_tag "application"%>
   <%= csrf_meta_tags %>
 </head>
 <body>
-<%= render 'layouts/search' %>
-<%= yield %>
+	<%= render 'layouts/nav/top_search' %>
+    <div class="content">
+    <div class="container">
+		<%= yield %>
+	</div>
+	</div>
+<%= javascript_include_tag "application"%>
+<% if content_for?(:js) %>
+  <%= yield :js %>
+<% end %>
+<script type="text/javascript">
+Gmaps.map.callback = function(){
+  handler.event.addListenerOnce(Gmaps.map.serviceObject, 'idle', function(){
+
+  var home_pin = [{picture: "current_user.png", width: 32, lat: "#{@latitude}", lng: "#{@longitude}"}];
+    handler.addMarkers(home_pin)
+  }
+)};
+</script>
 </body>
 </html>
