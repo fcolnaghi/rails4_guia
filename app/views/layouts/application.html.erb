@@ -16,14 +16,5 @@
 <% if content_for?(:js) %>
   <%= yield :js %>
 <% end %>
-<script type="text/javascript">
-Gmaps.map.callback = function(){
-  handler.event.addListenerOnce(Gmaps.map.serviceObject, 'idle', function(){
-
-  var home_pin = [{picture: "current_user.png", width: 32, lat: "#{@latitude}", lng: "#{@longitude}"}];
-    handler.addMarkers(home_pin)
-  }
-)};
-</script>
 </body>
 </html>

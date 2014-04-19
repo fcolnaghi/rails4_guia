@@ -1,45 +1,48 @@
-<div style="width: 500px; float: left">
-<h1>Listing <%=pluralize(@places.count, "place")%> found</h1>
-<div class="result">
+<div style="width: 70%;float: left">
+<h4>Listing <%=pluralize(@places.results.count, "place")%> of <%=@places.total%> found</h4>
+<div class="table-responsive">
+  <table class="table table-condensed" style="font-size: 10px">
   <thead>
     <tr>
-      <th>Title</th>
-      <th>Description</th>
-      <th>Lat</th>
-      <th>Lon</th>
+      <th>TITULO</th>
+      <th>ENDEREÇO</th>
+      <th>SCORE</th>
+      <!--th>Lon</th>
       <th>Score</th>
       <th></th>
       <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
+      <th></th-->
     </tr>
   </thead>
   <tbody>
-    <% @places.each do |place| -%>
+    <% @places.each_hit_with_result do |hit, place| -%>
     <tr>
       <td><%= place.title %></td>
-      <td><%= place.description %></td>
-      <td><%= place.lat %></td>
-      <td><%= place.lon %></td>
-      <td><%= place.address %></td>
-      <td><%= place.number %></td>
-      <td><%= place.neighborhood %></td>
-      <td><%= place.city %></td>
-
+      <td><%= place.full_address %></td>
+      <td><%= hit.score %></td>
       <td><%= link_to 'Show', place %></td>
+
+      <!--td><%= link_to 'Show', place %></td>
       <td><%= link_to 'Edit', edit_place_path(place) %></td>
-      <td><%= link_to 'Destroy', place, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      <td><%= link_to 'Destroy', place, method: :delete, data: { confirm: 'Are you sure?' } %></td-->
     </tr>
     <% end %>
   </tbody>
+</table>
+<%= paginate @places.results %>
 </div>
 
 <%= link_to 'New Place', new_place_path, :class=> "btn btn-success" %>
 </div>
 <div style='width: 300px; float: right'>
   <div id="map" style='width: 300px; height: 300px;'></div>
+  <% unless params[:w].present?  %>
+  <ul class="bairros">
+    <% @bairros.each do |facet| %>
+      <li style="font-size: 9px">(<%= facet.count%>) <%= facet.value %></li>
+    <% end %>
+  </ul>
+  <% end %>
 </div>
 
 <%= content_for(:js) do %>
@@ -53,7 +56,6 @@ var handler = Gmaps.build('Google');
 
 handler.buildMap({ provider: {}, internal: {id: 'map'}}, function(){
   markers = handler.addMarkers(<%=raw @hash.to_json %>);
-  alert(markers);
   handler.bounds.extendWith(markers);
   handler.fitMapToBounds();
 });

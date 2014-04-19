@@ -4,11 +4,11 @@
 	      <%= text_field_tag :q, params[:q], :class => "form-control typeahead" , :placeholder => 'O que você quer encontrar?' %>
 	    </div>
 	</div>
-    <span>próximo de</span>
+    <span>perto </span>
     <div class="form-group">
-	    <div class="input-search-small">
-      		<%= text_field_tag :w, params[:w], :class => "form-control" , :placeholder => 'Aonde ?' %>
+	    <div class="input-search">
+      		<%= text_field_tag :w, params[:w], :class => "form-control" , :placeholder => ' do Bairro, do CEP, da Rua ?' %>
     	</div>
     </div>
-    <%= submit_tag 'Search', :name => nil, :class => "btn btn-success" %>
+    <%= submit_tag 'Encontrar!', :name => nil, :class => "btn btn-success" %>
 <% end %>

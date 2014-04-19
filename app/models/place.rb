@@ -8,8 +8,11 @@ class Place < ActiveRecord::Base
   searchable do
   	string :title
     string :neighborhood
+
     text :title
     text :description
+    text :neighborhood
+
     latlon(:location) { Sunspot::Util::Coordinates.new(lat, lon) }
     location(:geohash) { Sunspot::Util::Coordinates.new(lat, lon) }
   end
