@@ -1,9 +1,59 @@
-<%= form_tag(search_places_path, :id => 'search-form', :method => :get) do |f| %>
-	<%= text_field_tag :q, params[:q] %>
-	<%= submit_tag 'Search', :name => nil %>
+<%= form_tag(search_places_path, :class => 'search-form', :method => :get) do |f| %>
+<div class="form-group">
+	<div class="input-search">
+		<%= text_field_tag :q, params[:q], :class => "form-control category typeahead" , :placeholder => 'O que você quer encontrar?' %>
+	</div>
+</div>
+<span>perto </span>
+<div class="form-group">
+	<div class="input-search">
+		<%= text_field_tag :w, params[:w], :class => "form-control place typeahead" , :placeholder => ' do Bairro, do CEP, da Rua ?' %>
+	</div>
+</div>
+<%= submit_tag 'Encontrar!', :name => nil, :class => "btn btn-success" %>
 <% end %>
 
-<%= form_tag(nearby_places_path, :id => 'search-form', :method => :get) do |f| %>
-	<%= text_field_tag :q, params[:q] %>
-	<%= submit_tag 'Nearby', :name => nil %>
+<% content_for(:js) do %>
+<script>
+var categories = new Bloodhound({
+	datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),
+	queryTokenizer: Bloodhound.tokenizers.whitespace,
+	remote: '<%= root_url  %>categories/search.json?category=%QUERY'
+});
+
+var places = new Bloodhound({
+  datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),
+  queryTokenizer: Bloodhound.tokenizers.whitespace,
+  remote: '<%= root_url  %>neighborhoods/search.json'
+});
+
+categories.initialize();
+places.initialize();
+
+$('.category.typeahead').typeahead({
+	hint: true,
+	highlight: true,
+	minLength: 2
+}, {
+	name: 'q',
+	displayKey: 'title',
+	source: categories.ttAdapter(),
+	templates: {
+		header: '<li class="header-typeahead">Procure por nome estabelecimento ou palavra-chave</li>'
+	}
+});
+
+$('.place.typeahead').typeahead({
+  hint: true,
+  highlight: true,
+  minLength: 2
+}, {
+  name: 'w',
+  displayKey: 'title',
+  source: places.ttAdapter(),
+  templates: {
+    header: '<li class="header-typeahead">Procure por nome estabelecimento ou palavra-chave</li>'
+  }
+});
+</script>
 <% end %>

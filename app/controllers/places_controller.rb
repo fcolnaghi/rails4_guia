@@ -4,7 +4,13 @@ class PlacesController < ApplicationController
   # GET /places
   # GET /places.json
   def index
-    @places = Place.take(50)
+
+    geo = request.location
+
+    @latitude  = geo.latitude
+    @longitude = geo.longitude
+
+    @places = Place.take(10)
 
     @hash = Gmaps4rails.build_markers(@places) do |place, marker|
       marker.lat place.lat
@@ -14,15 +20,44 @@ class PlacesController < ApplicationController
   end
 
   def search
+    @locations = Neighborhood.all
+
+    respond_to do |format|
+        format.json { render json: @locations, status: :ok }
+    end    
+  end
+
+# Posts that match 'pizza' returning counts for each :author_id
+=begin
+search = Place.search do
+  fulltext( 'pizza' , {:fields => :title} )
+  facet :title, :neighborhood
+end
+search.facet(:neighborhood).rows.each do |facet|
+  puts "neighborhood #{facet.value} has #{facet.count} pizza posts!"
+end
+
+search.facet(:title).rows.each do |facet|
+  puts "neighborhood #{facet.value} has #{facet.count} pizza posts!"
+end
+=end
+
+  def search
+
     search = Place.search do
-      fulltext( params[:q] )
+      fulltext( params[:q] , {:fields => [ :title, :description] } ) if params[:q].present?
+      fulltext( params[:w] , {:fields => :neighborhood} ) if params[:w].present?
+      paginate( :page =>  params[:page], :per_page => 25 )
+      order_by(:score, :desc)
+      facet :neighborhood
     end
 
-    @places = search.results
+    @bairros = search.facet(:neighborhood).rows
+    @places = search
 
-    @hash = Gmaps4rails.build_markers(@places) do |place, marker|
-      marker.lat place.lat
-      marker.lng place.lon
+    @hash = Gmaps4rails.build_markers(search.results) do |place, marker|
+      marker.lat place.lat if place.lat.present?
+      marker.lng place.lon if place.lon.present?
     end
 
     render 'index'
@@ -43,8 +78,8 @@ class PlacesController < ApplicationController
     @distances = search
 
     @hash = Gmaps4rails.build_markers(@places) do |place, marker|
-      marker.lat place.lat
-      marker.lng place.lon
+      marker.lat place.lat if place.lat.present?
+      marker.lng place.lon if place.lon.present?
     end
 
     render 'index'

@@ -1,6 +1,14 @@
 class CategoriesController < ApplicationController
   before_action :set_category, only: [:show, :edit, :update, :destroy]
 
+  def search
+    @categories = Category.where("title ilike ?","%#{params[:category]}%").order(:title)
+
+    respond_to do |format|
+        format.json { render json: @categories, status: :ok }
+    end
+  end
+
   # GET /categories
   # GET /categories.json
   def index

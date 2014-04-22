@@ -14,6 +14,9 @@ gem 'sunspot_rails'
 # Postgres
 gem 'pg'
 
+# Paginacao
+gem 'kaminari'
+
 group :development do
  gem 'progress_bar'
   gem 'sunspot_solr'
