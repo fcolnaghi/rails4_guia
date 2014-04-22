@@ -1,5 +1,16 @@
 Guia041::Application.routes.draw do
-  resources :categories
+
+  resources :categories do
+    collection do
+      get "search"
+    end
+  end
+
+  resources :neighborhoods do
+    collection do
+      get "search"
+    end
+  end
 
   resources :places do
     collection do

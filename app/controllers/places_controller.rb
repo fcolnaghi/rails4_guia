@@ -19,6 +19,14 @@ class PlacesController < ApplicationController
 
   end
 
+  def search
+    @locations = Neighborhood.all
+
+    respond_to do |format|
+        format.json { render json: @locations, status: :ok }
+    end    
+  end
+
 # Posts that match 'pizza' returning counts for each :author_id
 =begin
 search = Place.search do

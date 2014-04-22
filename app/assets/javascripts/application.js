@@ -19,6 +19,7 @@
 //= require_tree .
 
 $(document).ready(function() {
+	/*
 	var substringMatcher = function(strs) {
 	  return function findMatches(q, cb) {
 	    var matches, substringRegex;
@@ -58,13 +59,16 @@ $(document).ready(function() {
 	  hint: true,
 	  highlight: true,
 	  minLength: 1
-	},
-	{
-	  name: 'states',
+	},{
+	  name: 'categories',
+	  remote: { url: 'categories/search?category=%QUERY' },
 	  displayKey: 'value',
 	  source: substringMatcher(states),
 	  templates: {
     	header: '<li class="header-typeahead">Procure por nome estabelecimento ou palavra-chave</li><li class="current-location"><a href="#">My current location</a></li>'
   	  }
 	});
+*/
+
+	
 });
