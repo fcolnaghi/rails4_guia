@@ -2,10 +2,16 @@ class CategoriesController < ApplicationController
   before_action :set_category, only: [:show, :edit, :update, :destroy]
 
   def search
-    @categories = Category.where("title ilike ?","%#{params[:category]}%").order(:title)
+    @categories = Category.search(params[:category], autocomplete: true, include: [:places])
+
+    #@places = Place.search(params[:category], autocomplete: true)
+
+    bucket = []
+    bucket << @categories
+    #bucket << @places
 
     respond_to do |format|
-        format.json { render json: @categories, status: :ok }
+        format.json { render json: bucket.flatten, status: :ok }
     end
   end
 
