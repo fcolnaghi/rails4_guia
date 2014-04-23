@@ -14,11 +14,11 @@
     </tr>
   </thead>
   <tbody>
-    <% @places.each do |place, hit| -%>
+    <% @places.each_with_hit do |place, hit| -%>
     <tr>
       <td><%= place.title %></td>
       <td><%= place.full_address %></td>
-      <td><%= place._score %></td>
+      <td><%= hit.score %></td>
       <td><%= link_to 'Show', place %></td>
 
       <!--td><%= link_to 'Show', place %></td>

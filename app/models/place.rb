@@ -5,7 +5,7 @@ class Place < ActiveRecord::Base
 
   has_many :categories
 
-  searchkick language: "Portuguese", text_start: [:title], suggest: ['title'] , autocomplete: ['title']
+  searchkick language: "Portuguese", text_middle: [:title], suggest: ['title'] , autocomplete: ['title']
 
   geocoded_by :address,	:latitude => :lat, :longitude => :lon
   geocoded_by :full_address, :latitude => :lat, :longitude => :lon

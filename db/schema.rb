@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140423012822) do
+ActiveRecord::Schema.define(version: 20140423032940) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -53,6 +53,7 @@ ActiveRecord::Schema.define(version: 20140423012822) do
     t.string   "cep"
     t.integer  "neighborhood_id"
     t.integer  "city_id"
+    t.integer  "category_id"
   end
 
   create_table "searchjoy_searches", force: true do |t|

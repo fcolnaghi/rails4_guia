@@ -4,11 +4,11 @@ class CategoriesController < ApplicationController
   def search
     @categories = Category.search(params[:category], autocomplete: true, include: [:places])
 
-    #@places = Place.search(params[:category], autocomplete: true)
+    @places = Place.search(params[:category], fields: [{title: :word}])
 
     bucket = []
     bucket << @categories
-    #bucket << @places
+    bucket << @places
 
     respond_to do |format|
         format.json { render json: bucket.flatten, status: :ok }
