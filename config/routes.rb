@@ -1,25 +1,20 @@
 Guia041::Application.routes.draw do
-
-  resources :categories do
+  #mount Searchjoy::Engine, at: "admin/searchjoy"
+  
+  concern :searchable do
     collection do
       get "search"
     end
   end
-
-  resources :neighborhoods do
+  
+  resources :cities, concerns: :searchable
+  resources :categories, concerns: :searchable
+  resources :neighborhoods, concerns: :searchable
+  resources :places, concerns: :searchable do
     collection do
-      get "search"
-    end
-  end
-
-  resources :places do
-    collection do
-      get "search"
       get "nearby"
     end
   end
-
-  get "home/index"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -9,8 +9,8 @@ gem 'coffee-rails'
 # Geolocation
 gem 'geocoder'
 gem 'gmaps4rails'
-gem 'sunspot_rails'
-
+gem "searchkick"
+#gem "searchjoy"
 # Postgres
 gem 'pg'
 
@@ -19,7 +19,7 @@ gem 'kaminari'
 
 group :development do
  gem 'progress_bar'
-  gem 'sunspot_solr'
+
   gem 'capistrano', '~> 2.15'
 end
 

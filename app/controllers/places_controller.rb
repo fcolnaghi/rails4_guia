@@ -5,26 +5,13 @@ class PlacesController < ApplicationController
   # GET /places.json
   def index
 
-    geo = request.location
-
-    @latitude  = geo.latitude
-    @longitude = geo.longitude
-
-    @places = Place.take(10)
+    @places = Place.search("pitza" , suggest: true)
 
     @hash = Gmaps4rails.build_markers(@places) do |place, marker|
       marker.lat place.lat
       marker.lng place.lon
     end
 
-  end
-
-  def search
-    @locations = Neighborhood.all
-
-    respond_to do |format|
-        format.json { render json: @locations, status: :ok }
-    end    
   end
 
 # Posts that match 'pizza' returning counts for each :author_id
@@ -44,23 +31,28 @@ end
 
   def search
 
-    search = Place.search do
-      fulltext( params[:q] , {:fields => [ :title, :description] } ) if params[:q].present?
-      fulltext( params[:w] , {:fields => :neighborhood} ) if params[:w].present?
-      paginate( :page =>  params[:page], :per_page => 25 )
-      order_by(:score, :desc)
-      facet :neighborhood
-    end
+    #search = Place.search do
+    #  fulltext( params[:q] , {:fields => [ :title, :description] } ) if params[:q].present?
+    #  fulltext( params[:w] , {:fields => :neighborhood} ) if params[:w].present?
+    #  paginate( :page =>  params[:page], :per_page => 25 )
+    #  order_by(:score, :desc)
+    #  facet :neighborhood
+    #end
 
-    @bairros = search.facet(:neighborhood).rows
-    @places = search
+    localizacao = Neighborhood.search(params[:w]).map(&:id) if params[:w].present? 
 
-    @hash = Gmaps4rails.build_markers(search.results) do |place, marker|
+    unless localizacao.nil? && params[:q].present?
+      @places = Place.search(params[:q], suggest: true, where: { neighborhood_id: localizacao }, order: {_score: :desc} )
+    else
+      @places = Place.search(params[:q], suggest: true)     
+    end    
+    
+    @hash = Gmaps4rails.build_markers(@places) do |place, marker|
       marker.lat place.lat if place.lat.present?
       marker.lng place.lon if place.lon.present?
     end
 
-    render 'index'
+    render 'search'
   end
 
 
@@ -93,6 +85,7 @@ end
   # GET /places/new
   def new
     @place = Place.new
+    @place.categories.build
   end
 
   # GET /places/1/edit
@@ -147,6 +140,6 @@ end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def place_params
-      params.require(:place).permit(:title, :description, :lat, :lon, :address)
+      params.require(:place).permit(:title, :description, :address, :neighborhood_id, :number, :cep, :city_id, categories_attributes: [:id, :title, :_destroy])
     end
 end
