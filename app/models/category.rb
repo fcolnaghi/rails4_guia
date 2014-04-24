@@ -5,6 +5,13 @@ class Category < ActiveRecord::Base
   
   searchkick language: "Portuguese", text_start: [:title], suggest: ['title'] , autocomplete: ['title']
 
+  def as_json options={}
+  {
+    id: id,
+    title: title
+  }
+  end
+
   def children?
   	not self.children.empty?
   end

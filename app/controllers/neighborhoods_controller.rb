@@ -8,9 +8,15 @@ class NeighborhoodsController < ApplicationController
   end
 
   def search
-    @neighborhoods = Neighborhood.all.order(:title)
+    neighborhoods = Neighborhood.search(params[:w], autocomplete: true, order: {_score: :desc}) 
+    streets = Place.search(params[:w], suggest: true, fields: [ {address: :text_middle}, :cep ], order: {_score: :desc}) 
+
+    lugares = []
+    lugares << neighborhoods
+    lugares << streets
+
     respond_to do |format|
-        format.json { render json: @neighborhoods, status: :ok }
+        format.json { render json: lugares.flatten.to_json(:only => [:title, :address]), status: :ok }
     end
   end
 
@@ -35,7 +41,8 @@ class NeighborhoodsController < ApplicationController
 
     respond_to do |format|
       if @neighborhood.save
-        format.html { redirect_to @neighborhood, notice: 'Neighborhood was successfully created.' }
+        format.html { redirect_to action: 'new' }
+        #format.html { redirect_to @neighborhood, notice: 'Neighborhood was successfully created.' }
         format.json { render action: 'show', status: :created, location: @neighborhood }
       else
         format.html { render action: 'new' }

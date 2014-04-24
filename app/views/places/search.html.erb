@@ -1,6 +1,8 @@
 <div style="width: 70%;float: left">
-<% if @places.suggestions %>
-  Você quis dizer <%= @places.suggestions %>
+<% if @places.any? && !@places.suggestions.nil? %>
+  <% @places.suggestions.each do |sugestao| %>
+    > <%= link_to sugestao, search_places_path(:q => sugestao, :w => params[:w] ) %>
+  <% end %>
 <% end %>
 
 <h4>Listing <%=pluralize(@places.count, "place")%> found</h4>

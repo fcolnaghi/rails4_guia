@@ -5,7 +5,7 @@ class PlacesController < ApplicationController
   # GET /places.json
   def index
 
-    @places = Place.search("pitza" , suggest: true)
+    @places = Place.search("*", facets: [:neighborhood_id, :city_id], :limit => 50)
 
     @hash = Gmaps4rails.build_markers(@places) do |place, marker|
       marker.lat place.lat
@@ -39,13 +39,11 @@ end
     #  facet :neighborhood
     #end
 
-    localizacao = Neighborhood.search(params[:w]).map(&:id) if params[:w].present? 
+    #localizacao = Neighborhood.search(params[:w]).map(&:id) if params[:w].present? 
 
-    unless localizacao.nil? && params[:q].present?
-      @places = Place.search(params[:q], suggest: true, where: { neighborhood_id: localizacao }, order: {_score: :desc} )
-    else
-      @places = Place.search(params[:q], suggest: true)     
-    end    
+    #@places = Place.search(params[:q], suggest: true, where: { neighborhood_id: localizacao }, order: {_score: :desc} ) unless localizacao.nil? && params[:q].present?
+    @places = Place.search( params[:q], suggest: true, where: { address: params[:w] }, order: {_score: :desc} )
+    #@places = Place.search(params[:q], suggest: true, order: {_score: :desc})     
     
     @hash = Gmaps4rails.build_markers(@places) do |place, marker|
       marker.lat place.lat if place.lat.present?
@@ -140,6 +138,6 @@ end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def place_params
-      params.require(:place).permit(:title, :description, :address, :neighborhood_id, :number, :cep, :city_id, categories_attributes: [:id, :title, :_destroy])
+      params.require(:place).permit(:title, :description, :address, :neighborhood_id, :number, :cep, :city_id, :state)
     end
 end
