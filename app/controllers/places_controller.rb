@@ -5,7 +5,7 @@ class PlacesController < ApplicationController
   # GET /places.json
   def index
 
-    @places = Place.take(10)
+    @places = Place.search("pitza" , suggest: true)
 
     @hash = Gmaps4rails.build_markers(@places) do |place, marker|
       marker.lat place.lat
@@ -41,10 +41,10 @@ end
 
     localizacao = Neighborhood.search(params[:w]).map(&:id) if params[:w].present? 
 
-    unless localizacao.nil? || localizacao.empty?
-      @places = Place.search(params[:q], where: { neighborhood_id: localizacao }, order: {_score: :desc} )     
+    unless localizacao.nil? && params[:q].present?
+      @places = Place.search(params[:q], suggest: true, where: { neighborhood_id: localizacao }, order: {_score: :desc} )
     else
-      @places = Place.search(params[:q])     
+      @places = Place.search(params[:q], suggest: true)     
     end    
     
     @hash = Gmaps4rails.build_markers(@places) do |place, marker|
@@ -85,6 +85,7 @@ end
   # GET /places/new
   def new
     @place = Place.new
+    @place.categories.build
   end
 
   # GET /places/1/edit
@@ -139,6 +140,6 @@ end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def place_params
-      params.require(:place).permit(:title, :description, :lat, :lon, :address,:neighborhood)
+      params.require(:place).permit(:title, :description, :address, :neighborhood_id, :number, :cep, :city_id, categories_attributes: [:id, :title, :_destroy])
     end
 end

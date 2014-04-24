@@ -3,8 +3,7 @@ class CategoriesController < ApplicationController
 
   def search
     @categories = Category.search(params[:category], autocomplete: true, include: [:places])
-
-    @places = Place.search(params[:category], fields: [{title: :word}])
+    @places     = Place.search(params[:category], fields: [{title: :word}])
 
     bucket = []
     bucket << @categories

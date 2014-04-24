@@ -1,60 +1,66 @@
 <%= form_for(@place) do |f| %>
-  <% if @place.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@place.errors.count, "error") %> prohibited this place from being saved:</h2>
+<% if @place.errors.any? %>
+<div id="error_explanation">
+  <h2><%= pluralize(@place.errors.count, "error") %> prohibited this place from being saved:</h2>
 
-      <ul>
-      <% @place.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
-      </ul>
-    </div>
-  <% end %>
-
-(id: integer, title: string, description: text, lat: float, lon: float, created_at: datetime, updated_at: datetime, address: string, number: string, neighborhood: string, category: integer, city: string, state: string, cep: string)
-
-  <div class="form-group">
-    <%= f.label :title %><br>
-    <%= f.text_field :title, :class => 'form-control' %>
-  </div>
-
-  <div class="form-group">
-    <%= f.label :neighborhood %><br>
-    <%= f.text_field :neighborhood, :class => 'form-control'  %>
-  </div>
-  <div class="form-group">
-    <%= f.label :description %><br>
-    <%= f.text_area :description, :class => 'form-control'  %>
-  </div>
-  <div class="form-group">
-    <%= f.label :address %><br>
-    <%= f.text_area :address, :class => 'form-control'  %>
-  </div>
-
-  <div class="form-group">
-    <%= f.label :number %><br>
-    <%= f.text_field :number, :class => 'form-control'  %>
-  </div>
-  <div class="form-group">
-    <%= f.label :city %><br>
-    <%= f.text_field :city, :class => 'form-control'  %>
-  </div>
-
-  <div class="form-group">
-    <%= f.label :state %><br>
-    <%= f.text_field :state, :class => 'form-control'  %>
-  </div>
-  <div class="form-group">
-    <%#= f.label :log %><br>
-    <%= f.text_field :lon, :class => 'form-control'  %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+  <ul>
+    <% @place.errors.full_messages.each do |msg| %>
+    <li><%= msg %></li>
+    <% end %>
+  </ul>
+</div>
 <% end %>
-<script>
-  navigator.geolocation.getCurrentPosition(function(position) {
-    document.querySelector('#place_lat').value = position.coords.latitude;
-    document.querySelector('#place_lon').value = position.coords.longitude;
-  });
-</script>
+<div class="form-group">
+  <%= f.label :title %>
+  <%= f.text_field :title, :class => 'form-control' %>
+</div>
+<div class="form-group">
+  <%= f.label :description %>
+  <%= f.text_area :description, :class => 'form-control'  %>
+</div>
+<div class="form-group">
+  <div class="row">
+    <div class="col-sm-3 col-offset-9">
+      <%= f.label :cep %>
+      <%= f.text_field :cep, :class => 'form-control'  %>
+    </div>
+  </div>
+</div>
+<div class="form-group">
+  <div class="row">
+    <div class="col-sm-9">
+      <%= f.label :address %>
+      <%= f.text_field :address, :class => 'form-control'  %>
+    </div>
+    <div class="col-sm-3">
+      <%= f.label :number %>
+      <%= f.text_field :number, :class => 'form-control'  %>
+    </div>
+  </div>
+</div>
+<div class="form-group">
+  <div class="row">
+    <div class="col-sm-4">
+      <%= f.label :neighborhood %>
+      <%= f.text_field :neighborhood, :class => 'form-control'  %>
+    </div>
+    <div class="col-sm-4">
+      <%= f.label :city %>
+      <%= f.text_field :city, :class => 'form-control'  %>
+    </div>
+    <div class="col-sm-4">
+      <%= f.label :state %>
+      <%= f.text_field :state, :class => 'form-control'  %>
+    </div>
+  </div>
+</div>
+<%= link_to_add_fields content_tag(:i, "", class:"glyphicon glyphicon-plus") + " " + t('button.contact.add'), f, :categories, "btn btn-xs btn-success pull-right" %>
+
+<%= f.fields_for :categories do |builder| %>
+  <%= render 'category_fields', f: builder %>
+<% end %>
+
+<div class="actions">
+  <%= f.submit %>
+</div>
+<% end %>

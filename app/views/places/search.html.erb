@@ -1,4 +1,8 @@
 <div style="width: 70%;float: left">
+<% if @places.suggestions %>
+  Você quis dizer <%= @places.suggestions %>
+<% end %>
+
 <h4>Listing <%=pluralize(@places.count, "place")%> found</h4>
 <div class="table-responsive">
   <table class="table table-condensed" style="font-size: 10px">
