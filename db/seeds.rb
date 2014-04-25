@@ -5,22 +5,45 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-# File.open("db/anuncios.yml", 'r') do |file|
-#         YAML::load(file).each do |record|
-# 	  		Place.create(
-# 	  			title: record['nome'],
-# 				description: record['keywords']	,
-# 				address: record['endereco'],
-# 				neighborhood: record['bairro'],
-# 				number: record['numero'],
-# 				city: record['cidade'],
-# 				state: record['estado'],
-# 				cep: record['cep']
-# 			)
-#         end
+
+# File.open("db/restaurantes.yml", 'r') do |file|
+# 	YAML::load(file).each do |record|
+# 		search = Neighborhood.search("#{record['bairro']}", order: {title: :asc} )
+# 		bairro = search.first
+# 		puts "#{record['nome'].titleize()} #{record['endereco'].titleize()}"
+# 		# if record['bairro'] == 'CENTRO'
+# 		# 	puts "#{record['idanuncio']} - BAIRRO ([#{record['bairro']}:#{bairro.title}][#{bairro.id}])"
+# 		# else
+# 		# 	puts "#{record['idanuncio']} - BAIRRO (#{record['bairro']}) = NÃO IDENFICADO"
+# 		# end
+# 	end
 # end
 
+
+
+File.open("db/restaurantes.yml", 'r') do |file|
+	arquivo = YAML::load(file)
+	bar = ProgressBar.new(arquivo.count)
+	arquivo.each do |record|
+		search = Neighborhood.search("#{record['bairro']}", order: {title: :asc} )
+		bairro = search.first
+		Place.create(
+			neighborhood_id: bairro.id,
+			city_id: "1",
+			state: "PR",
+			category_ids: [1],
+			title: record['nome'].titleize(),
+			address: record['endereco'].titleize(),
+			number: record['numero'],
+			cep: record['cep']
+		)
+		bar.increment!
+	end
+end
+
 # 100 restaurantes
+=begin
+
 20.times do
 	Place.create(
 	title: Faker::Company.name,
@@ -44,6 +67,8 @@ end
 	cep: Faker::Address.zip_code,
 	category_ids: [6])
 end
+=end
+
 
 # 100.times do
 # 	Place.create(

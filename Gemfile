@@ -9,7 +9,7 @@ gem 'coffee-rails'
 # Geolocation
 gem 'geocoder'
 gem 'gmaps4rails'
-gem "searchkick"
+gem "searchkick", :git => 'git://github.com/ankane/searchkick.git'
 #gem "searchjoy"
 # Postgres
 gem 'pg'
@@ -19,8 +19,7 @@ gem 'kaminari'
 gem 'faker'
 
 group :development do
- gem 'progress_bar'
-
+  gem 'progress_bar'
   gem 'capistrano', '~> 2.15'
 end
 

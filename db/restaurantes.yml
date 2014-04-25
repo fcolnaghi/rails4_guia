@@ -1,0 +1,4306 @@
+%YAML 1.1
+---
+# guia041.anuncios
+-
+  idanuncio: 35
+  iddepartamento: 39
+  idsubdepartamento: 341
+  nome: BAROLO TRATTORIA
+  endereco: AVENIDA SILVA JARDIM
+  numero: 2487
+  complemento: 
+  bairro: ÁGUA VERDE
+  cidade: CURITIBA
+  estado: PR
+  cep: 80240-020
+  telefones: (41) 3243-3430
+  site: http://www.barolotrattoria.com.br
+  email: contato@barolotrattoria.com.br
+  logo: 20090306040646.gif
+  logodestaque: 
+  imagem1: 20090306042758_1.jpg
+  imagem2: 20090306042758_2.jpg
+  imagem3: 
+  imagem4: 
+  texto: <p>A casa inaugurada em 1999 &eacute; tradicional em Curitiba quando o assunto &eacute; a cozinha  italiana. Como entrada a dica s&atilde;o as bruschettas de alcachofra. A dica do Barolo  Trattoria para o prato principal s&atilde;o as conchas de quatro queijos panna e  funghi. A casa ainda oferece diversas op&ccedil;&otilde;es de sobremesas e mais de mil  garrafas de vinho.</p>
+  keywords: <p>italiano, massas, barolo, trattoria, cozinha, comida, vinhos, tradiciona, queijos, funghi</p>
+  de: 2009-03-01 00:00:00
+  ate: 2009-04-01 00:00:00
+  destaque: 0
+  acessos: 14
+  pesquisa: Gastronomia , Italianos
+  detalhe: 1
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 50
+  iddepartamento: 39
+  idsubdepartamento: 341
+  nome: Edvino Bar de Vinhos e Restaurante
+  endereco: ALAMEDA PRESIDENTE TAUNAY
+  numero: 533
+  complemento: 
+  bairro: Champagnat
+  cidade: CURITIBA
+  estado: PR
+  cep: 80430-000
+  telefones: (41) 3222-0037
+  site: http://www.edvino.com.br
+  email: contato@edvino.com.br
+  logo: 20090311121852.gif
+  logodestaque: 
+  imagem1: 20090311015442_1.jpg
+  imagem2: 20090311015442_2.jpg
+  imagem3: 20090311015442_3.jpg
+  imagem4: 20090311015442_4.jpg
+  texto: <p>O Edvino Bar de Vinhos e Restaurante &eacute; um local que une ambiente aconchegante e requintado, card&aacute;pio com sistema a la carte e a op&ccedil;&atilde;o dos originais minipratos para degusta&ccedil;&atilde;o. A casa conta tamb&eacute;m com adega completa com op&ccedil;&otilde;es nacionais e importadas, al&eacute;m do deck e charutaria, ambientes de bom gosto e ideais para degustar um bom vinho entre amigos e familiares.</p>
+  keywords: bares, vinhos, restaurante,Deboni, Europeu, importados, adega
+  de: 2009-03-11 00:00:00
+  ate: 2009-04-11 00:00:00
+  destaque: 0
+  acessos: 5
+  pesquisa: Gastronomia , Italianos
+  detalhe: 1
+  prioridade: 1
+  pre: 0
+-
+  idanuncio: 1437
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: AXTER VIDEOLOCADORA E PIZZARIA
+  endereco: R BôRTOLO GUSSO
+  numero: 599
+  bairro: CAP RASO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81110-200
+  telefones: (41) 3013-6886
+  keywords: VIDEOLOCADORA,PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1438
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: A DONA PIZZA
+  endereco: R FERNANDO DE NORONHA
+  numero: 1534
+  bairro: Santa CâNDIDA
+  cidade: CURITIBA
+  estado: PR
+  cep: 82640-350
+  telefones: (41) 3257-9243
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 1
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1439
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: LA BELLA PIZZARIA
+  endereco: R ROBERT REDZIMSKI
+  numero: 466
+  bairro: CIDADE INDUSTRIAL
+  cidade: CURITIBA
+  estado: PR
+  cep: 81270-000
+  telefones: (41) 3373-2992
+  keywords: PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1440
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: LA BELLA PIZZARIA
+  endereco: R ROBERT REDZIMSKI
+  numero: 466
+  bairro: CIDADE INDUSTRIAL
+  cidade: CURITIBA
+  estado: PR
+  cep: 81270-000
+  telefones: (41) 3373-2992
+  keywords: PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1441
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: LEVE PRONTO PIZZARIA
+  endereco: R LOURIVAL WENDLER
+  numero: 465
+  bairro: CAJURú
+  cidade: CURITIBA
+  estado: PR
+  cep: 82960-030
+  telefones: (41) 3226-5393
+  keywords: PRONTO,PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1444
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DISK PIZZA MISTER GIUSEPPE
+  endereco: R NORBERTO DE BRITO
+  numero: 1302
+  bairro: CENTRO
+  cidade: SAO JOSE DOS PINHAIS
+  estado: PR
+  cep: 83005-290
+  telefones: (41) 3383-8493
+  keywords: MISTER,GIUSEPPE,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1445
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: PIZZARIA KASKA
+  endereco: ESTR DA GRACIOSA
+  numero: 333
+  bairro: ATUBA
+  cidade: PINHAIS
+  estado: PR
+  cep: 83326-730
+  telefones: (41) 3665-8727
+  keywords: PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1446
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: A ARTE DA PIZZA
+  endereco: RUA MAESTRO FRANCISCO ANTONELLO
+  numero: 1391
+  bairro: FANNY
+  cidade: CURITIBA
+  estado: PR
+  cep: 81030-100
+  telefones: (41) 3569-1133
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1447
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: A C SILVA & ALVES
+  endereco: RUA DEPUTADO HEITOR ALENCAR FURTADO
+  numero: 5612
+  bairro: CIDADE INDUSTRIAL
+  cidade: CURITIBA
+  estado: PR
+  cep: 81280-340
+  telefones: (41) 3373-2030
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1448
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: A CASA DA PIZZA
+  endereco: RUA FRANCISCO DEROSSO
+  numero: 2401
+  bairro: XAXIM
+  cidade: CURITIBA
+  estado: PR
+  cep: 81720-000
+  telefones: (41) 3275-1411
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1449
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: A CASA DA PIZZA
+  endereco: RUA CORONEL FRANCISCO HERACLITO DOS SANTOS
+  numero: 2743
+  bairro: Jardim das Américas
+  cidade: CURITIBA
+  estado: PR
+  cep: 81530-001
+  telefones: (41) 3296-3030
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 1
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1450
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: ABARE PIZZARIA
+  endereco: RUA PADRE AGOSTINHO
+  numero: 1381
+  bairro: MERCES
+  cidade: CURITIBA
+  estado: PR
+  cep: 80710-000
+  telefones: (41) 3336-0303
+  keywords: PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1451
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: ABILE PIZZAS E COM MASSAS
+  endereco: RUA DOUTOR JOAQUIM IGNACIO SILVEIRA DA MOTTA
+  numero: 1597
+  bairro: UBERABA
+  cidade: CURITIBA
+  estado: PR
+  cep: 81530-490
+  telefones: (41) 3296-4684
+  keywords: PIZZAS,MASSAS,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1452
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: ALA DISK PIZZA
+  endereco: RUA MATEUS LEME
+  numero: 2794
+  bairro: SAO LOURENCO
+  cidade: CURITIBA
+  estado: PR
+  cep: 82200-000
+  telefones: (41) 3254-4479
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1453
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: ALA DISK PIZZA
+  endereco: AVENIDA VEREADOR TOALDO TULIO
+  numero: 3229
+  bairro: SAO BRAZ
+  cidade: CURITIBA
+  estado: PR
+  cep: 82300-000
+  telefones: (41) 3272-4050
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1454
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: ALA PIZZA
+  endereco: AVENIDA TORRES
+  numero: 3030
+  bairro: Jardim das Américas
+  cidade: CURITIBA
+  estado: PR
+  cep: 80000-001
+  telefones: (41) 3377-6209
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1455
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: ALA PIZZA
+  endereco: RUA FERNANDO DE NORONHA
+  numero: 240
+  bairro: Santa CANDIDA
+  cidade: CURITIBA
+  estado: PR
+  cep: 82640-350
+  telefones: (41) 3356-3824
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1456
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: ALB PIZZARIA
+  endereco: RUA ULISSES JOSE RIBEIRO
+  numero: 200
+  bairro: Jardim das Américas
+  cidade: CURITIBA
+  estado: PR
+  cep: 81530-590
+  telefones: (41) 3278-2315
+  keywords: PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1457
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: ALESSANDRO JOSE PAUL
+  endereco: AVENIDA ANITA GARIBALDI
+  numero: 2680
+  bairro: SAO LOURENCO
+  cidade: CURITIBA
+  estado: PR
+  cep: 82210-000
+  telefones: (41) 3354-6978
+  keywords: ALESSANDRO,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1458
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: ALO LIG PIZZA
+  endereco: RUA ALFERES POLI
+  numero: 503
+  bairro: CENTRO
+  cidade: CURITIBA
+  estado: PR
+  cep: 80230-090
+  telefones: (41) 3223-1976
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1459
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: ALVARO NOGUEIRA NETO
+  endereco: AVENIDA CANDIDO HARTMANN
+  numero: 4196
+  bairro: Santa INACIO
+  cidade: CURITIBA
+  estado: PR
+  cep: 82015-100
+  telefones: (41) 3272-9135
+  keywords: ALVARO,NOGUEIRA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1460
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: AMIGOS DA PIZZA
+  endereco: AVENIDA BRASILIA
+  numero: 5992
+  bairro: NOVO MUNDO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81020-010
+  telefones: (41) 3246-7000
+  keywords: AMIGOS,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1461
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: ANI PIZZARIA DISK PIZZA
+  endereco: AVENIDA ANITA GARIBALDI
+  numero: 4553
+  bairro: SAO LOURENCO
+  cidade: CURITIBA
+  estado: PR
+  cep: 82210-000
+  telefones: (41) 3354-8410
+  keywords: PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1462
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: ANTOBINO PIZZARIA
+  endereco: RUA CASTRO
+  numero: 711
+  bairro: AGUA VERDE
+  cidade: CURITIBA
+  estado: PR
+  cep: 80620-300
+  telefones: (41) 3343-4363
+  keywords: ANTOBINO,PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1463
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: ATENAS MIL RESTAURANTE E PIZZARIA
+  endereco: RUA ROBERT REDZIMSKI
+  numero: 665
+  bairro: CIDADE INDUSTRIAL
+  cidade: CURITIBA
+  estado: PR
+  cep: 81270-000
+  telefones: (41) 3279-3243
+  keywords: ATENAS,RESTAURANTE,PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1464
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: AUGUSTUS PIZZARIA
+  endereco: RUA IZAAC FERREIRA DA CRUZ
+  numero: 2306
+  bairro: SIT CERCADO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81900-000
+  telefones: (41) 3349-0082
+  keywords: AUGUSTUS,PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1465
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: AVENIDA PAULISTA PIZZA BAR
+  endereco: RUA EMILIANO PERNETA
+  numero: 680
+  bairro: CENTRO
+  cidade: CURITIBA
+  estado: PR
+  cep: 80420-080
+  telefones: (41) 3322-4508
+  keywords: AVENIDA,PAULISTA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1467
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: BABBO FABRIZZIO
+  endereco: RUA SAO BARTOLOMEU
+  numero: 13
+  bairro: CAJURU
+  cidade: CURITIBA
+  estado: PR
+  cep: 82900-330
+  telefones: (41) 3366-1513
+  keywords: FABRIZZIO,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1469
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: BAHAMAS PIZZA
+  endereco: RUA INACIO LUSTOSA
+  numero: 1088
+  bairro: SAO FRANCISCO
+  cidade: CURITIBA
+  estado: PR
+  cep: 80510-000
+  telefones: (41) 3233-8202
+  keywords: BAHAMAS,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1470
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: BIG PIZZA
+  endereco: RUA DOS FUNCIONARIOS
+  numero: 961
+  bairro: CABRAL
+  cidade: CURITIBA
+  estado: PR
+  cep: 80035-050
+  telefones: (41) 3352-6262
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1471
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: BOCA DA PIZZA
+  endereco: RUA PEDRO GUSSO
+  numero: 182
+  bairro: NOVO MUNDO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81050-200
+  telefones: (41) 3248-3100
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1472
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: BONAZZA PIZZARIA LTDA
+  endereco: RUA ROBERT REDZIMSKI
+  numero: 675
+  bairro: CIDADE INDUSTRIAL
+  cidade: CURITIBA
+  estado: PR
+  cep: 81270-000
+  telefones: (41) 3285-6503
+  keywords: BONAZZA,PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1473
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: BRISAS DISK PIZZA
+  endereco: RUA ALAGOAS
+  numero: 1650
+  bairro: GUAIRA
+  cidade: CURITIBA
+  estado: PR
+  cep: 80630-050
+  telefones: (41) 3333-1434
+  keywords: BRISAS,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1474
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: BUENO S PIZZARIA E LANCHES
+  endereco: RUA GOIANIA
+  numero: 273
+  bairro: CAJURU
+  cidade: CURITIBA
+  estado: PR
+  cep: 82940-150
+  telefones: (41) 3267-5259
+  keywords: PIZZARIA,LANCHES,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1475
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: CABRAL PIZZARIA
+  endereco: AVENIDA MUNHOZ DA ROCHA
+  numero: 1059
+  bairro: CABRAL
+  cidade: CURITIBA
+  estado: PR
+  cep: 80035-000
+  telefones: (41) 3078-5550
+  keywords: CABRAL,PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1476
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: CAMELOT PIZZARIA E RESTAURANTE
+  endereco: AVENIDA PARANA
+  numero: 185
+  bairro: CABRAL
+  cidade: CURITIBA
+  estado: PR
+  cep: 80035-130
+  telefones: (41) 3353-7773
+  keywords: CAMELOT,PIZZARIA,RESTAURANTE,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1477
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: CANTINA CASSIOLI
+  endereco: RUA PROFESSOR JOAO SOARES BARCELOS
+  numero: 1030
+  bairro: HAUER
+  cidade: CURITIBA
+  estado: PR
+  cep: 81630-060
+  telefones: (41) 3278-0876
+  keywords: CANTINA,CASSIOLI,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1478
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: CANTINA DI FRENTO
+  endereco: AVENIDA VEREADOR TOALDO TULIO
+  numero: 2069
+  bairro: Santa FELICIDADE
+  cidade: CURITIBA
+  estado: PR
+  cep: 82320-010
+  telefones: (41) 3082-2090
+  keywords: CANTINA,FRENTO,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1479
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: CANTINA DO X E PIZZAS
+  endereco: RUA DOS FERROVIARIOS
+  numero: 553
+  bairro: CAJURU
+  cidade: CURITIBA
+  estado: PR
+  cep: 82920-100
+  telefones: (41) 3266-3030
+  keywords: CANTINA,PIZZAS,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1480
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: CANTINHO DOCE PIZZARIA
+  endereco: RUA MARIO SPYRA
+  numero: 26
+  bairro: Santa INACIO
+  cidade: CURITIBA
+  estado: PR
+  cep: 82010-480
+  telefones: (41) 3339-2566
+  keywords: CANTINHO,PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1481
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: CAPITAL DA PIZZA
+  endereco: RUA RENATO POLATTI
+  numero: 2535
+  bairro: Campo COMPRIDO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81230-170
+  telefones: (41) 3274-9101
+  keywords: CAPITAL,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1482
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: CAPRICCIO PIZZARIA
+  endereco: RUA DOS FERROVIARIOS
+  numero: 926
+  bairro: CAJURU
+  cidade: CURITIBA
+  estado: PR
+  cep: 82920-100
+  telefones: (41) 3267-9316
+  keywords: CAPRICCIO,PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1483
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: CARLOS ALBERTO COSTA FARIAS
+  endereco: AVENIDA VEREADOR TOALDO TULIO
+  numero: 3721
+  bairro: SAO BRAZ
+  cidade: CURITIBA
+  estado: PR
+  cep: 82300-000
+  telefones: (41) 3372-9982
+  keywords: CARLOS,ALBERTO,FARIAS,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1484
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: CARMO PIZZARIA
+  endereco: RUA ITALINO PERUFFO
+  numero: 135
+  bairro: BOQUEIRAO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81650-330
+  telefones: (41) 3376-9080
+  keywords: PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 1
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1485
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: CAROLLA PIZZA DOC
+  endereco: ALAMEDA DOM PEDRO II
+  numero: 24
+  bairro: BATEL
+  cidade: CURITIBA
+  estado: PR
+  cep: 80420-060
+  telefones: (41) 3222-6162
+  keywords: CAROLLA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1486
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: CASA BUZZI
+  endereco: ALAMEDA PRINCESA IZABEL
+  numero: 1908
+  bairro: Champagnat
+  cidade: CURITIBA
+  estado: PR
+  cep: 80730-080
+  telefones: (41) 3339-3311
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1487
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: CASA DI PIZZA
+  endereco: RUA NESTOR VICTOR
+  numero: 1077
+  bairro: AGUA VERDE
+  cidade: CURITIBA
+  estado: PR
+  cep: 80620-400
+  telefones: (41) 3332-2000
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1488
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: CELEIRO PIZZARIA
+  endereco: RUA JOAO DEMBINSKI
+  numero: 1000
+  bairro: CIDADE INDUSTRIAL
+  cidade: CURITIBA
+  estado: PR
+  cep: 81270-330
+  telefones: (41) 3239-4094
+  keywords: CELEIRO,PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1489
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: CELSO ALUIZIO DURIGAN
+  endereco: RUA ANGELO DOMINGOS DURIGAN
+  numero: 1044
+  bairro: CASCATINHA
+  cidade: CURITIBA
+  estado: PR
+  cep: 82020-340
+  telefones: (41) 3297-4341
+  keywords: ALUIZIO,DURIGAN,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1490
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: CHAFIK HERAKI NETO PIZZARIA
+  endereco: RUA VITORINO KAVISKI
+  numero: 27
+  bairro: Champagnat
+  cidade: CURITIBA
+  estado: PR
+  cep: 80710-380
+  telefones: (41) 3336-7871
+  keywords: CHAFIK,HERAKI,PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1491
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: CHATEAU DISK PIZZA
+  endereco: RUA MAX SCHUBERT
+  numero: 255
+  bairro: ALT BOQUEIRAO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81720-300
+  telefones: (41) 3018-0909
+  keywords: CHATEAU,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1492
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: CIA PIZZA
+  endereco: RUA CORONEL FRANCISCO HERACLITO DOS SANTOS
+  numero: 1112
+  bairro: Jardim das Américas
+  cidade: CURITIBA
+  estado: PR
+  cep: 81530-000
+  telefones: (41) 3365-2200
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1493
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: CIDA PASTELARIA
+  endereco: AVENIDA ANITA GARIBALDI
+  numero: 4647
+  bairro: BARREIRINHA
+  cidade: CURITIBA
+  estado: PR
+  cep: 82220-000
+  telefones: (41) 3029-4032
+  keywords: PASTELARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1494
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: CLAUDEMIR DA SILVA AZEVEDO
+  endereco: RUA SALVADOR JOSE CORREIA COELHO
+  numero: 491
+  bairro: CIDADE INDUSTRIAL
+  cidade: CURITIBA
+  estado: PR
+  cep: 81270-040
+  telefones: (41) 3373-3131
+  keywords: CLAUDEMIR,AZEVEDO,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1495
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: CLAUDEMIR DA SILVA AZEVEDO
+  endereco: RUA JOAO DEMBINSKI
+  numero: 1422
+  bairro: CIDADE INDUSTRIAL
+  cidade: CURITIBA
+  estado: PR
+  cep: 81270-330
+  telefones: (41) 3373-3131
+  keywords: CLAUDEMIR,AZEVEDO,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1496
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: CLEONIR BERNARDO OGG
+  endereco: AVENIDA JOSE GULIN
+  numero: 555
+  bairro: BACACHERI
+  cidade: CURITIBA
+  estado: PR
+  cep: 82600-360
+  telefones: (41) 3236-1000
+  keywords: CLEONIR,BERNARDO,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1497
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: COM@ PIZZA
+  endereco: RUA RENATO POLATTI
+  numero: 2671
+  bairro: Campo COMPRIDO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81230-170
+  telefones: (41) 3274-5914
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1498
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: COMPANHIA DA PIZZA
+  endereco: RUA CORONEL FRANCISCO HERACLITO DOS SANTOS
+  numero: 1112
+  bairro: Jardim das Américas
+  cidade: CURITIBA
+  estado: PR
+  cep: 81530-000
+  telefones: (41) 3366-5898
+  keywords: COMPANHIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1499
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: COMPANHIA DA PIZZA
+  endereco: RUA LUIZ FRANCA
+  numero: 750
+  bairro: CAJURU
+  cidade: CURITIBA
+  estado: PR
+  cep: 82900-250
+  telefones: (41) 3266-7384
+  keywords: COMPANHIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1500
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: CONE PIZZA
+  endereco: RUA ALFERES POLI
+  numero: 1712
+  bairro: REBOUCAS
+  cidade: CURITIBA
+  estado: PR
+  cep: 80220-050
+  telefones: (41) 3014-6118
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1501
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: CONE PIZZA
+  endereco: RUA COMENDADOR ARAUJO
+  numero: 268
+  bairro: CENTRO
+  cidade: CURITIBA
+  estado: PR
+  cep: 80420-000
+  telefones: (41) 3082-7878
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1502
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: CONE PIZZA
+  endereco: AVENIDA PRESIDENTE KENNEDY
+  numero: 4109
+  bairro: AGUA VERDE
+  cidade: CURITIBA
+  estado: PR
+  cep: 80610-905
+  telefones: (41) 3212-3990
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1503
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: CORTIANO PIZZARIA
+  endereco: RUA DOUTOR BLEY ZORNIG
+  numero: 1854
+  bairro: BOQUEIRAO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81730-350
+  telefones: (41) 3287-3267
+  keywords: CORTIANO,PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 1
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1504
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: CW CHICKEN
+  endereco: RUA DEPUTADO HEITOR ALENCAR FURTADO
+  numero: 1210
+  bairro: MOSSUNGUE
+  cidade: CURITIBA
+  estado: PR
+  cep: 81200-110
+  telefones: (41) 3022-3777
+  keywords: CHICKEN,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1505
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: D'PIZZARIA DALLAGRANNA
+  endereco: RUA ALBINO KAMINSKI
+  numero: 355
+  bairro: Bairro ALTO
+  cidade: CURITIBA
+  estado: PR
+  cep: 82820-310
+  telefones: (41) 3367-5117
+  keywords: D'PIZZARIA,DALLAGRANNA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 1
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1506
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DA-LHE PIZZA
+  endereco: RUA BRASILIO ITIBERE
+  numero: 123
+  bairro: Jardim BOTANICO
+  cidade: CURITIBA
+  estado: PR
+  cep: 80210-060
+  telefones: (41) 3264-3403
+  keywords: DA-LHE,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1507
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DAUVESCO
+  endereco: RUA ITALINO PERUFFO
+  numero: 135
+  bairro: BOQUEIRAO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81650-330
+  telefones: (41) 3276-4370
+  keywords: DAUVESCO,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1508
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DEA DE OLIVEIRA
+  endereco: RUA 13 DE MAIO
+  numero: 301
+  bairro: CENTRO
+  cidade: CURITIBA
+  estado: PR
+  cep: 80020-270
+  telefones: (41) 3222-6825
+  keywords: OLIVEIRA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1509
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DELIVERY CARLITO PIZZARIA
+  endereco: RUA ESTADOS UNIDOS
+  numero: 321
+  bairro: BACACHERI
+  cidade: CURITIBA
+  estado: PR
+  cep: 82510-050
+  telefones: (41) 3356-7574
+  keywords: DELIVERY,CARLITO,PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1510
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DHYLANY PIZZA GIOVANNA
+  endereco: RUA ARNALDO THA
+  numero: 125
+  bairro: FAZENDINHA
+  cidade: CURITIBA
+  estado: PR
+  cep: 81330-200
+  telefones: (41) 3249-1008
+  keywords: DHYLANY,GIOVANNA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1511
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DI PIU PIZZARIA
+  endereco: ALAMEDA PRINCESA IZABEL
+  numero: 1338
+  bairro: Champagnat
+  cidade: CURITIBA
+  estado: PR
+  cep: 80730-080
+  telefones: (41) 3029-3563
+  keywords: PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1512
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DI PIZZA
+  endereco: AVENIDA MANOEL RIBAS
+  numero: 418
+  bairro: SAO FRANCISCO
+  cidade: CURITIBA
+  estado: PR
+  cep: 80510-020
+  telefones: (41) 3233-9998
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1513
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DI TERNI PIZZARIA
+  endereco: AVENIDA PRESIDENTE ARTHUR DA SILVA BERNARDES
+  numero: 1915
+  bairro: PORTAO
+  cidade: CURITIBA
+  estado: PR
+  cep: 80320-300
+  telefones: (41) 3345-4422
+  keywords: PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1514
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DIFORNO PIZZARIA
+  endereco: RUA CARLOS PIOLI
+  numero: 163
+  bairro: BOM RETIRO
+  cidade: CURITIBA
+  estado: PR
+  cep: 80520-170
+  telefones: (41) 3253-0157
+  keywords: DIFORNO,PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1515
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DISCK PIZZA SCARINATTA
+  endereco: AVENIDA NOSSA SENHORA DA PENHA
+  numero: 294
+  bairro: CRISTO REI
+  cidade: CURITIBA
+  estado: PR
+  cep: 80050-550
+  telefones: (41) 3362-0066
+  keywords: SCARINATTA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1516
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DISK BUONA PIZZA
+  endereco: AVENIDA REPUBLICA ARGENTINA
+  numero: 986
+  bairro: AGUA VERDE
+  cidade: CURITIBA
+  estado: PR
+  cep: 80620-010
+  telefones: (41) 3242-1810
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1517
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DISK ITALIA PIZZA
+  endereco: RUA MAESTRO CARLOS FRANK
+  numero: 1460
+  bairro: BOQUEIRAO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81750-400
+  telefones: (41) 3286-8033
+  keywords: ITALIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1518
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DISK ITALIA PIZZA
+  endereco: AVENIDA ANITA GARIBALDI
+  numero: 5721
+  bairro: BARREIRINHA
+  cidade: CURITIBA
+  estado: PR
+  cep: 82220-000
+  telefones: (41) 3585-2927
+  keywords: ITALIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1519
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DISK LA PIZZA
+  endereco: ALAMEDA PRINCESA IZABEL
+  numero: 455
+  bairro: SAO FRANCISCO
+  cidade: CURITIBA
+  estado: PR
+  cep: 80410-110
+  telefones: (41) 3324-0290
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1520
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DISK PIZZA DOM HENRIQUE
+  endereco: RUA ALMIRANTE BARROSO
+  numero: 317
+  bairro: SAO FRANCISCO
+  cidade: CURITIBA
+  estado: PR
+  cep: 80510-240
+  telefones: (41) 3233-8137
+  keywords: HENRIQUE,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1521
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DISK PIZZA DOM PIPOOW
+  endereco: RUA ALBERICO FLORES BUENO
+  numero: 1803
+  bairro: BAIRRO ALTO
+  cidade: CURITIBA
+  estado: PR
+  cep: 82820-070
+  telefones: (41) 3238-2525
+  keywords: PIPOOW,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1522
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DISK PIZZA DOS PRIMOS
+  endereco: RUA PINHEIRO GUIMARAES
+  numero: 32
+  bairro: PORTAO
+  cidade: CURITIBA
+  estado: PR
+  cep: 80330-250
+  telefones: (41) 3345-2002
+  keywords: PRIMOS,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1523
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DISK PIZZA E CANTINA RAFAEL
+  endereco: RUA REZALA SIMAO
+  numero: 1070
+  bairro: Santa QUITERIA
+  cidade: CURITIBA
+  estado: PR
+  cep: 80330-180
+  telefones: (41) 3329-8150
+  keywords: CANTINA,RAFAEL,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1524
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DISK PIZZA FERNANDES
+  endereco: RUA OSMARIO DE LIMA
+  numero: 280
+  bairro: CAP IMBUIA
+  cidade: CURITIBA
+  estado: PR
+  cep: 82810-260
+  telefones: (41) 3266-0954
+  keywords: FERNANDES,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1525
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DISK PIZZA FINCK'S
+  endereco: RUA ALMIRANTE GONCALVES
+  numero: 613
+  bairro: REBOUCAS
+  cidade: CURITIBA
+  estado: PR
+  cep: 80215-150
+  telefones: (41) 3333-0732
+  keywords: FINCK'S,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1526
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DISK PIZZA IOLANDA
+  endereco: AVENIDA MARECHAL MASCARENHAS DE MORAES
+  numero: 1245
+  bairro: SANTA CANDIDA
+  cidade: CURITIBA
+  estado: PR
+  cep: 82620-300
+  telefones: (41) 3257-9767
+  keywords: IOLANDA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1527
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DISK PIZZA LOS PAPPAS
+  endereco: AVENIDA ANITA GARIBALDI
+  numero: 2319
+  bairro: AHU
+  cidade: CURITIBA
+  estado: PR
+  cep: 82200-530
+  telefones: (41) 3254-2222
+  keywords: PAPPAS,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1528
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DISK PIZZA PALADARI
+  endereco: RUA JOAO ALENCAR GUIMARAES
+  numero: 1458
+  bairro: SANTA QUITERIA
+  cidade: CURITIBA
+  estado: PR
+  cep: 80310-420
+  telefones: (41) 3274-4535
+  keywords: PALADARI,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1529
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DISK PIZZA RAFAEVY
+  endereco: RUA GALDINO BUENO DE CAMARGO
+  numero: 180
+  bairro: PINHEIRINHO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81150-230
+  telefones: (41) 3347-4031
+  keywords: RAFAEVY,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1530
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DISK PIZZA REGINAS
+  endereco: RUA ALBERTO FOLLONI
+  numero: 1123
+  bairro: AHU
+  cidade: CURITIBA
+  estado: PR
+  cep: 80540-000
+  telefones: (41) 3254-3131
+  keywords: REGINAS,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1531
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DISK PIZZA SAPORE DI MARCO
+  endereco: RUA GENERAL POTIGUARA
+  numero: 2500
+  bairro: FAZENDINHA
+  cidade: CURITIBA
+  estado: PR
+  cep: 81330-320
+  telefones: (41) 3239-4034
+  keywords: SAPORE,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1532
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DISK PIZZA STILO
+  endereco: ALAMEDA PRUDENTE DE MORAES
+  numero: 1069
+  bairro: MERCES
+  cidade: CURITIBA
+  estado: PR
+  cep: 80430-234
+  telefones: (41) 3225-2991
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1533
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DISK PIZZA VILA NORI
+  endereco: RUA RAPOSO TAVARES
+  numero: 1521
+  bairro: PILARZINHO
+  cidade: CURITIBA
+  estado: PR
+  cep: 82100-000
+  telefones: (41) 3235-2424
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1534
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DISK TERRA DA PIZZA
+  endereco: RUA BRASILIO ITIBERE
+  numero: 3705
+  bairro: AGUA VERDE
+  cidade: CURITIBA
+  estado: PR
+  cep: 80240-060
+  telefones: (41) 3022-2666
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1535
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DISQUE LIDIOS PIZZARIAS
+  endereco: RUA ARTHUR LEINIG
+  numero: 785
+  bairro: VISTA ALEGRE
+  cidade: CURITIBA
+  estado: PR
+  cep: 80810-300
+  telefones: (41) 3339-6587
+  keywords: DISQUE,LIDIOS,PIZZARIAS,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1536
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DIVINA PIZZA
+  endereco: RUA JACAREZINHO
+  numero: 439
+  bairro: MERCES
+  cidade: CURITIBA
+  estado: PR
+  cep: 80710-150
+  telefones: (41) 3335-4248
+  keywords: DIVINA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1537
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DOM ALVES PIZZARIAS
+  endereco: RUA DIAS DA ROCHA FILHO
+  numero: 79
+  bairro: Alto da XV
+  cidade: CURITIBA
+  estado: PR
+  cep: 80040-050
+  telefones: (41) 3018-8988
+  keywords: PIZZARIAS,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1538
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DOM AMERICA PIZZARIA
+  endereco: RUA TENENTE RICARDO KIRCH
+  numero: 254
+  bairro: Jardim das Américas
+  cidade: CURITIBA
+  estado: PR
+  cep: 81530-120
+  telefones: (41) 3013-3210
+  keywords: AMERICA,PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1539
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DOM AUGUSTINHO PIZZARIA
+  endereco: RUA ENGENHEIRO COSTA BARROS
+  numero: 1490
+  bairro: CAJURU
+  cidade: CURITIBA
+  estado: PR
+  cep: 82940-010
+  telefones: (41) 3365-4916
+  keywords: AUGUSTINHO,PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1540
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DOM BRENO RESTAURANTE E PIZZARIA
+  endereco: RUA PAULO SETUBAL
+  numero: 4270
+  bairro: BOQUEIRAO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81750-190
+  telefones: (41) 3286-1794
+  keywords: RESTAURANTE,PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1541
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DOM CAPONE PIZZA BAR
+  endereco: RUA PEDRO GUSSO
+  numero: 4047
+  bairro: CIDADE INDUSTRIAL
+  cidade: CURITIBA
+  estado: PR
+  cep: 81315-000
+  telefones: (41) 3248-2633
+  keywords: CAPONE,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1542
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DOM CESAR PIZZARIA
+  endereco: AVENIDA SANTA BERNADETHE
+  numero: 1697
+  bairro: FANNY
+  cidade: CURITIBA
+  estado: PR
+  cep: 81030-270
+  telefones: (41) 3569-3214
+  keywords: PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1543
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DOM HECTOR
+  endereco: RUA MARECHAL OCTAVIO SALDANHA MAZZA
+  numero: 2223
+  bairro: CAPAO RASO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81130-220
+  telefones: (41) 3327-7233
+  keywords: HECTOR,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1544
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DOM MACHADO PIZZA BAR
+  endereco: AVENIDA VICENTE MACHADO
+  numero: 2480
+  bairro: BATEL
+  cidade: CURITIBA
+  estado: PR
+  cep: 80440-020
+  telefones: (41) 3343-0606
+  keywords: MACHADO,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1545
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DOM MARCHELLO PIZZA BURGER
+  endereco: RUA JOSE MERHY
+  numero: 1595
+  bairro: BOA VISTA
+  cidade: CURITIBA
+  estado: PR
+  cep: 82560-440
+  telefones: (41) 3256-4203
+  keywords: MARCHELLO,BURGER,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1546
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DOM MIGUELITO PIZZARIA
+  endereco: RUA COMENDADOR PINTO BANDEIRA
+  numero: 15
+  bairro: Jardim das Américas
+  cidade: CURITIBA
+  estado: PR
+  cep: 81530-350
+  telefones: (41) 3365-1863
+  keywords: MIGUELITO,PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1547
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DOM PARMA PIZZARIA E RESTAURANTE
+  endereco: RUA 1  DE MAIO
+  numero: 1656
+  bairro: XAXIM
+  cidade: CURITIBA
+  estado: PR
+  cep: 81820-340
+  telefones: (41) 3346-0000
+  keywords: PIZZARIA,RESTAURANTE,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1548
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DOM RASTA PIZZARIA
+  endereco: RUA LOURIVAL WENDLER
+  numero: 541
+  bairro: CAJURU
+  cidade: CURITIBA
+  estado: PR
+  cep: 82960-030
+  telefones: (41) 3261-3434
+  keywords: PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1549
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DOM ZEZZO PIZZA
+  endereco: RUA DESEMBARGADOR MOTTA
+  numero: 3272
+  bairro: MERCES
+  cidade: CURITIBA
+  estado: PR
+  cep: 80430-232
+  telefones: (41) 3335-9788
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1550
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DON ANGELO PIZZAS
+  endereco: RUA ANTONIO KOSOVSKI
+  numero: 271
+  bairro: BOQUEIRAO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81670-520
+  telefones: (41) 3278-5441
+  keywords: ANGELO,PIZZAS,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1551
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DON MARCO COMERCIO DE ALI
+  endereco: AVENIDA IGUACU
+  numero: 3919
+  bairro: AGUA VERDE
+  cidade: CURITIBA
+  estado: PR
+  cep: 80240-031
+  telefones: (41) 3242-4211
+  keywords: COMERCIO,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1552
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DONA PETRONA PIZZARIA E CONFEITARIA
+  endereco: RUA GOIAS
+  numero: 414
+  bairro: AGUA VERDE
+  cidade: CURITIBA
+  estado: PR
+  cep: 80620-060
+  telefones: (41) 3345-4600
+  keywords: PETRONA,PIZZARIA,CONFEITARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1553
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DORA MULLER
+  endereco: RUA CAMOES
+  numero: 601
+  bairro: Alto da XV
+  cidade: CURITIBA
+  estado: PR
+  cep: 80040-180
+  telefones: (41) 3016-9706
+  keywords: MULLER,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1554
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DOUGLAS CARVALHO IKEDA
+  endereco: RUA ENGENHEIRO REBOUCAS
+  numero: 2599
+  bairro: REBOUCAS
+  cidade: CURITIBA
+  estado: PR
+  cep: 80250-170
+  telefones: (41) 3333-7002
+  keywords: DOUGLAS,CARVALHO,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1555
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DR RODIZIO
+  endereco: RUA ITATIAIA
+  numero: 386
+  bairro: PORTAO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81070-100
+  telefones: (41) 3346-1900
+  keywords: RODIZIO,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1556
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: DUPLA GULA PIZZARIA E RESTAURANTE
+  endereco: AVENIDA IGUACU
+  numero: 2126
+  bairro: AGUA VERDE
+  cidade: CURITIBA
+  estado: PR
+  cep: 80240-030
+  telefones: (41) 3243-4443
+  keywords: PIZZARIA,RESTAURANTE,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1557
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: EDILSON MIGUEL
+  endereco: RUA IZAAC FERREIRA DA CRUZ
+  numero: 4439
+  bairro: SIT CERCADO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81910-000
+  telefones: (41) 3378-6353
+  keywords: EDILSON,MIGUEL,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1558
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: EMPORIO DA PIZZA
+  endereco: RUA SATURNINO MIRANDA
+  numero: 670
+  bairro: Santa FELICIDADE
+  cidade: CURITIBA
+  estado: PR
+  cep: 82030-320
+  telefones: (41) 3272-6248
+  keywords: EMPORIO,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1559
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: EMPORIO RIZZIERIE
+  endereco: RUA CORONEL LUIZ JOSE DOS SANTOS
+  numero: 1839
+  bairro: BOQUEIRAO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81670-400
+  telefones: (41) 3376-2838
+  keywords: EMPORIO,RIZZIERIE,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1560
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: ESQUINA DA PIZZA
+  endereco: RUA JOSE RODRIGUES PINHEIRO
+  numero: 320
+  bairro: CAPAO RASO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81130-200
+  telefones: (41) 3248-0048
+  keywords: ESQUINA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1561
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: ESQUINA DA PIZZA
+  endereco: AVENIDA ANITA GARIBALDI
+  numero: 3944
+  bairro: SAO LOURENCO
+  cidade: CURITIBA
+  estado: PR
+  cep: 82210-000
+  telefones: (41) 3255-2020
+  keywords: ESQUINA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1562
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: ESQUINA X
+  endereco: RUA MAESTRO CARLOS FRANK
+  numero: 3064
+  bairro: BOQUEIRAO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81750-400
+  telefones: (41) 3344-5566
+  keywords: ESQUINA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1563
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: ESTACAO DA PIZZA
+  endereco: RUA MARIO GASPARIN
+  numero: 1070
+  bairro: SITIO CERCADO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81920-430
+  telefones: (41) 3289-7194
+  keywords: ESTACAO,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1564
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: EZEQUIEL BERNARDES DE PONTES
+  endereco: AVENIDA DA REPUBLICA
+  numero: 6464
+  bairro: GUAIRA
+  cidade: CURITIBA
+  estado: PR
+  cep: 80630-060
+  telefones: (41) 3327-1140
+  keywords: EZEQUIEL,BERNARDES,PONTES,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1565
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: FATORE PIZZARIA E RESTAURANTE
+  endereco: RUA JOSE ALCIDES DE LIMA
+  numero: 995
+  bairro: NOVO MUNDO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81050-340
+  telefones: (41) 3268-2512
+  keywords: FATORE,PIZZARIA,RESTAURANTE,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1566
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: FELIPE S SANTOS
+  endereco: RUA NAPOLEAO BONAPARTE
+  numero: 1251
+  bairro: TARUMA
+  cidade: CURITIBA
+  estado: PR
+  cep: 82820-270
+  telefones: (41) 3238-0859
+  keywords: FELIPE,SANTOS,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1567
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: FOME DE PIZZA
+  endereco: RUA RIO GRANDE DO SUL
+  numero: 504
+  bairro: AGUA VERDE
+  cidade: CURITIBA
+  estado: PR
+  cep: 80620-080
+  telefones: (41) 3244-9294
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1568
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: FORNO A LENHA
+  endereco: RUA PROFESSOR JOAO SOARES BARCELOS
+  numero: 2356
+  bairro: BOQUEIRAO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81670-080
+  telefones: (41) 3376-3009
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1569
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: GENIUS DISK PIZZA
+  endereco: RUA CORONEL FRANCISCO HERACLITO DOS SANTOS
+  numero: 1233
+  bairro: Jardim das Américas
+  cidade: CURITIBA
+  estado: PR
+  cep: 81530-001
+  telefones: (41) 3366-2020
+  keywords: GENIUS,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1570
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: GENIUS DISK PIZZA
+  endereco: RUA SALDANHA MARINHO
+  numero: 2031
+  bairro: Champagnat
+  cidade: CURITIBA
+  estado: PR
+  cep: 80730-180
+  telefones: (41) 3322-2244
+  keywords: GENIUS,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1571
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: GENIUS PIZZA BURGER
+  endereco: RUA SALDANHA MARINHO
+  numero: 2031
+  bairro: Champagnat
+  cidade: CURITIBA
+  estado: PR
+  cep: 80730-180
+  telefones: (41) 3016-7083
+  keywords: GENIUS,BURGER,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1572
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: GENIUS PIZZARIA
+  endereco: RUA CORONEL FRANCISCO HERACLITO DOS SANTOS
+  numero: 1233
+  bairro: Jardim das Américas
+  cidade: CURITIBA
+  estado: PR
+  cep: 81530-001
+  telefones: (41) 3014-7377
+  keywords: GENIUS,PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1573
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: GENIUS PIZZARIA E RESTAURANTE
+  endereco: AVENIDA PRESIDENTE KENNEDY
+  numero: 3700
+  bairro: AGUA VERDE
+  cidade: CURITIBA
+  estado: PR
+  cep: 80610-010
+  telefones: (41) 3229-1122
+  keywords: GENIUS,PIZZARIA,RESTAURANTE,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1574
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: GIARDINO PIZZARIA
+  endereco: RUA ILDEFONSO STOCKLER DE FRANCA
+  numero: 324
+  bairro: NOVO MUNDO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81020-040
+  telefones: (41) 3347-2482
+  keywords: GIARDINO,PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1575
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: GIGA PIZZA
+  endereco: AVENIDA BRASILIA
+  numero: 6073
+  bairro: NOVO MUNDO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81020-010
+  telefones: (41) 3246-6060
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1576
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: HALLY PIZZAS
+  endereco: RUA PROFESSOR ULISSES VIEIRA
+  numero: 813
+  bairro: VILA IZABEL
+  cidade: CURITIBA
+  estado: PR
+  cep: 80320-090
+  telefones: (41) 3243-1750
+  keywords: PIZZAS,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1577
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: HOMEM PIZZA
+  endereco: RUA BRASILIO ITIBERE
+  numero: 1130
+  bairro: REBOUCAS
+  cidade: CURITIBA
+  estado: PR
+  cep: 80215-140
+  telefones: (41) 3334-1515
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1578
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: HORA DA PIZZA
+  endereco: AVENIDA 7 DE SETEMBRO
+  numero: 5500
+  bairro: BATEL
+  cidade: CURITIBA
+  estado: PR
+  cep: 80240-001
+  telefones: (41) 3244-3134
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1579
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: HORA DA PIZZA
+  endereco: AVENIDA MUNHOZ DA ROCHA
+  numero: 348
+  bairro: CABRAL
+  cidade: CURITIBA
+  estado: PR
+  cep: 80035-000
+  telefones: (41) 3252-0052
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1580
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: HOUSE PIZZAS E CREPES
+  endereco: RUA FLORISVAL LANCONI
+  numero: 99
+  bairro: TARUMA
+  cidade: CURITIBA
+  estado: PR
+  cep: 82800-120
+  telefones: (41) 3019-8539
+  keywords: PIZZAS,CREPES,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1581
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: IJAIR BORTOLANZA
+  endereco: RUA ITUPAVA
+  numero: 828
+  bairro: Alto da XV
+  cidade: CURITIBA
+  estado: PR
+  cep: 80040-000
+  telefones: (41) 3262-5555
+  keywords: BORTOLANZA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1582
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: IMPERIO DA PIZZA
+  endereco: RUA MAESTRO FRANCISCO ANTONELLO
+  numero: 2151
+  bairro: FANNY
+  cidade: CURITIBA
+  estado: PR
+  cep: 81030-100
+  telefones: (41) 3327-3384
+  keywords: IMPERIO,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1583
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: JACIR CALDART
+  endereco: RUA MAESTRO FRANCISCO ANTONELLO
+  numero: 2151
+  bairro: FANNY
+  cidade: CURITIBA
+  estado: PR
+  cep: 81030-100
+  telefones: (41) 3246-4002
+  keywords: CALDART,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1584
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: JARDEL BRESSAN GUAREZI
+  endereco: AVENIDA PRESIDENTE WENCESLAU BRAZ
+  numero: 1676
+  bairro: GUAIRA
+  cidade: CURITIBA
+  estado: PR
+  cep: 81010-000
+  telefones: (41) 3569-0026
+  keywords: JARDEL,BRESSAN,GUAREZI,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1585
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: JOSE WELLITON DE OLIVEIRA
+  endereco: RUA DOUTOR PLINIO GONCALVES MARQUES
+  numero: 877
+  bairro: PINHEIRINHO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81880-300
+  telefones: (41) 3349-0085
+  keywords: WELLITON,OLIVEIRA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1586
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: JULIO CESAR TIENGO
+  endereco: RUA JOAQUIM DE OLIVEIRA CRUZ
+  numero: 422
+  bairro: PINHEIRINHO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81825-310
+  telefones: (41) 3349-9754
+  keywords: TIENGO,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1587
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: JUNKEMPO SUSHI
+  endereco: RUA PROFESSOR JOAO DOETZER
+  numero: 555
+  bairro: Jardim das Américas
+  cidade: CURITIBA
+  estado: PR
+  cep: 81540-190
+  telefones: (41) 3266-0004
+  keywords: JUNKEMPO,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1588
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: JUSTINO PIZZA BAR
+  endereco: RUA CAPITAO GUILHERME BIANCHI
+  numero: 454
+  bairro: CAJURU
+  cidade: CURITIBA
+  estado: PR
+  cep: 82930-090
+  telefones: (41) 3267-7927
+  keywords: JUSTINO,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1589
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: KAROLINE APARECIDA TANNER
+  endereco: RUA ENGENHEIRO BENEDITO MARIO DA SILVA
+  numero: 439
+  bairro: CAJURU
+  cidade: CURITIBA
+  estado: PR
+  cep: 82970-000
+  telefones: (41) 3226-2627
+  keywords: KAROLINE,APARECIDA,TANNER,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1590
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: KELL PIZZA
+  endereco: RUA LODOVICO GERONAZZO
+  numero: 838
+  bairro: BOA VISTA
+  cidade: CURITIBA
+  estado: PR
+  cep: 82560-040
+  telefones: (41) 3357-4276
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1591
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: KELLY CRISTINA WISTUBA ANDRADE
+  endereco: RUA JOSE MERHY
+  numero: 1600
+  bairro: BOA VISTA
+  cidade: CURITIBA
+  estado: PR
+  cep: 82560-440
+  telefones: (41) 3042-4203
+  keywords: CRISTINA,WISTUBA,ANDRADE,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1592
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: KI PIZZA
+  endereco: RUA CLAVIO MOLINARI
+  numero: 935
+  bairro: CAP IMBUIA
+  cidade: CURITIBA
+  estado: PR
+  cep: 82810-210
+  telefones: (41) 3365-4832
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1593
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: LA BELLA PIZZARIA LTDA
+  endereco: RUA EDUARDO SPRADA
+  numero: 4880
+  bairro: Campo COMPRIDO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81270-010
+  telefones: (41) 3026-2992
+  keywords: PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 3
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1594
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: LA CASA DA PIZZA
+  endereco: RUA VICENTE CICCARINO
+  numero: 361
+  bairro: BOA VISTA
+  cidade: CURITIBA
+  estado: PR
+  cep: 82540-120
+  telefones: (41) 3256-5362
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1595
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: LA CASA DA PIZZA
+  endereco: RUA CIDADE DE LAGUNA
+  numero: 125
+  bairro: CIDADE INDUSTRIAL
+  cidade: CURITIBA
+  estado: PR
+  cep: 81240-250
+  telefones: (41) 3245-4128
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1596
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: LA MAMMA BELLA PIZZARIA E FOCACCERIA
+  endereco: RUA CRUZEIRO DO SUL
+  numero: 855
+  bairro: SIT CERCADO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81900-230
+  telefones: (41) 3349-3696
+  keywords: PIZZARIA,FOCACCERIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1597
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: LA NONNA MARIA PIZZARIA
+  endereco: RUA BERNARDO KRASINSKI
+  numero: 155
+  bairro: ORLEANS
+  cidade: CURITIBA
+  estado: PR
+  cep: 81200-570
+  telefones: (41) 3373-0062
+  keywords: PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1598
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: LA PIAZZA
+  endereco: RUA CHILE
+  numero: 2258
+  bairro: REBOUCAS
+  cidade: CURITIBA
+  estado: PR
+  cep: 80220-181
+  telefones: (41) 3333-0784
+  keywords: PIAZZA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1599
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: LA VENUTA
+  endereco: RUA CAPITAO ANTONIO JOSE
+  numero: 985
+  bairro: XAXIM
+  cidade: CURITIBA
+  estado: PR
+  cep: 81810-340
+  telefones: (41) 3275-9766
+  keywords: VENUTA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1600
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: LANCHONETE PIZZARIA MENUDO
+  endereco: RUA PROFESSOR JOAO SOARES BARCELOS
+  numero: 1925
+  bairro: BOQUEIRAO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81670-080
+  telefones: (41) 3278-1973
+  keywords: LANCHONETE,PIZZARIA,MENUDO,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1601
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: LILAS'S PIZZARIA
+  endereco: RUA JOSE NICCO
+  numero: 75
+  bairro: MOSSUNGUE
+  cidade: CURITIBA
+  estado: PR
+  cep: 81200-300
+  telefones: (41) 3373-4888
+  keywords: LILAS'S,PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1602
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: LOLA PIZZERIA
+  endereco: RUA PADRE GERMANO MAYER
+  numero: 1181
+  bairro: Alto da XV
+  cidade: CURITIBA
+  estado: PR
+  cep: 80040-170
+  telefones: (41) 3078-5652
+  keywords: PIZZERIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1603
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: LUIZ ALVES SOBRINHO
+  endereco: RUA PEDRO GUSSO
+  numero: 631
+  bairro: NOVO MUNDO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81050-200
+  telefones: (41) 3247-7836
+  keywords: SOBRINHO,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1604
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: LUIZ FARIAS BRESSAN
+  endereco: RUA PAULO SETUBAL
+  numero: 1881
+  bairro: BOQUEIRAO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81670-130
+  telefones: (41) 3377-5718
+  keywords: FARIAS,BRESSAN,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1605
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: MAESTRO DA PIZZA
+  endereco: RUA CASTRO ALVES
+  numero: 500
+  bairro: BATEL
+  cidade: CURITIBA
+  estado: PR
+  cep: 80240-270
+  telefones: (41) 3343-5353
+  keywords: MAESTRO,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1606
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: MAICON DUARTE MULLET
+  endereco: AVENIDA DA REPUBLICA
+  numero: 6464
+  bairro: GUAIRA
+  cidade: CURITIBA
+  estado: PR
+  cep: 80630-060
+  telefones: (41) 3569-0110
+  keywords: MAICON,DUARTE,MULLET,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 1
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1607
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: MAIS MAIS PIZZARIA
+  endereco: RUA JORGE COLERAUS BARBOSA
+  numero: 8
+  bairro: PINHEIRINHO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81870-530
+  telefones: (41) 3349-9620
+  keywords: PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1608
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: MAIS PIZZA
+  endereco: RUA DESEMBARGADOR WESTPHALEN
+  numero: 1236
+  bairro: REBOUCAS
+  cidade: CURITIBA
+  estado: PR
+  cep: 80230-100
+  telefones: (41) 3233-8021
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1609
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: MALURA PIZZARIA
+  endereco: RUA CUIABA
+  numero: 1450
+  bairro: CAJURU
+  cidade: CURITIBA
+  estado: PR
+  cep: 82930-010
+  telefones: (41) 3267-0002
+  keywords: MALURA,PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1610
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: MAMA BENE PIZZARIAS
+  endereco: RUA PADRE JOAO WISLINSKI
+  numero: 652
+  bairro: Santa CANDIDA
+  cidade: CURITIBA
+  estado: PR
+  cep: 82630-010
+  telefones: (41) 3236-1030
+  keywords: PIZZARIAS,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1611
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: MAMA CHYQUYTA PIZZARIA
+  endereco: RUA DEPUTADO WALDEMIRO PEDROSO
+  numero: 235
+  bairro: NOVO MUNDO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81050-150
+  telefones: (41) 3327-1926
+  keywords: CHYQUYTA,PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1612
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: MAMMA GULLA 2
+  endereco: RUA BRIGADEIRO FRANCO
+  numero: 864
+  bairro: MERCES
+  cidade: CURITIBA
+  estado: PR
+  cep: 80430-210
+  telefones: (41) 3233-3436
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1613
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: MAMMA LUIZA
+  endereco: RUA FRANCISCO DEROSSO
+  numero: 5592
+  bairro: ALT BOQUEIRAO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81770-000
+  telefones: (41) 3378-2828
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1614
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: MANDALA'S PIZZAS BURGUER
+  endereco: RUA DOM ALBERTO GONCALVES
+  numero: 47
+  bairro: MERCES
+  cidade: CURITIBA
+  estado: PR
+  cep: 80510-340
+  telefones: (41) 3029-1317
+  keywords: MANDALA'S,PIZZAS,BURGUER,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1615
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: MANOEL F BUENO
+  endereco: RUA CORONEL LUIZ JOSE DOS SANTOS
+  numero: 3593
+  bairro: XAXIM
+  cidade: CURITIBA
+  estado: PR
+  cep: 81710-420
+  telefones: (41) 3275-0040
+  keywords: MANOEL,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1616
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: MANOEL FERNANDO BUENO
+  endereco: RUA WALDEMAR KOST
+  numero: 1365
+  bairro: HAUER
+  cidade: CURITIBA
+  estado: PR
+  cep: 81630-180
+  telefones: (41) 3278-3330
+  keywords: MANOEL,FERNANDO,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1617
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: MAPP PIZZA
+  endereco: AVENIDA VEREADOR TOALDO TULIO
+  numero: 4293
+  bairro: SAO BRAZ
+  cidade: CURITIBA
+  estado: PR
+  cep: 82300-000
+  telefones: (41) 3372-4543
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1618
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: MAPP PIZZAS SAO BRAZ
+  endereco: AVENIDA VEREADOR TOALDO TULIO 4293 TÉR   LJ
+  numero: 1
+  bairro: SAO BRAZ
+  cidade: CURITIBA
+  estado: PR
+  cep: 82300-000
+  telefones: (41) 3372-4543
+  keywords: PIZZAS,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1619
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: MARCHIONALE PIZZARIA
+  endereco: AVENIDA MANOEL RIBAS
+  numero: 2241
+  bairro: MERCES
+  cidade: CURITIBA
+  estado: PR
+  cep: 80810-000
+  telefones: (41) 3336-6060
+  keywords: MARCHIONALE,PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1620
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: MARCOS AURELIO DE ASSIS
+  endereco: AVENIDA MARECHAL FLORIANO PEIXOTO
+  numero: 114
+  bairro: CENTRO
+  cidade: CURITIBA
+  estado: PR
+  cep: 80020-090
+  telefones: (41) 3232-9869
+  keywords: MARCOS,AURELIO,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1621
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: MARIA DE FATIMA ADUR
+  endereco: RUA NILO PECANHA
+  numero: 3313
+  bairro: BOM RETIRO
+  cidade: CURITIBA
+  estado: PR
+  cep: 82120-440
+  telefones: (41) 3253-2553
+  keywords: FATIMA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1622
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: MB PIZZA
+  endereco: AVENIDA PRESIDENTE KENNEDY
+  numero: 3332
+  bairro: AGUA VERDE
+  cidade: CURITIBA
+  estado: PR
+  cep: 80610-010
+  telefones: (41) 3027-5888
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1623
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: MELB'S PIZZARIA
+  endereco: RUA JULIA WANDERLEY
+  numero: 1360
+  bairro: MERCES
+  cidade: CURITIBA
+  estado: PR
+  cep: 80710-210
+  telefones: (41) 3339-4040
+  keywords: MELB'S,PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1624
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: MERCATU PIZZA
+  endereco: RUA BRIGADEIRO FRANCO
+  numero: 454
+  bairro: MERCES
+  cidade: CURITIBA
+  estado: PR
+  cep: 80430-210
+  telefones: (41) 3225-4448
+  keywords: MERCATU,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1625
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: MERCATU PIZZA
+  endereco: RUA CHILE
+  numero: 2091
+  bairro: REBOUCAS
+  cidade: CURITIBA
+  estado: PR
+  cep: 80220-181
+  telefones: (41) 3334-4848
+  keywords: MERCATU,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1626
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: MIDAS PIZZA
+  endereco: RUA MATEUS LEME
+  numero: 3324
+  bairro: SAO LOURENCO
+  cidade: CURITIBA
+  estado: PR
+  cep: 82200-000
+  telefones: (41) 3353-6040
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1627
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: MILLENIUM PIZZAS E CALZONES
+  endereco: AVENIDA PRESIDENTE WENCESLAU BRAZ
+  numero: 2624
+  bairro: GUAIRA
+  cidade: CURITIBA
+  estado: PR
+  cep: 81010-000
+  telefones: (41) 3346-1010
+  keywords: MILLENIUM,PIZZAS,CALZONES,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1628
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: MINEIRU'S PIZZARIA
+  endereco: RUA RENATO POLATTI
+  numero: 2535
+  bairro: Campo COMPRIDO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81230-170
+  telefones: (41) 3373-5997
+  keywords: MINEIRU'S,PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1629
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: MUNDO DA PIZZA
+  endereco: RUA ALBINO FREDERICO FOERSTER
+  numero: 13
+  bairro: ALT BOQUEIRAO
+  cidade: CURITIBA
+  estado: PR
+  cep: 81770-220
+  telefones: (41) 3378-1227
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1630
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: NEUROS PIZZARIA
+  endereco: RUA PEDRO GUSSO
+  numero: 3350
+  bairro: CIDADE INDUSTRIAL
+  cidade: CURITIBA
+  estado: PR
+  cep: 81315-000
+  telefones: (41) 3247-7431
+  keywords: NEUROS,PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1631
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: NEW MAX PIZZARIA
+  endereco: AVENIDA JOAO GUALBERTO
+  numero: 1050
+  bairro: ALT GLORIA
+  cidade: CURITIBA
+  estado: PR
+  cep: 80030-000
+  telefones: (41) 3352-7070
+  keywords: PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1632
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: NEY ANTUNES DA SILVA
+  endereco: RUA ROBERT REDZIMSKI
+  numero: 675
+  bairro: CIDADE INDUSTRIAL
+  cidade: CURITIBA
+  estado: PR
+  cep: 81270-000
+  telefones: (41) 3285-4009
+  keywords: ANTUNES,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1633
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: NICLEVICZ COMERCIO DE ALIMENTOS
+  endereco: RUA PADRE ANCHIETA
+  numero: 1425
+  bairro: Champagnat
+  cidade: CURITIBA
+  estado: PR
+  cep: 80730-000
+  telefones: (41) 3027-6601
+  keywords: NICLEVICZ,COMERCIO,ALIMENTOS,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1634
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: NONNA PINA
+  endereco: RUA VICTORIO VIEZZER
+  numero: 890
+  bairro: VISTA ALEGRE
+  cidade: CURITIBA
+  estado: PR
+  cep: 80810-340
+  telefones: (41) 3339-2004
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1635
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: NOSSA PIZZA
+  endereco: RUA DIAS DA ROCHA FILHO
+  numero: 79
+  bairro: Alto da XV
+  cidade: CURITIBA
+  estado: PR
+  cep: 80040-050
+  telefones: (41) 3018-8988
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1636
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: NOSTRA PIZZA RESTAURANTE
+  endereco: RUA OMAR RAYMUNDO PICHETH
+  numero: 710
+  bairro: XAXIM
+  cidade: CURITIBA
+  estado: PR
+  cep: 81810-150
+  telefones: (41) 3346-6100
+  keywords: NOSTRA,RESTAURANTE,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1637
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: O FORNAO PIZZARIA
+  endereco: AVENIDA VICTOR FERREIRA DO AMARAL
+  numero: 142
+  bairro: TARUMA
+  cidade: CURITIBA
+  estado: PR
+  cep: 82530-230
+  telefones: (41) 3363-3058
+  keywords: FORNAO,PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1638
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: O FORNAO PIZZARIA ALTO DA XV
+  endereco: AVENIDA VICTOR FERREIRA DO AMARAL
+  numero: 120
+  bairro: TARUMA
+  cidade: CURITIBA
+  estado: PR
+  cep: 82530-230
+  telefones: (41) 3262-6030
+  keywords: FORNAO,PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1639
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: O FORNAO PIZZARIA MERCES
+  endereco: AVENIDA MANOEL RIBAS
+  numero: 640
+  bairro: SAO FRANCISCO
+  cidade: CURITIBA
+  estado: PR
+  cep: 80510-020
+  telefones: (41) 3339-8906
+  keywords: FORNAO,PIZZARIA,MERCES,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1640
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: O FORNAO PIZZARIA E RESTAURANTE
+  endereco: AVENIDA JOAO GUALBERTO
+  numero: 1697
+  bairro: ALT GLORIA
+  cidade: CURITIBA
+  estado: PR
+  cep: 80030-001
+  telefones: (41) 3252-6272
+  keywords: FORNAO,PIZZARIA,RESTAURANTE,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1641
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: O FORNARI PIZZARIA
+  endereco: RUA FERNANDO DE NORONHA
+  numero: 137
+  bairro: Santa CANDIDA
+  cidade: CURITIBA
+  estado: PR
+  cep: 82640-350
+  telefones: (41) 3256-8282
+  keywords: FORNARI,PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1642
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: O PEDAL PIZZA POR METRO
+  endereco: AVENIDA JAIME REIS
+  numero: 480
+  bairro: SAO FRANCISCO
+  cidade: CURITIBA
+  estado: PR
+  cep: 80510-010
+  telefones: (41) 3322-4881
+  keywords: Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1643
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: OBA OBA PIZZARIA
+  endereco: AVENIDA SENADOR SOUZA NAVES
+  numero: 1845
+  bairro: Alto da XV
+  cidade: CURITIBA
+  estado: PR
+  cep: 80050-040
+  telefones: (41) 3023-0909
+  keywords: PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1644
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: OPTE PIZZA PIZZARIA
+  endereco: AVENIDA PRESIDENTE KENNEDY
+  numero: 2800
+  bairro: AGUA VERDE
+  cidade: CURITIBA
+  estado: PR
+  cep: 80610-010
+  telefones: (41) 3329-1414
+  keywords: PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1645
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: ORIGINALLE PIZZA DELIVERY ECOVILLE
+  endereco: RUA PAULO GORSKI
+  numero: 861
+  bairro: MOSSUNGUE
+  cidade: CURITIBA
+  estado: PR
+  cep: 81200-000
+  telefones: (41) 3373-3535
+  keywords: ORIGINALLE,DELIVERY,ECOVILLE,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1646
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: PAJA DELIVERY CLUB
+  endereco: RUA CANDIDO XAVIER
+  numero: 880
+  bairro: VL IZABEL
+  cidade: CURITIBA
+  estado: PR
+  cep: 80320-220
+  telefones: (41) 3342-4284
+  keywords: DELIVERY,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1647
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: PALAZZO PIZZARIA
+  endereco: RUA BISPO-DOM JOSE
+  numero: 2070
+  bairro: BATEL
+  cidade: CURITIBA
+  estado: PR
+  cep: 80440-080
+  telefones: (41) 3342-6960
+  keywords: PALAZZO,PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1648
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: PALAZZO PIZZARIA
+  endereco: RUA CARNEIRO LOBO
+  numero: 444
+  bairro: AGUA VERDE
+  cidade: CURITIBA
+  estado: PR
+  cep: 80240-240
+  telefones: (41) 3342-6960
+  keywords: PALAZZO,PIZZARIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1649
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: PASTA PIZZA COM PIZZA E ROTISSERIA
+  endereco: AVENIDA 3 MARIAS
+  numero: 40
+  bairro: ORLEANS
+  cidade: CURITIBA
+  estado: PR
+  cep: 82310-000
+  telefones: (41) 3273-3913
+  keywords: ROTISSERIA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1650
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: PAULISTA PIZZA
+  endereco: RUA CONEGO JANUARIO DA CUNHA BARBOSA
+  numero: 701
+  bairro: Jardim das Américas
+  cidade: CURITIBA
+  estado: PR
+  cep: 81530-480
+  telefones: (41) 3366-2229
+  keywords: PAULISTA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1651
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: PAULO R B PEREIRA
+  endereco: RUA SALUSTIANO CORDEIRO
+  numero: 14
+  bairro: AGUA VERDE
+  cidade: CURITIBA
+  estado: PR
+  cep: 80620-190
+  telefones: (41) 3029-1663
+  keywords: PEREIRA,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+-
+  idanuncio: 1652
+  iddepartamento: 39
+  idsubdepartamento: 349
+  nome: PAULO ROBERTO DA LUZ VOSS
+  endereco: RUA CAPITAO LEONIDAS MARQUES
+  numero: 2030
+  bairro: UBERABA
+  cidade: CURITIBA
+  estado: PR
+  cep: 81550-000
+  telefones: (41) 3369-1722
+  keywords: ROBERTO,Gastronomia,Pizzaria
+  de: 2009-03-13 00:00:00
+  ate: 2009-03-13 00:00:00
+  destaque: 0
+  acessos: 0
+  detalhe: 0
+  prioridade: 0
+  pre: 0
+...

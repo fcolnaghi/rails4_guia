@@ -20,4 +20,52 @@
 
 $(document).ready(function() {
 
+  var categories = new Bloodhound({
+    datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),
+    queryTokenizer: Bloodhound.tokenizers.whitespace,
+    remote: '/categories/search.json?category=%QUERY'
+  });
+
+  var places = new Bloodhound({
+    datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),
+    queryTokenizer: Bloodhound.tokenizers.whitespace,
+    remote: '/neighborhoods/search.json?w=%QUERY'
+  });
+
+  categories.initialize();
+  places.initialize();
+
+  $('.category.typeahead').typeahead({
+    hint: true,
+    highlight: true,
+    minLength: 2
+  }, {
+    name: 'q',
+    displayKey: 'title',
+    source: categories.ttAdapter(),
+    templates: {
+      header: '<li class="header-typeahead">Procure por nome estabelecimento ou palavra-chave</li>'
+    }
+  });
+
+  $('.place.typeahead').typeahead({
+    hint: true,
+    highlight: true,
+    minLength: 2
+  }, {
+    name: 'w',
+    displayKey: function(place) {
+        if (place.address) {
+          return place.address;
+        } else {
+          return place.title;  
+        }          
+        
+      },
+      source: places.ttAdapter(),
+      templates: {
+        header: '<li class="header-typeahead">Procure por Bairro, CEP, ou Nome de Rua</li>'
+      }
+    });
+
 });

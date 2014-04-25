@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/ankane/searchkick.git
+  revision: 1418ccac8a1ca35efcb7e9f624e4dde17c64dcca
+  specs:
+    searchkick (0.7.2)
+      activemodel
+      elasticsearch (~> 0.4.11)
+      hashie
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -118,10 +127,6 @@ GEM
     sdoc (0.4.0)
       json (~> 1.8)
       rdoc (~> 4.0, < 5.0)
-    searchkick (0.7.1)
-      activemodel
-      elasticsearch (~> 0.4.11)
-      hashie
     sprockets (2.12.0)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -162,6 +167,6 @@ DEPENDENCIES
   progress_bar
   rails (= 4.1.0)
   sdoc
-  searchkick
+  searchkick!
   therubyracer
   uglifier (>= 1.3.0)

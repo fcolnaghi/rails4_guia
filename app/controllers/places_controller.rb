@@ -5,7 +5,7 @@ class PlacesController < ApplicationController
   # GET /places.json
   def index
 
-    @places = Place.search("*", facets: [:neighborhood_id, :city_id, :categories], :limit => 50)
+    @places = Place.search("*", facets: [:neighborhood_id, :city_id, :categories], :limit => 30, :page => params[:page] )
 
     @hash = Gmaps4rails.build_markers(@places) do |place, marker|
       marker.lat place.lat
@@ -14,34 +14,7 @@ class PlacesController < ApplicationController
 
   end
 
-# Posts that match 'pizza' returning counts for each :author_id
-=begin
-search = Place.search do
-  fulltext( 'pizza' , {:fields => :title} )
-  facet :title, :neighborhood
-end
-search.facet(:neighborhood).rows.each do |facet|
-  puts "neighborhood #{facet.value} has #{facet.count} pizza posts!"
-end
-
-search.facet(:title).rows.each do |facet|
-  puts "neighborhood #{facet.value} has #{facet.count} pizza posts!"
-end
-=end
-
   def search
-
-    #search = Place.search do
-    #  fulltext( params[:q] , {:fields => [ :title, :description] } ) if params[:q].present?
-    #  fulltext( params[:w] , {:fields => :neighborhood} ) if params[:w].present?
-    #  paginate( :page =>  params[:page], :per_page => 25 )
-    #  order_by(:score, :desc)
-    #  facet :neighborhood
-    #end
-
-    #localizacao = Neighborhood.search(params[:w]).map(&:id) if params[:w].present? 
-
-    #@places = Place.search(params[:q], suggest: true, where: { neighborhood_id: localizacao }, order: {_score: :desc} ) unless localizacao.nil? && params[:q].present?
     if params[:w].present? && params[:q].present?
       localizacao = Neighborhood.search(params[:w]).map(&:id)
       if localizacao.any?
@@ -50,9 +23,9 @@ end
         @places = Place.search( params[:q], suggest: true, where: { address: params[:w] }, order: {_score: :desc} )
       end
     elsif params[:w].present?
-      localizacao = Neighborhood.search(params[:w]).map(&:id)
-      if localizacao.any?
-        @places = Place.search( "*", suggest: true, where: { neighborhood_id: localizacao }, order: {_score: :desc} )
+      @localizacao = Neighborhood.search(params[:w]).map(&:id)
+      if @localizacao.any?
+        @places = Place.search( "*", suggest: true, where: { neighborhood_id: @localizacao }, order: {_score: :desc} )
       else
         @places = Place.search( "*", suggest: true, where: { address: params[:w] }, order: {_score: :desc} )  
       end
@@ -61,6 +34,8 @@ end
     else
       @places = Place.search("*", suggest: true)
     end
+
+    puts ">> #{@localizacao}"
    
     @hash = Gmaps4rails.build_markers(@places) do |place, marker|
       marker.lat place.lat if place.lat.present?
