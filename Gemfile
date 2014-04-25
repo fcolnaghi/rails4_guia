@@ -16,6 +16,7 @@ gem 'pg'
 
 # Paginacao
 gem 'kaminari'
+gem 'faker'
 
 group :development do
  gem 'progress_bar'

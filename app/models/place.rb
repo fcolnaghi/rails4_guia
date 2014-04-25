@@ -4,7 +4,7 @@ class Place < ActiveRecord::Base
   belongs_to :neighborhood
 
   has_and_belongs_to_many :categories
-  accepts_nested_attributes_for :categories, :reject_if => proc { |category| category['title'].blank? }, :allow_destroy => true
+  accepts_nested_attributes_for :categories, :allow_destroy => true
 
   searchkick language: "Portuguese", text_middle: [:title, :address], suggest: ['title', 'address'] , autocomplete: ['title', 'address']
 

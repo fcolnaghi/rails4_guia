@@ -5,7 +5,7 @@ class PlacesController < ApplicationController
   # GET /places.json
   def index
 
-    @places = Place.search("*", facets: [:neighborhood_id, :city_id], :limit => 50)
+    @places = Place.search("*", facets: [:neighborhood_id, :city_id, :categories], :limit => 50)
 
     @hash = Gmaps4rails.build_markers(@places) do |place, marker|
       marker.lat place.lat
@@ -42,9 +42,26 @@ end
     #localizacao = Neighborhood.search(params[:w]).map(&:id) if params[:w].present? 
 
     #@places = Place.search(params[:q], suggest: true, where: { neighborhood_id: localizacao }, order: {_score: :desc} ) unless localizacao.nil? && params[:q].present?
-    @places = Place.search( params[:q], suggest: true, where: { address: params[:w] }, order: {_score: :desc} )
-    #@places = Place.search(params[:q], suggest: true, order: {_score: :desc})     
-    
+    if params[:w].present? && params[:q].present?
+      localizacao = Neighborhood.search(params[:w]).map(&:id)
+      if localizacao.any?
+        @places = Place.search( params[:q], suggest: true, where: { neighborhood_id: localizacao }, order: {_score: :desc} )
+      else
+        @places = Place.search( params[:q], suggest: true, where: { address: params[:w] }, order: {_score: :desc} )
+      end
+    elsif params[:w].present?
+      localizacao = Neighborhood.search(params[:w]).map(&:id)
+      if localizacao.any?
+        @places = Place.search( "*", suggest: true, where: { neighborhood_id: localizacao }, order: {_score: :desc} )
+      else
+        @places = Place.search( "*", suggest: true, where: { address: params[:w] }, order: {_score: :desc} )  
+      end
+    elsif params[:q].present?
+      @places = Place.search(params[:q], suggest: true, order: {_score: :desc}) 
+    else
+      @places = Place.search("*", suggest: true)
+    end
+   
     @hash = Gmaps4rails.build_markers(@places) do |place, marker|
       marker.lat place.lat if place.lat.present?
       marker.lng place.lon if place.lon.present?
@@ -138,6 +155,6 @@ end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def place_params
-      params.require(:place).permit(:title, :description, :address, :neighborhood_id, :number, :cep, :city_id, :state)
+      params.require(:place).permit(:title, :description, :address, :neighborhood_id, :number, :cep, :city_id, :state, category_ids: [])
     end
 end
