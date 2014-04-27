@@ -9,7 +9,6 @@ class Place < ActiveRecord::Base
   searchkick language: "Portuguese", text_middle: [:title, :address], suggest: ['title', 'address'] , autocomplete: ['title', 'address']
 
   geocoded_by :full_address, :latitude => :lat, :longitude => :lon
-
   after_validation :geocode, :if => :address_changed?
 
   def search_data
@@ -17,9 +16,6 @@ class Place < ActiveRecord::Base
   end
 
   def full_address
-    bairro = "#{neighborhood.title}" unless neighborhood.nil? 
-    bairro ||= 'ERRO AO CARREGAR BAIRRO'
-    cidade = "#{city.name}" unless city.nil? 
-    "#{address}, #{number}, #{bairro} - #{cidade}"
+    "#{address}, #{number}, #{neighborhood.name} - #{city.name}"
   end
 end

@@ -8,8 +8,8 @@ class PlacesController < ApplicationController
     @places = Place.search("*", facets: [:neighborhood_id, :city_id, :categories], :limit => 30, :page => params[:page] )
 
     @hash = Gmaps4rails.build_markers(@places) do |place, marker|
-      marker.lat place.lat
-      marker.lng place.lon
+      marker.lat place.lat if place.lat.present?
+      marker.lng place.lon if place.lon.present?
     end
 
   end
@@ -27,16 +27,16 @@ class PlacesController < ApplicationController
       if @localizacao.any?
         @places = Place.search( "*", suggest: true, where: { neighborhood_id: @localizacao }, order: {_score: :desc} )
       else
-        @places = Place.search( "*", suggest: true, where: { address: params[:w] }, order: {_score: :desc} )  
+        @places = Place.search( "*", suggest: true, where: { address: params[:w] }, order: {_score: :desc} )
       end
     elsif params[:q].present?
-      @places = Place.search(params[:q], suggest: true, order: {_score: :desc}) 
+      @places = Place.search(params[:q], suggest: true, order: {_score: :desc})
     else
       @places = Place.search("*", suggest: true)
     end
 
     puts ">> #{@localizacao}"
-   
+
     @hash = Gmaps4rails.build_markers(@places) do |place, marker|
       marker.lat place.lat if place.lat.present?
       marker.lng place.lon if place.lon.present?

@@ -8,15 +8,15 @@ class NeighborhoodsController < ApplicationController
   end
 
   def search
-    neighborhoods = Neighborhood.search(params[:w], autocomplete: true, order: {_score: :desc}) 
-    streets = Place.search(params[:w], suggest: true, fields: [ {address: :text_middle}, :cep ], order: {_score: :desc}) 
+    neighborhoods = Neighborhood.search(params[:w], autocomplete: true, :limit => 2)
+    streets = Place.search(params[:w], suggest: true, fields: [ {address: :text_middle}, :cep ], order: {_score: :desc}, :limit => 5)
 
     lugares = []
-    lugares << neighborhoods
-    lugares << streets
+    lugares << neighborhoods.map(&:name).uniq
+    lugares << streets.map(&:address).uniq
 
     respond_to do |format|
-        format.json { render json: lugares.flatten.to_json(:only => [:title, :address]), status: :ok }
+        format.json { render json: lugares.flatten.to_json(), status: :ok }
     end
   end
 
@@ -83,6 +83,6 @@ class NeighborhoodsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def neighborhood_params
-      params.require(:neighborhood).permit(:title, :city_id, :integer)
+      params.require(:neighborhood).permit(:name, :city_id, :integer)
     end
 end

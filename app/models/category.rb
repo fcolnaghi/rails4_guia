@@ -1,8 +1,8 @@
 class Category < ActiveRecord::Base
-  belongs_to :parent, :class_name => 'Category', :foreign_key => 'category_id'
-  has_many :children, :class_name => 'Category', :foreign_key => 'category_id'
+  belongs_to :parent, :class_name => 'Category', :foreign_key => 'parent_id'
+  has_many :children, :class_name => 'Category', :foreign_key => 'parent_id'
   has_and_belongs_to_many :places
-  
+
   searchkick language: "Portuguese", text_start: [:title], suggest: ['title'] , autocomplete: ['title']
 
   def as_json options={}

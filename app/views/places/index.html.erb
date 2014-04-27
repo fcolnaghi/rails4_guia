@@ -47,7 +47,7 @@
     <ul>
       <% @places.facets["neighborhood_id"]["terms"].each do |neighborhood| %>
       <% if neighborhood["term"] != 0 %>
-      <li><%= Neighborhood.find(neighborhood["term"]).title %> (<%= neighborhood["count"] %>)</li>
+      <li><%= Neighborhood.find(neighborhood["term"]).name %> (<%= neighborhood["count"] %>)</li>
       <% end %>
       <% end %>
     </ul>

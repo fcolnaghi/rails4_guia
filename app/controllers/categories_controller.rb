@@ -2,7 +2,7 @@ class CategoriesController < ApplicationController
   before_action :set_category, only: [:show, :edit, :update, :destroy]
 
   def search
-    @categories = Category.search(params[:category], autocomplete: true, include: [:places], order: {_score: :desc} )
+    @categories = Category.search(params[:category], autocomplete: true, order: {_score: :desc} )
     @places     = Place.search(params[:category], fields: [{title: :word}], order: {title: :desc} )
 
     bucket = []

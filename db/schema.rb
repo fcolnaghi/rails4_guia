@@ -11,18 +11,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140424010140) do
+ActiveRecord::Schema.define(version: 20140423234007) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "categories", force: true do |t|
     t.string   "title"
-    t.text     "description"
     t.boolean  "status"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "category_id"
+    t.integer  "parent_id"
   end
 
   create_table "categories_places", id: false, force: true do |t|
@@ -37,21 +36,8 @@ ActiveRecord::Schema.define(version: 20140424010140) do
     t.datetime "updated_at"
   end
 
-  create_table "friendly_id_slugs", force: true do |t|
-    t.string   "slug",                      null: false
-    t.integer  "sluggable_id",              null: false
-    t.string   "sluggable_type", limit: 50
-    t.string   "scope"
-    t.datetime "created_at"
-  end
-
-  add_index "friendly_id_slugs", ["slug", "sluggable_type", "scope"], name: "index_friendly_id_slugs_on_slug_and_sluggable_type_and_scope", unique: true, using: :btree
-  add_index "friendly_id_slugs", ["slug", "sluggable_type"], name: "index_friendly_id_slugs_on_slug_and_sluggable_type", using: :btree
-  add_index "friendly_id_slugs", ["sluggable_id"], name: "index_friendly_id_slugs_on_sluggable_id", using: :btree
-  add_index "friendly_id_slugs", ["sluggable_type"], name: "index_friendly_id_slugs_on_sluggable_type", using: :btree
-
   create_table "neighborhoods", force: true do |t|
-    t.string   "title"
+    t.string   "name"
     t.integer  "city_id"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -66,10 +52,11 @@ ActiveRecord::Schema.define(version: 20140424010140) do
     t.datetime "updated_at"
     t.string   "address"
     t.string   "number"
-    t.string   "state"
-    t.string   "cep"
+    t.integer  "category"
     t.integer  "neighborhood_id"
     t.integer  "city_id"
+    t.string   "state"
+    t.string   "cep"
   end
 
   create_table "searchjoy_searches", force: true do |t|

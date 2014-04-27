@@ -42,7 +42,7 @@
   <div class="row">
     <div class="col-sm-4">
       <%= f.label :neighborhood %>
-      <%= f.select :neighborhood_id, Neighborhood.order(:title).map { |neighborhood| [neighborhood.title, neighborhood.id] }, {}, {:class => 'form-control'}  %>
+      <%= f.select :neighborhood_id, Neighborhood.order(:name).map { |neighborhood| [neighborhood.name, neighborhood.id] }, {}, {:class => 'form-control'}  %>
     </div>
     <div class="col-sm-4">
       <%= f.label :city %>
