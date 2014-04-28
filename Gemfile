@@ -9,7 +9,7 @@ gem 'coffee-rails'
 # Geolocation
 gem 'geocoder'
 gem 'gmaps4rails'
-gem "searchkick", :git => 'git://github.com/ankane/searchkick.git'
+gem "searchkick" #, :git => 'git://github.com/ankane/searchkick.git'
 #gem "searchjoy"
 # Postgres
 gem 'pg'
