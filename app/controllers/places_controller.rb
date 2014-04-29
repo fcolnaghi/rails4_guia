@@ -14,33 +14,51 @@ class PlacesController < ApplicationController
 
   end
 
+  def autocomplete
+    if params[:address].present?
+      places = Place.search(params[:address], partial: true, fields: [ {address: :text_middle, order: :asc } ], :limit => 5).map(&:address).uniq
+    end
+
+    if params[:place].present?
+      places = Place.search( params[:place],  partial: true,  fields: [ {title: :text_middle, order: {_score: :desc}}] , :limit => 5).map(&:title).uniq
+    end
+
+    respond_to do |format|
+        format.json { render json: places, status: :ok }
+    end
+  end
+
+
   def search
     if params[:w].present? && params[:q].present?
       localizacao = Neighborhood.search(params[:w]).map(&:id)
       if localizacao.any?
-        @places = Place.search( params[:q], suggest: true, where: { neighborhood_id: localizacao }, order: {_score: :desc} )
+        @places = Place.search( params[:q], suggest: true, where: { neighborhood_id: localizacao } )
       else
-        @places = Place.search( params[:q], suggest: true, where: { address: params[:w] }, order: {_score: :desc} )
+        @places = Place.search( params[:q], fields: [:title], suggest: true, where: {address: params[:w] } )
       end
     elsif params[:w].present?
-      @localizacao = Neighborhood.search(params[:w]).map(&:id)
-      if @localizacao.any?
-        @places = Place.search( "*", suggest: true, where: { neighborhood_id: @localizacao }, order: {_score: :desc} )
+      localizacao = Neighborhood.search(params[:w]).map(&:id)
+      if localizacao.any?
+        @places = Place.search( "*", suggest: true, where: { neighborhood_id: localizacao }, order: {_score: :desc} )
       else
-        @places = Place.search( "*", suggest: true, where: { address: params[:w] }, order: {_score: :desc} )
+        @places = Place.search( params[:w], suggest: true, fields: [ {address: :text_middle} ], order: {_score: :desc} )
       end
     elsif params[:q].present?
       @places = Place.search(params[:q], suggest: true, order: {_score: :desc})
     else
-      @places = Place.search("*", suggest: true)
+      #@places = Place.search("*")
+      redirect_to places_path()
+      return
     end
 
-    puts ">> #{@localizacao}"
+    marks = @places.select { |p| p if p.lat }
 
-    @hash = Gmaps4rails.build_markers(@places) do |place, marker|
-      marker.lat place.lat if place.lat.present?
-      marker.lng place.lon if place.lon.present?
+    @hash = Gmaps4rails.build_markers(marks) do |place, marker|
+      marker.lat place.lat unless place.lat.nil?
+      marker.lng place.lon unless place.lon.nil?
     end
+
 
     render 'search'
   end

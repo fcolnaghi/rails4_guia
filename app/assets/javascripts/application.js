@@ -16,6 +16,7 @@
 //= require gmaps/google
 //= require bootstrap/bootstrap.min
 //= require bootstrap/typeahead
+//= require bootstrap/handlebars
 //= require_tree .
 
 $(document).ready(function() {
@@ -23,46 +24,87 @@ $(document).ready(function() {
   var categories = new Bloodhound({
     datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),
     queryTokenizer: Bloodhound.tokenizers.whitespace,
-    remote: '/categories/search.json?category=%QUERY'
+    remote: {
+        url: '/categories/autocomplete.json?q=%QUERY',
+        filter: function(list) {
+          return $.map(list, function(category) { return { value: category }; });
+        }
+      }
   });
+
+  var places = new Bloodhound({
+    datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),
+    queryTokenizer: Bloodhound.tokenizers.whitespace,
+    remote: {
+        url: '/places/autocomplete.json?place=%QUERY',
+        filter: function(list) {
+          return $.map(list, function(place) { return { value: place }; });
+        }
+      }
+  });
+
   categories.initialize();
+  places.initialize();
   $('.category.typeahead').typeahead({
     hint: true,
     highlight: true,
     minLength: 2
   }, {
-    name: 'q',
-    displayKey: 'title',
+    displayKey: 'value',
     source: categories.ttAdapter(),
     templates: {
-      header: '<li class="header-typeahead">Procure por nome estabelecimento ou palavra-chave</li>'
+      header: '<li class="header-typeahead">Categorias encontradas</li>'
+    }
+  },
+  {
+    displayKey: 'value',
+    source: places.ttAdapter(),
+    templates: {
+      header: '<li class="header-typeahead">Estabelecimentos encontrados</li>',
+      suggestion: Handlebars.compile('{{value}}')
     }
   });
 
   /* typeahead.js places */
-  var places = new Bloodhound({
+  var neighborhoods = new Bloodhound({
     datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),
     queryTokenizer: Bloodhound.tokenizers.whitespace,
     remote: {
-      url: '/neighborhoods/search.json?w=%QUERY',
+      url: '/neighborhoods/autocomplete.json?w=%QUERY',
       filter: function(list) {
         return $.map(list, function(address) { return { value: address }; });
       }
     }
-
   });
-  places.initialize();
+  neighborhoods.initialize();
+
+  var address = new Bloodhound({
+    datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),
+    queryTokenizer: Bloodhound.tokenizers.whitespace,
+    remote: {
+      url: '/places/autocomplete.json?address=%QUERY',
+      filter: function(list) {
+        return $.map(list, function(address_value) { return { value: address_value }; });
+      }
+    }
+  });
+  address.initialize();
 
   $('.place.typeahead').typeahead({
     hint: true,
     highlight: true,
     minLength: 2
   }, {
-    name: 'w',
     displayKey: 'value',
-      source: places.ttAdapter(),
+      source: neighborhoods.ttAdapter(),
       templates: {
-        header: '<li class="header-typeahead">Procure por Bairro, CEP, ou Nome de Rua</li>'
+        header: '<li class="header-typeahead">Bairros encontrados</li>'
+      }
+    },{
+    displayKey: 'value',
+      source: address.ttAdapter(),
+      templates: {
+        header: '<li class="header-typeahead">Endereços encontrados</li>'
       }
     });
 

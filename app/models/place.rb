@@ -6,7 +6,7 @@ class Place < ActiveRecord::Base
   has_and_belongs_to_many :categories
   accepts_nested_attributes_for :categories, :allow_destroy => true
 
-  searchkick language: "Portuguese", text_middle: [:title, :address], suggest: ['title', 'address'] , autocomplete: ['title', 'address']
+  searchkick language: "Portuguese", typeahead: [:title, :address], text_middle: [:title, :address], suggest: ['title', 'address'] , autocomplete: ['title', 'address']
 
   geocoded_by :full_address, :latitude => :lat, :longitude => :lon
   after_validation :geocode, :if => :address_changed?

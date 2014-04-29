@@ -1,12 +1,13 @@
 Guia041::Application.routes.draw do
   #mount Searchjoy::Engine, at: "admin/searchjoy"
-  
+
   concern :searchable do
     collection do
+      get "autocomplete"
       get "search"
     end
   end
-  
+
   resources :cities, concerns: :searchable
   resources :categories, concerns: :searchable
   resources :neighborhoods, concerns: :searchable

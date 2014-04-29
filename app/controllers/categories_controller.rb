@@ -1,16 +1,11 @@
 class CategoriesController < ApplicationController
   before_action :set_category, only: [:show, :edit, :update, :destroy]
 
-  def search
-    @categories = Category.search(params[:category], autocomplete: true, order: {_score: :desc} )
-    @places     = Place.search(params[:category], fields: [{title: :word}], order: {title: :desc} )
-
-    bucket = []
-    bucket << @categories
-    bucket << @places
+  def autocomplete
+    categories = Category.search(params[:q], autocomplete: true, :limit => 5, order: {_score: :asc} ).map(&:title).uniq
 
     respond_to do |format|
-        format.json { render json: bucket.flatten, status: :ok }
+        format.json { render json: categories, status: :ok }
     end
   end
 

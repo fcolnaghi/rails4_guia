@@ -14,11 +14,11 @@
       </tr>
     </thead>
     <tbody>
-      <% @places.each_with_hit do |place, hit| -%>
+      <% @places.each do |place| -%>
       <tr>
         <td><%= place.title %></td>
-        <td><%= place.full_address %></td>
-        <td><%= hit["_score"] %></td>
+        <td><%= place.address %></td>
+        <td><%#= hit["_score"] %></td>
         <td><%= link_to 'Show', place %> - <%= link_to 'Edit', edit_place_path(place) %></td>
 
       <!--td><%= link_to 'Show', place %></td>
@@ -28,7 +28,7 @@
       <% end %>
     </tbody>
   </table>
-  <%= paginate @places %>
+  <%#= paginate @places %>
 </div>
 
 <%= link_to 'New Place', new_place_path, :class=> "btn btn-success" %>
@@ -36,29 +36,6 @@
 <div style='width: 300px; float: right'>
   <div id="map" style='width: 300px; height: 300px;'></div>
   <hr>
-  <% if  @places.facets %>
-  <div class="facets">
-    <ul>
-      <% @places.facets["categories"]["terms"].each do |category| %>
-      <li><%= category["term"] %> (<%= category["count"] %>)</li>
-      <% end %>
-    </ul>
-
-    <ul>
-      <% @places.facets["neighborhood_id"]["terms"].each do |neighborhood| %>
-      <% if neighborhood["term"] != 0 %>
-      <li><%= Neighborhood.find(neighborhood["term"]).name %> (<%= neighborhood["count"] %>)</li>
-      <% end %>
-      <% end %>
-    </ul>
-
-    <ul>
-      <% @places.facets["city_id"]["terms"].each do |city| %>
-      <li><%= City.find(city["term"]).name %> (<%= city["count"] %>)</li>
-      <% end %>
-    </ul>
-  </div>
-  <% end %>
 </div>
 
 

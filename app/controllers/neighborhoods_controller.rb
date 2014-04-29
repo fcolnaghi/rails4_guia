@@ -7,16 +7,17 @@ class NeighborhoodsController < ApplicationController
     @neighborhoods = Neighborhood.all
   end
 
-  def search
-    neighborhoods = Neighborhood.search(params[:w], autocomplete: true, :limit => 2)
-    streets = Place.search(params[:w], suggest: true, fields: [ {address: :text_middle}, :cep ], order: {_score: :desc}, :limit => 5)
-
-    lugares = []
-    lugares << neighborhoods.map(&:name).uniq
-    lugares << streets.map(&:address).uniq
-
+  def autocomplete
+    neighborhoods = Neighborhood.search(params[:w], autocomplete: true, :limit => 5).map(&:name).uniq
     respond_to do |format|
-        format.json { render json: lugares.flatten.to_json(), status: :ok }
+        format.json { render json: neighborhoods, status: :ok }
+    end
+  end
+
+  def search
+    neighborhoods = Neighborhood.search(params[:w], :limit => 5).map(&:name).uniq
+    respond_to do |format|
+        format.json { render json: neighborhoods, status: :ok }
     end
   end
 
