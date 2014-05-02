@@ -6,39 +6,10 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-nao_identificados = 0
-identificados = 0
-
-File.open("db/anuncios_all.yml", 'r') do |file|
-	arquivo = YAML::load(file)
- 	bar = ProgressBar.new(arquivo.count)
-	arquivo.each do |record|
-		search = Neighborhood.search("#{record['bairro']}",fields: [{name: :text_start}] ,order: {_score: :desc})
-		bairro = search.first
-		#puts "#{record['nome'].titleize()} #{record['endereco'].titleize()}"
-		if bairro
-			#puts "#{record['idanuncio']} - BAIRRO ([#{record['bairro']}:#{bairro.name}][#{bairro.id}])"
-			identificados += 1
-			Place.create(
-				neighborhood_id: bairro.id,
-				city_id: 15,
-				state: "PR",
-				title: record['nome'].titleize(),
-				address: record['endereco'].titleize(),
-				number: record['numero'],
-				cep: record['cep'],
-				category_ids: [ record['iddepartamento'] ]
-			)
-		else
-			nao_identificados += 1
-			# puts "#{record['idanuncio']} - BAIRRO (#{record['bairro']}) = NÃO IDENFICADO | CIDADE (#{record['cidade']})"
-		end
-		bar.increment!
-	end
-
-	puts "Migrados #{identificados}"
-	puts "Nao Migrados #{nao_identificados}"
-end
+# Category.delete_all
+# Neighborhood.delete_all
+# City.delete_all
+# Place.delete_all
 
 # Category.create(title: "Academias e Esportes")
 # Category.create(title: "Alimentos e Bebidas")
@@ -474,42 +445,42 @@ end
 
 
 
-# City.create(id: 1  ,name: "ADRIANÓPOLIS".titleize())
-# City.create(id: 2 ,name: "AGUDOS DO SUL".titleize())
-# City.create(id: 3 ,name: "ALMIRANTE TAMANDARÉ".titleize())
-# City.create(id: 4  ,name: "ANTONINA".titleize())
-# City.create(id: 5  ,name: "ARAUCÁRIA".titleize())
-# City.create(id: 6  ,name: "BALSA NOVA".titleize())
-# City.create(id: 7  ,name: "BOCAIUVA DO SUL".titleize())
-# City.create(id: 8  ,name: "CAMPINA GRANDE DO SUL".titleize())
-# City.create(id: 9  ,name: "CAMPO DO TENENTE".titleize())
-# City.create(id: 10  ,name: "CAMPO LARGO".titleize())
-# City.create(id: 11  ,name: "CAMPO MAGRO".titleize())
-# City.create(id: 12  ,name: "CERRO AZUL".titleize())
-# City.create(id: 13  ,name: "COLOMBO".titleize())
-# City.create(id: 14  ,name: "CONTENDA".titleize())
-# City.create(id: 15  ,name: "CURITIBA".titleize())
-# City.create(id: 16  ,name: "DOUTOR ULYSSES".titleize())
-# City.create(id: 17  ,name: "FAZENDA RIO GRANDE".titleize())
-# City.create(id: 18  ,name: "GUARAQUEÇABA".titleize())
-# City.create(id: 19  ,name: "GUARATUBA".titleize())
-# City.create(id: 20  ,name: "ITAPERUÇU".titleize())
-# City.create(id: 21  ,name: "LAPA".titleize())
-# City.create(id: 22  ,name: "MANDIRITUBA".titleize())
-# City.create(id: 23  ,name: "MATINHOS".titleize())
-# City.create(id: 24  ,name: "MORRETES".titleize())
-# City.create(id: 25  ,name: "PARANAGUÁ".titleize())
-# City.create(id: 26  ,name: "PIEN".titleize())
-# City.create(id: 27  ,name: "PINHAIS".titleize())
-# City.create(id: 28  ,name: "PIRAQUARA".titleize())
-# City.create(id: 29  ,name: "PONTAL DO PARANÁ".titleize())
-# City.create(id: 30  ,name: "QUATRO BARRAS".titleize())
-# City.create(id: 31  ,name: "QUITANDINHA".titleize())
-# City.create(id: 32  ,name: "RIO BRANCO DO SUL".titleize())
-# City.create(id: 33  ,name: "RIO NEGRO".titleize())
-# City.create(id: 34  ,name: "SÃO JOSÉ DOS PINHAIS".titleize())
-# City.create(id: 35  ,name: "TIJUCAS DO SUL".titleize())
-# City.create(id: 36  ,name: "TUNAS DO PARANÁ".titleize())
+# City.create(id: 1  ,name: "ADRIANÓPOLIS".mb_chars.titlecase.to_s)
+# City.create(id: 2 ,name: "AGUDOS DO SUL".mb_chars.titlecase.to_s)
+# City.create(id: 3 ,name: "ALMIRANTE TAMANDARÉ".mb_chars.titlecase.to_s)
+# City.create(id: 4  ,name: "ANTONINA".mb_chars.titlecase.to_s)
+# City.create(id: 5  ,name: "ARAUCÁRIA".mb_chars.titlecase.to_s)
+# City.create(id: 6  ,name: "BALSA NOVA".mb_chars.titlecase.to_s)
+# City.create(id: 7  ,name: "BOCAIUVA DO SUL".mb_chars.titlecase.to_s)
+# City.create(id: 8  ,name: "CAMPINA GRANDE DO SUL".mb_chars.titlecase.to_s)
+# City.create(id: 9  ,name: "CAMPO DO TENENTE".mb_chars.titlecase.to_s)
+# City.create(id: 10  ,name: "CAMPO LARGO".mb_chars.titlecase.to_s)
+# City.create(id: 11  ,name: "CAMPO MAGRO".mb_chars.titlecase.to_s)
+# City.create(id: 12  ,name: "CERRO AZUL".mb_chars.titlecase.to_s)
+# City.create(id: 13  ,name: "COLOMBO".mb_chars.titlecase.to_s)
+# City.create(id: 14  ,name: "CONTENDA".mb_chars.titlecase.to_s)
+# City.create(id: 15  ,name: "CURITIBA".mb_chars.titlecase.to_s)
+# City.create(id: 16  ,name: "DOUTOR ULYSSES".mb_chars.titlecase.to_s)
+# City.create(id: 17  ,name: "FAZENDA RIO GRANDE".mb_chars.titlecase.to_s)
+# City.create(id: 18  ,name: "GUARAQUEÇABA".mb_chars.titlecase.to_s)
+# City.create(id: 19  ,name: "GUARATUBA".mb_chars.titlecase.to_s)
+# City.create(id: 20  ,name: "ITAPERUÇU".mb_chars.titlecase.to_s)
+# City.create(id: 21  ,name: "LAPA".mb_chars.titlecase.to_s)
+# City.create(id: 22  ,name: "MANDIRITUBA".mb_chars.titlecase.to_s)
+# City.create(id: 23  ,name: "MATINHOS".mb_chars.titlecase.to_s)
+# City.create(id: 24  ,name: "MORRETES".mb_chars.titlecase.to_s)
+# City.create(id: 25  ,name: "PARANAGUÁ".mb_chars.titlecase.to_s)
+# City.create(id: 26  ,name: "PIEN".mb_chars.titlecase.to_s)
+# City.create(id: 27  ,name: "PINHAIS".mb_chars.titlecase.to_s)
+# City.create(id: 28  ,name: "PIRAQUARA".mb_chars.titlecase.to_s)
+# City.create(id: 29  ,name: "PONTAL DO PARANÁ".mb_chars.titlecase.to_s)
+# City.create(id: 30  ,name: "QUATRO BARRAS".mb_chars.titlecase.to_s)
+# City.create(id: 31  ,name: "QUITANDINHA".mb_chars.titlecase.to_s)
+# City.create(id: 32  ,name: "RIO BRANCO DO SUL".mb_chars.titlecase.to_s)
+# City.create(id: 33  ,name: "RIO NEGRO".mb_chars.titlecase.to_s)
+# City.create(id: 34  ,name: "SÃO JOSÉ DOS PINHAIS".mb_chars.titlecase.to_s)
+# City.create(id: 35  ,name: "TIJUCAS DO SUL".mb_chars.titlecase.to_s)
+# City.create(id: 36  ,name: "TUNAS DO PARANÁ".mb_chars.titlecase.to_s)
 
 # Neighborhood.create(city_id: 15,name: "Abranches")
 # Neighborhood.create(city_id: 15,name: "Água Verde")
@@ -588,6 +559,42 @@ end
 # Neighborhood.create(city_id: 15,name: "Vista Alegre")
 # Neighborhood.create(city_id: 15,name: "Xaxim")
 
+
+nao_identificados = 0
+identificados = 0
+
+File.open("db/restaurantes.yml", 'r') do |file|
+	arquivo = YAML::load(file)
+ 	bar = ProgressBar.new(arquivo.count)
+	arquivo.each do |record|
+		search = Neighborhood.search("#{record['bairro']}")
+ 		bairro = search.first
+		#puts "#{record['nome'].mb_chars.titlecase.to_s} #{record['endereco'].mb_chars.titlecase.to_s}"
+		if bairro
+			#puts "#{record['idanuncio']} - BAIRRO ([#{record['bairro']}:#{bairro.name}][#{bairro.id}])"
+			identificados += 1
+			Place.create(
+				neighborhood_id: bairro.id,
+				city_id: 15,
+				state: "PR",
+				title: record['nome'].mb_chars.titlecase.to_s,
+				address: record['endereco'].mb_chars.titlecase.to_s,
+				number: record['numero'],
+				cep: record['cep'],
+				category_ids: [ 13, record['idsubdepartamento'] ],
+				phone: record['telefones']
+			)
+		else
+			nao_identificados += 1
+			puts "#{record['idanuncio']} - BAIRRO (#{record['bairro']}) = NÃO IDENFICADO | CIDADE (#{record['cidade']})"
+		end
+		bar.increment!
+	end
+
+	puts "Migrados #{identificados}"
+	puts "Nao Migrados #{nao_identificados}"
+end
+
 # File.open("db/restaurantes.yml", 'r') do |file|
 # 	arquivo = YAML::load(file)
 # 	bar = ProgressBar.new(arquivo.count)
@@ -599,8 +606,8 @@ end
 # 			city_id: "1",
 # 			state: "PR",
 # 			parent_ids: [1],
-# 			title: record['nome'].titleize(),
-# 			address: record['endereco'].titleize(),
+# 			title: record['nome'].mb_chars.titlecase.to_s,
+# 			address: record['endereco'].mb_chars.titlecase.to_s,
 # 			number: record['numero'],
 # 			cep: record['cep']
 # 		)

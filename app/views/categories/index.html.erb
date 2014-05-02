@@ -1,4 +1,9 @@
 <h1>Listing categories</h1>
+<ul id="my_tree" class="filetree">
+<% @categories.each do |parent| %>
+  <%= display_segment(parent) %>
+<% end %>
+</ul>
 
 <table>
   <thead>

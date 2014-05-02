@@ -30,12 +30,16 @@ class PlacesController < ApplicationController
 
 
   def search
+
+    where = ( Neighborhood.search(params[:w]).map(&:id) || Place.search( params[:w], suggest: true, fields: [ {address: :text_middle} ], order: {_score: :desc} ) ) if params[:w].present?
+
     if params[:w].present? && params[:q].present?
       localizacao = Neighborhood.search(params[:w]).map(&:id)
       if localizacao.any?
         @places = Place.search( params[:q], suggest: true, where: { neighborhood_id: localizacao } )
       else
-        @places = Place.search( params[:q], fields: [:title], suggest: true, where: {address: params[:w] } )
+        address = Place.search( params[:w], suggest: true, fields: [ {address: :text_middle} ], order: {_score: :desc} ).map(&:address).first
+        @places = Place.search( params[:q], suggest: true, fields: [:title], where: {address: address } )
       end
     elsif params[:w].present?
       localizacao = Neighborhood.search(params[:w]).map(&:id)
@@ -148,6 +152,6 @@ class PlacesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def place_params
-      params.require(:place).permit(:title, :description, :address, :neighborhood_id, :number, :cep, :city_id, :state, category_ids: [])
+      params.require(:place).permit(:title, :description, :address, :neighborhood_id, :number, :cep, :city_id, :state, :phone, category_ids: [])
     end
 end

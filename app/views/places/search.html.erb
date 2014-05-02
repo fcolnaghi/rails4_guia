@@ -1,9 +1,9 @@
 <div style="width: 70%;float: left">
-<% if @places.any? && !@places.suggestions.nil? %>
-  <% @places.suggestions.each do |sugestao| %>
-    > <%= link_to sugestao, search_places_path(:q => sugestao, :w => params[:w] ) %>
-  <% end %>
-<% end %>
+<%# if @places.any? && !@places.suggestions.nil? %>
+  <%# @places.suggestions.each do |sugestao| %>
+    <%#= link_to sugestao, search_places_path(:q => sugestao, :w => params[:w] ) %>
+  <%# end %>
+<%# end %>
 
 <h4>Listing <%=pluralize(@places.count, "place")%> found</h4>
 <div class="table-responsive">
@@ -15,9 +15,9 @@
       <th>SCORE</th>
       <!--th>Lon</th>
       <th>Score</th>
-      <th></th>
-      <th></th>
       <th></th-->
+      <th>Phone</th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
@@ -26,7 +26,8 @@
       <td><%= place.title %></td>
       <td><%= place.full_address %></td>
       <td><%= hit['_score'] %></td>
-      <td><%= link_to 'Show', place %></td>
+      <td><%= place.phone %></td>
+      <td><%= link_to 'Show', place %> - <%= link_to 'Edit', edit_place_path(place) %> - <%= link_to 'Destroy', place, method: :delete, data: { confirm: 'Are you sure?' } %></td>
 
       <!--td><%= link_to 'Show', place %></td>
       <td><%= link_to 'Edit', edit_place_path(place) %></td>

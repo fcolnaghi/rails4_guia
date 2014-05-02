@@ -4,7 +4,7 @@
 -
   idanuncio: 35
   iddepartamento: 39
-  idsubdepartamento: 341
+  idsubdepartamento: 279
   nome: BAROLO TRATTORIA
   endereco: AVENIDA SILVA JARDIM
   numero: 2487
@@ -35,7 +35,7 @@
 -
   idanuncio: 50
   iddepartamento: 39
-  idsubdepartamento: 341
+  idsubdepartamento: 279
   nome: Edvino Bar de Vinhos e Restaurante
   endereco: ALAMEDA PRESIDENTE TAUNAY
   numero: 533
@@ -66,11 +66,11 @@
 -
   idanuncio: 1437
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: AXTER VIDEOLOCADORA E PIZZARIA
   endereco: R BôRTOLO GUSSO
   numero: 599
-  bairro: CAP RASO
+  bairro: CAPAO RASO
   cidade: CURITIBA
   estado: PR
   cep: 81110-200
@@ -86,7 +86,7 @@
 -
   idanuncio: 1438
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: A DONA PIZZA
   endereco: R FERNANDO DE NORONHA
   numero: 1534
@@ -106,7 +106,7 @@
 -
   idanuncio: 1439
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: LA BELLA PIZZARIA
   endereco: R ROBERT REDZIMSKI
   numero: 466
@@ -126,7 +126,7 @@
 -
   idanuncio: 1440
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: LA BELLA PIZZARIA
   endereco: R ROBERT REDZIMSKI
   numero: 466
@@ -146,7 +146,7 @@
 -
   idanuncio: 1441
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: LEVE PRONTO PIZZARIA
   endereco: R LOURIVAL WENDLER
   numero: 465
@@ -166,7 +166,7 @@
 -
   idanuncio: 1444
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DISK PIZZA MISTER GIUSEPPE
   endereco: R NORBERTO DE BRITO
   numero: 1302
@@ -186,7 +186,7 @@
 -
   idanuncio: 1445
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: PIZZARIA KASKA
   endereco: ESTR DA GRACIOSA
   numero: 333
@@ -206,7 +206,7 @@
 -
   idanuncio: 1446
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: A ARTE DA PIZZA
   endereco: RUA MAESTRO FRANCISCO ANTONELLO
   numero: 1391
@@ -226,7 +226,7 @@
 -
   idanuncio: 1447
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: A C SILVA & ALVES
   endereco: RUA DEPUTADO HEITOR ALENCAR FURTADO
   numero: 5612
@@ -246,7 +246,7 @@
 -
   idanuncio: 1448
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: A CASA DA PIZZA
   endereco: RUA FRANCISCO DEROSSO
   numero: 2401
@@ -266,7 +266,7 @@
 -
   idanuncio: 1449
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: A CASA DA PIZZA
   endereco: RUA CORONEL FRANCISCO HERACLITO DOS SANTOS
   numero: 2743
@@ -286,7 +286,7 @@
 -
   idanuncio: 1450
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: ABARE PIZZARIA
   endereco: RUA PADRE AGOSTINHO
   numero: 1381
@@ -306,7 +306,7 @@
 -
   idanuncio: 1451
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: ABILE PIZZAS E COM MASSAS
   endereco: RUA DOUTOR JOAQUIM IGNACIO SILVEIRA DA MOTTA
   numero: 1597
@@ -326,7 +326,7 @@
 -
   idanuncio: 1452
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: ALA DISK PIZZA
   endereco: RUA MATEUS LEME
   numero: 2794
@@ -346,7 +346,7 @@
 -
   idanuncio: 1453
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: ALA DISK PIZZA
   endereco: AVENIDA VEREADOR TOALDO TULIO
   numero: 3229
@@ -366,7 +366,7 @@
 -
   idanuncio: 1454
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: ALA PIZZA
   endereco: AVENIDA TORRES
   numero: 3030
@@ -386,7 +386,7 @@
 -
   idanuncio: 1455
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: ALA PIZZA
   endereco: RUA FERNANDO DE NORONHA
   numero: 240
@@ -406,7 +406,7 @@
 -
   idanuncio: 1456
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: ALB PIZZARIA
   endereco: RUA ULISSES JOSE RIBEIRO
   numero: 200
@@ -426,7 +426,7 @@
 -
   idanuncio: 1457
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: ALESSANDRO JOSE PAUL
   endereco: AVENIDA ANITA GARIBALDI
   numero: 2680
@@ -446,7 +446,7 @@
 -
   idanuncio: 1458
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: ALO LIG PIZZA
   endereco: RUA ALFERES POLI
   numero: 503
@@ -466,7 +466,7 @@
 -
   idanuncio: 1459
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: ALVARO NOGUEIRA NETO
   endereco: AVENIDA CANDIDO HARTMANN
   numero: 4196
@@ -486,7 +486,7 @@
 -
   idanuncio: 1460
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: AMIGOS DA PIZZA
   endereco: AVENIDA BRASILIA
   numero: 5992
@@ -506,7 +506,7 @@
 -
   idanuncio: 1461
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: ANI PIZZARIA DISK PIZZA
   endereco: AVENIDA ANITA GARIBALDI
   numero: 4553
@@ -526,7 +526,7 @@
 -
   idanuncio: 1462
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: ANTOBINO PIZZARIA
   endereco: RUA CASTRO
   numero: 711
@@ -546,7 +546,7 @@
 -
   idanuncio: 1463
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: ATENAS MIL RESTAURANTE E PIZZARIA
   endereco: RUA ROBERT REDZIMSKI
   numero: 665
@@ -566,11 +566,11 @@
 -
   idanuncio: 1464
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: AUGUSTUS PIZZARIA
   endereco: RUA IZAAC FERREIRA DA CRUZ
   numero: 2306
-  bairro: SIT CERCADO
+  bairro: SITIO CERCADO
   cidade: CURITIBA
   estado: PR
   cep: 81900-000
@@ -586,7 +586,7 @@
 -
   idanuncio: 1465
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: AVENIDA PAULISTA PIZZA BAR
   endereco: RUA EMILIANO PERNETA
   numero: 680
@@ -606,7 +606,7 @@
 -
   idanuncio: 1467
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: BABBO FABRIZZIO
   endereco: RUA SAO BARTOLOMEU
   numero: 13
@@ -626,7 +626,7 @@
 -
   idanuncio: 1469
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: BAHAMAS PIZZA
   endereco: RUA INACIO LUSTOSA
   numero: 1088
@@ -646,7 +646,7 @@
 -
   idanuncio: 1470
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: BIG PIZZA
   endereco: RUA DOS FUNCIONARIOS
   numero: 961
@@ -666,7 +666,7 @@
 -
   idanuncio: 1471
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: BOCA DA PIZZA
   endereco: RUA PEDRO GUSSO
   numero: 182
@@ -686,7 +686,7 @@
 -
   idanuncio: 1472
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: BONAZZA PIZZARIA LTDA
   endereco: RUA ROBERT REDZIMSKI
   numero: 675
@@ -706,7 +706,7 @@
 -
   idanuncio: 1473
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: BRISAS DISK PIZZA
   endereco: RUA ALAGOAS
   numero: 1650
@@ -726,7 +726,7 @@
 -
   idanuncio: 1474
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: BUENO S PIZZARIA E LANCHES
   endereco: RUA GOIANIA
   numero: 273
@@ -746,7 +746,7 @@
 -
   idanuncio: 1475
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: CABRAL PIZZARIA
   endereco: AVENIDA MUNHOZ DA ROCHA
   numero: 1059
@@ -766,7 +766,7 @@
 -
   idanuncio: 1476
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: CAMELOT PIZZARIA E RESTAURANTE
   endereco: AVENIDA PARANA
   numero: 185
@@ -786,7 +786,7 @@
 -
   idanuncio: 1477
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: CANTINA CASSIOLI
   endereco: RUA PROFESSOR JOAO SOARES BARCELOS
   numero: 1030
@@ -806,7 +806,7 @@
 -
   idanuncio: 1478
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: CANTINA DI FRENTO
   endereco: AVENIDA VEREADOR TOALDO TULIO
   numero: 2069
@@ -826,7 +826,7 @@
 -
   idanuncio: 1479
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: CANTINA DO X E PIZZAS
   endereco: RUA DOS FERROVIARIOS
   numero: 553
@@ -846,7 +846,7 @@
 -
   idanuncio: 1480
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: CANTINHO DOCE PIZZARIA
   endereco: RUA MARIO SPYRA
   numero: 26
@@ -866,7 +866,7 @@
 -
   idanuncio: 1481
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: CAPITAL DA PIZZA
   endereco: RUA RENATO POLATTI
   numero: 2535
@@ -886,7 +886,7 @@
 -
   idanuncio: 1482
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: CAPRICCIO PIZZARIA
   endereco: RUA DOS FERROVIARIOS
   numero: 926
@@ -906,7 +906,7 @@
 -
   idanuncio: 1483
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: CARLOS ALBERTO COSTA FARIAS
   endereco: AVENIDA VEREADOR TOALDO TULIO
   numero: 3721
@@ -926,7 +926,7 @@
 -
   idanuncio: 1484
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: CARMO PIZZARIA
   endereco: RUA ITALINO PERUFFO
   numero: 135
@@ -946,7 +946,7 @@
 -
   idanuncio: 1485
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: CAROLLA PIZZA DOC
   endereco: ALAMEDA DOM PEDRO II
   numero: 24
@@ -966,7 +966,7 @@
 -
   idanuncio: 1486
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: CASA BUZZI
   endereco: ALAMEDA PRINCESA IZABEL
   numero: 1908
@@ -986,7 +986,7 @@
 -
   idanuncio: 1487
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: CASA DI PIZZA
   endereco: RUA NESTOR VICTOR
   numero: 1077
@@ -1006,7 +1006,7 @@
 -
   idanuncio: 1488
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: CELEIRO PIZZARIA
   endereco: RUA JOAO DEMBINSKI
   numero: 1000
@@ -1026,7 +1026,7 @@
 -
   idanuncio: 1489
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: CELSO ALUIZIO DURIGAN
   endereco: RUA ANGELO DOMINGOS DURIGAN
   numero: 1044
@@ -1046,7 +1046,7 @@
 -
   idanuncio: 1490
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: CHAFIK HERAKI NETO PIZZARIA
   endereco: RUA VITORINO KAVISKI
   numero: 27
@@ -1066,7 +1066,7 @@
 -
   idanuncio: 1491
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: CHATEAU DISK PIZZA
   endereco: RUA MAX SCHUBERT
   numero: 255
@@ -1086,7 +1086,7 @@
 -
   idanuncio: 1492
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: CIA PIZZA
   endereco: RUA CORONEL FRANCISCO HERACLITO DOS SANTOS
   numero: 1112
@@ -1106,7 +1106,7 @@
 -
   idanuncio: 1493
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: CIDA PASTELARIA
   endereco: AVENIDA ANITA GARIBALDI
   numero: 4647
@@ -1126,7 +1126,7 @@
 -
   idanuncio: 1494
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: CLAUDEMIR DA SILVA AZEVEDO
   endereco: RUA SALVADOR JOSE CORREIA COELHO
   numero: 491
@@ -1146,7 +1146,7 @@
 -
   idanuncio: 1495
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: CLAUDEMIR DA SILVA AZEVEDO
   endereco: RUA JOAO DEMBINSKI
   numero: 1422
@@ -1166,7 +1166,7 @@
 -
   idanuncio: 1496
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: CLEONIR BERNARDO OGG
   endereco: AVENIDA JOSE GULIN
   numero: 555
@@ -1186,7 +1186,7 @@
 -
   idanuncio: 1497
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: COM@ PIZZA
   endereco: RUA RENATO POLATTI
   numero: 2671
@@ -1206,7 +1206,7 @@
 -
   idanuncio: 1498
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: COMPANHIA DA PIZZA
   endereco: RUA CORONEL FRANCISCO HERACLITO DOS SANTOS
   numero: 1112
@@ -1226,7 +1226,7 @@
 -
   idanuncio: 1499
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: COMPANHIA DA PIZZA
   endereco: RUA LUIZ FRANCA
   numero: 750
@@ -1246,7 +1246,7 @@
 -
   idanuncio: 1500
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: CONE PIZZA
   endereco: RUA ALFERES POLI
   numero: 1712
@@ -1266,7 +1266,7 @@
 -
   idanuncio: 1501
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: CONE PIZZA
   endereco: RUA COMENDADOR ARAUJO
   numero: 268
@@ -1286,7 +1286,7 @@
 -
   idanuncio: 1502
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: CONE PIZZA
   endereco: AVENIDA PRESIDENTE KENNEDY
   numero: 4109
@@ -1306,7 +1306,7 @@
 -
   idanuncio: 1503
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: CORTIANO PIZZARIA
   endereco: RUA DOUTOR BLEY ZORNIG
   numero: 1854
@@ -1326,7 +1326,7 @@
 -
   idanuncio: 1504
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: CW CHICKEN
   endereco: RUA DEPUTADO HEITOR ALENCAR FURTADO
   numero: 1210
@@ -1346,7 +1346,7 @@
 -
   idanuncio: 1505
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: D'PIZZARIA DALLAGRANNA
   endereco: RUA ALBINO KAMINSKI
   numero: 355
@@ -1366,7 +1366,7 @@
 -
   idanuncio: 1506
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DA-LHE PIZZA
   endereco: RUA BRASILIO ITIBERE
   numero: 123
@@ -1386,7 +1386,7 @@
 -
   idanuncio: 1507
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DAUVESCO
   endereco: RUA ITALINO PERUFFO
   numero: 135
@@ -1406,7 +1406,7 @@
 -
   idanuncio: 1508
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DEA DE OLIVEIRA
   endereco: RUA 13 DE MAIO
   numero: 301
@@ -1426,7 +1426,7 @@
 -
   idanuncio: 1509
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DELIVERY CARLITO PIZZARIA
   endereco: RUA ESTADOS UNIDOS
   numero: 321
@@ -1446,7 +1446,7 @@
 -
   idanuncio: 1510
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DHYLANY PIZZA GIOVANNA
   endereco: RUA ARNALDO THA
   numero: 125
@@ -1466,7 +1466,7 @@
 -
   idanuncio: 1511
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DI PIU PIZZARIA
   endereco: ALAMEDA PRINCESA IZABEL
   numero: 1338
@@ -1486,7 +1486,7 @@
 -
   idanuncio: 1512
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DI PIZZA
   endereco: AVENIDA MANOEL RIBAS
   numero: 418
@@ -1506,7 +1506,7 @@
 -
   idanuncio: 1513
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DI TERNI PIZZARIA
   endereco: AVENIDA PRESIDENTE ARTHUR DA SILVA BERNARDES
   numero: 1915
@@ -1526,7 +1526,7 @@
 -
   idanuncio: 1514
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DIFORNO PIZZARIA
   endereco: RUA CARLOS PIOLI
   numero: 163
@@ -1546,7 +1546,7 @@
 -
   idanuncio: 1515
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DISCK PIZZA SCARINATTA
   endereco: AVENIDA NOSSA SENHORA DA PENHA
   numero: 294
@@ -1566,7 +1566,7 @@
 -
   idanuncio: 1516
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DISK BUONA PIZZA
   endereco: AVENIDA REPUBLICA ARGENTINA
   numero: 986
@@ -1586,7 +1586,7 @@
 -
   idanuncio: 1517
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DISK ITALIA PIZZA
   endereco: RUA MAESTRO CARLOS FRANK
   numero: 1460
@@ -1606,7 +1606,7 @@
 -
   idanuncio: 1518
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DISK ITALIA PIZZA
   endereco: AVENIDA ANITA GARIBALDI
   numero: 5721
@@ -1626,7 +1626,7 @@
 -
   idanuncio: 1519
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DISK LA PIZZA
   endereco: ALAMEDA PRINCESA IZABEL
   numero: 455
@@ -1646,7 +1646,7 @@
 -
   idanuncio: 1520
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DISK PIZZA DOM HENRIQUE
   endereco: RUA ALMIRANTE BARROSO
   numero: 317
@@ -1666,7 +1666,7 @@
 -
   idanuncio: 1521
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DISK PIZZA DOM PIPOOW
   endereco: RUA ALBERICO FLORES BUENO
   numero: 1803
@@ -1686,7 +1686,7 @@
 -
   idanuncio: 1522
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DISK PIZZA DOS PRIMOS
   endereco: RUA PINHEIRO GUIMARAES
   numero: 32
@@ -1706,7 +1706,7 @@
 -
   idanuncio: 1523
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DISK PIZZA E CANTINA RAFAEL
   endereco: RUA REZALA SIMAO
   numero: 1070
@@ -1726,11 +1726,11 @@
 -
   idanuncio: 1524
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DISK PIZZA FERNANDES
   endereco: RUA OSMARIO DE LIMA
   numero: 280
-  bairro: CAP IMBUIA
+  bairro: CAPAO IMBUIA
   cidade: CURITIBA
   estado: PR
   cep: 82810-260
@@ -1746,7 +1746,7 @@
 -
   idanuncio: 1525
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DISK PIZZA FINCK'S
   endereco: RUA ALMIRANTE GONCALVES
   numero: 613
@@ -1766,7 +1766,7 @@
 -
   idanuncio: 1526
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DISK PIZZA IOLANDA
   endereco: AVENIDA MARECHAL MASCARENHAS DE MORAES
   numero: 1245
@@ -1786,7 +1786,7 @@
 -
   idanuncio: 1527
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DISK PIZZA LOS PAPPAS
   endereco: AVENIDA ANITA GARIBALDI
   numero: 2319
@@ -1806,7 +1806,7 @@
 -
   idanuncio: 1528
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DISK PIZZA PALADARI
   endereco: RUA JOAO ALENCAR GUIMARAES
   numero: 1458
@@ -1826,7 +1826,7 @@
 -
   idanuncio: 1529
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DISK PIZZA RAFAEVY
   endereco: RUA GALDINO BUENO DE CAMARGO
   numero: 180
@@ -1846,7 +1846,7 @@
 -
   idanuncio: 1530
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DISK PIZZA REGINAS
   endereco: RUA ALBERTO FOLLONI
   numero: 1123
@@ -1866,7 +1866,7 @@
 -
   idanuncio: 1531
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DISK PIZZA SAPORE DI MARCO
   endereco: RUA GENERAL POTIGUARA
   numero: 2500
@@ -1886,7 +1886,7 @@
 -
   idanuncio: 1532
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DISK PIZZA STILO
   endereco: ALAMEDA PRUDENTE DE MORAES
   numero: 1069
@@ -1906,7 +1906,7 @@
 -
   idanuncio: 1533
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DISK PIZZA VILA NORI
   endereco: RUA RAPOSO TAVARES
   numero: 1521
@@ -1926,7 +1926,7 @@
 -
   idanuncio: 1534
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DISK TERRA DA PIZZA
   endereco: RUA BRASILIO ITIBERE
   numero: 3705
@@ -1946,7 +1946,7 @@
 -
   idanuncio: 1535
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DISQUE LIDIOS PIZZARIAS
   endereco: RUA ARTHUR LEINIG
   numero: 785
@@ -1966,7 +1966,7 @@
 -
   idanuncio: 1536
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DIVINA PIZZA
   endereco: RUA JACAREZINHO
   numero: 439
@@ -1986,7 +1986,7 @@
 -
   idanuncio: 1537
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DOM ALVES PIZZARIAS
   endereco: RUA DIAS DA ROCHA FILHO
   numero: 79
@@ -2006,7 +2006,7 @@
 -
   idanuncio: 1538
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DOM AMERICA PIZZARIA
   endereco: RUA TENENTE RICARDO KIRCH
   numero: 254
@@ -2026,7 +2026,7 @@
 -
   idanuncio: 1539
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DOM AUGUSTINHO PIZZARIA
   endereco: RUA ENGENHEIRO COSTA BARROS
   numero: 1490
@@ -2046,7 +2046,7 @@
 -
   idanuncio: 1540
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DOM BRENO RESTAURANTE E PIZZARIA
   endereco: RUA PAULO SETUBAL
   numero: 4270
@@ -2066,7 +2066,7 @@
 -
   idanuncio: 1541
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DOM CAPONE PIZZA BAR
   endereco: RUA PEDRO GUSSO
   numero: 4047
@@ -2086,7 +2086,7 @@
 -
   idanuncio: 1542
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DOM CESAR PIZZARIA
   endereco: AVENIDA SANTA BERNADETHE
   numero: 1697
@@ -2106,7 +2106,7 @@
 -
   idanuncio: 1543
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DOM HECTOR
   endereco: RUA MARECHAL OCTAVIO SALDANHA MAZZA
   numero: 2223
@@ -2126,7 +2126,7 @@
 -
   idanuncio: 1544
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DOM MACHADO PIZZA BAR
   endereco: AVENIDA VICENTE MACHADO
   numero: 2480
@@ -2146,7 +2146,7 @@
 -
   idanuncio: 1545
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DOM MARCHELLO PIZZA BURGER
   endereco: RUA JOSE MERHY
   numero: 1595
@@ -2166,7 +2166,7 @@
 -
   idanuncio: 1546
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DOM MIGUELITO PIZZARIA
   endereco: RUA COMENDADOR PINTO BANDEIRA
   numero: 15
@@ -2186,7 +2186,7 @@
 -
   idanuncio: 1547
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DOM PARMA PIZZARIA E RESTAURANTE
   endereco: RUA 1  DE MAIO
   numero: 1656
@@ -2206,7 +2206,7 @@
 -
   idanuncio: 1548
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DOM RASTA PIZZARIA
   endereco: RUA LOURIVAL WENDLER
   numero: 541
@@ -2226,7 +2226,7 @@
 -
   idanuncio: 1549
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DOM ZEZZO PIZZA
   endereco: RUA DESEMBARGADOR MOTTA
   numero: 3272
@@ -2246,7 +2246,7 @@
 -
   idanuncio: 1550
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DON ANGELO PIZZAS
   endereco: RUA ANTONIO KOSOVSKI
   numero: 271
@@ -2266,7 +2266,7 @@
 -
   idanuncio: 1551
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DON MARCO COMERCIO DE ALI
   endereco: AVENIDA IGUACU
   numero: 3919
@@ -2286,7 +2286,7 @@
 -
   idanuncio: 1552
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DONA PETRONA PIZZARIA E CONFEITARIA
   endereco: RUA GOIAS
   numero: 414
@@ -2306,7 +2306,7 @@
 -
   idanuncio: 1553
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DORA MULLER
   endereco: RUA CAMOES
   numero: 601
@@ -2326,7 +2326,7 @@
 -
   idanuncio: 1554
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DOUGLAS CARVALHO IKEDA
   endereco: RUA ENGENHEIRO REBOUCAS
   numero: 2599
@@ -2346,7 +2346,7 @@
 -
   idanuncio: 1555
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DR RODIZIO
   endereco: RUA ITATIAIA
   numero: 386
@@ -2366,7 +2366,7 @@
 -
   idanuncio: 1556
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: DUPLA GULA PIZZARIA E RESTAURANTE
   endereco: AVENIDA IGUACU
   numero: 2126
@@ -2386,11 +2386,11 @@
 -
   idanuncio: 1557
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: EDILSON MIGUEL
   endereco: RUA IZAAC FERREIRA DA CRUZ
   numero: 4439
-  bairro: SIT CERCADO
+  bairro: SITIO CERCADO
   cidade: CURITIBA
   estado: PR
   cep: 81910-000
@@ -2406,7 +2406,7 @@
 -
   idanuncio: 1558
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: EMPORIO DA PIZZA
   endereco: RUA SATURNINO MIRANDA
   numero: 670
@@ -2426,7 +2426,7 @@
 -
   idanuncio: 1559
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: EMPORIO RIZZIERIE
   endereco: RUA CORONEL LUIZ JOSE DOS SANTOS
   numero: 1839
@@ -2446,7 +2446,7 @@
 -
   idanuncio: 1560
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: ESQUINA DA PIZZA
   endereco: RUA JOSE RODRIGUES PINHEIRO
   numero: 320
@@ -2466,7 +2466,7 @@
 -
   idanuncio: 1561
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: ESQUINA DA PIZZA
   endereco: AVENIDA ANITA GARIBALDI
   numero: 3944
@@ -2486,7 +2486,7 @@
 -
   idanuncio: 1562
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: ESQUINA X
   endereco: RUA MAESTRO CARLOS FRANK
   numero: 3064
@@ -2506,7 +2506,7 @@
 -
   idanuncio: 1563
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: ESTACAO DA PIZZA
   endereco: RUA MARIO GASPARIN
   numero: 1070
@@ -2526,7 +2526,7 @@
 -
   idanuncio: 1564
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: EZEQUIEL BERNARDES DE PONTES
   endereco: AVENIDA DA REPUBLICA
   numero: 6464
@@ -2546,7 +2546,7 @@
 -
   idanuncio: 1565
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: FATORE PIZZARIA E RESTAURANTE
   endereco: RUA JOSE ALCIDES DE LIMA
   numero: 995
@@ -2566,7 +2566,7 @@
 -
   idanuncio: 1566
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: FELIPE S SANTOS
   endereco: RUA NAPOLEAO BONAPARTE
   numero: 1251
@@ -2586,7 +2586,7 @@
 -
   idanuncio: 1567
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: FOME DE PIZZA
   endereco: RUA RIO GRANDE DO SUL
   numero: 504
@@ -2606,7 +2606,7 @@
 -
   idanuncio: 1568
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: FORNO A LENHA
   endereco: RUA PROFESSOR JOAO SOARES BARCELOS
   numero: 2356
@@ -2626,7 +2626,7 @@
 -
   idanuncio: 1569
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: GENIUS DISK PIZZA
   endereco: RUA CORONEL FRANCISCO HERACLITO DOS SANTOS
   numero: 1233
@@ -2646,7 +2646,7 @@
 -
   idanuncio: 1570
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: GENIUS DISK PIZZA
   endereco: RUA SALDANHA MARINHO
   numero: 2031
@@ -2666,7 +2666,7 @@
 -
   idanuncio: 1571
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: GENIUS PIZZA BURGER
   endereco: RUA SALDANHA MARINHO
   numero: 2031
@@ -2686,7 +2686,7 @@
 -
   idanuncio: 1572
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: GENIUS PIZZARIA
   endereco: RUA CORONEL FRANCISCO HERACLITO DOS SANTOS
   numero: 1233
@@ -2706,7 +2706,7 @@
 -
   idanuncio: 1573
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: GENIUS PIZZARIA E RESTAURANTE
   endereco: AVENIDA PRESIDENTE KENNEDY
   numero: 3700
@@ -2726,7 +2726,7 @@
 -
   idanuncio: 1574
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: GIARDINO PIZZARIA
   endereco: RUA ILDEFONSO STOCKLER DE FRANCA
   numero: 324
@@ -2746,7 +2746,7 @@
 -
   idanuncio: 1575
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: GIGA PIZZA
   endereco: AVENIDA BRASILIA
   numero: 6073
@@ -2766,7 +2766,7 @@
 -
   idanuncio: 1576
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: HALLY PIZZAS
   endereco: RUA PROFESSOR ULISSES VIEIRA
   numero: 813
@@ -2786,7 +2786,7 @@
 -
   idanuncio: 1577
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: HOMEM PIZZA
   endereco: RUA BRASILIO ITIBERE
   numero: 1130
@@ -2806,7 +2806,7 @@
 -
   idanuncio: 1578
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: HORA DA PIZZA
   endereco: AVENIDA 7 DE SETEMBRO
   numero: 5500
@@ -2826,7 +2826,7 @@
 -
   idanuncio: 1579
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: HORA DA PIZZA
   endereco: AVENIDA MUNHOZ DA ROCHA
   numero: 348
@@ -2846,7 +2846,7 @@
 -
   idanuncio: 1580
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: HOUSE PIZZAS E CREPES
   endereco: RUA FLORISVAL LANCONI
   numero: 99
@@ -2866,7 +2866,7 @@
 -
   idanuncio: 1581
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: IJAIR BORTOLANZA
   endereco: RUA ITUPAVA
   numero: 828
@@ -2886,7 +2886,7 @@
 -
   idanuncio: 1582
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: IMPERIO DA PIZZA
   endereco: RUA MAESTRO FRANCISCO ANTONELLO
   numero: 2151
@@ -2906,7 +2906,7 @@
 -
   idanuncio: 1583
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: JACIR CALDART
   endereco: RUA MAESTRO FRANCISCO ANTONELLO
   numero: 2151
@@ -2926,7 +2926,7 @@
 -
   idanuncio: 1584
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: JARDEL BRESSAN GUAREZI
   endereco: AVENIDA PRESIDENTE WENCESLAU BRAZ
   numero: 1676
@@ -2946,7 +2946,7 @@
 -
   idanuncio: 1585
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: JOSE WELLITON DE OLIVEIRA
   endereco: RUA DOUTOR PLINIO GONCALVES MARQUES
   numero: 877
@@ -2966,7 +2966,7 @@
 -
   idanuncio: 1586
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: JULIO CESAR TIENGO
   endereco: RUA JOAQUIM DE OLIVEIRA CRUZ
   numero: 422
@@ -2986,7 +2986,7 @@
 -
   idanuncio: 1587
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: JUNKEMPO SUSHI
   endereco: RUA PROFESSOR JOAO DOETZER
   numero: 555
@@ -3006,7 +3006,7 @@
 -
   idanuncio: 1588
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: JUSTINO PIZZA BAR
   endereco: RUA CAPITAO GUILHERME BIANCHI
   numero: 454
@@ -3026,7 +3026,7 @@
 -
   idanuncio: 1589
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: KAROLINE APARECIDA TANNER
   endereco: RUA ENGENHEIRO BENEDITO MARIO DA SILVA
   numero: 439
@@ -3046,7 +3046,7 @@
 -
   idanuncio: 1590
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: KELL PIZZA
   endereco: RUA LODOVICO GERONAZZO
   numero: 838
@@ -3066,7 +3066,7 @@
 -
   idanuncio: 1591
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: KELLY CRISTINA WISTUBA ANDRADE
   endereco: RUA JOSE MERHY
   numero: 1600
@@ -3086,11 +3086,11 @@
 -
   idanuncio: 1592
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: KI PIZZA
   endereco: RUA CLAVIO MOLINARI
   numero: 935
-  bairro: CAP IMBUIA
+  bairro: CAPAO IMBUIA
   cidade: CURITIBA
   estado: PR
   cep: 82810-210
@@ -3106,7 +3106,7 @@
 -
   idanuncio: 1593
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: LA BELLA PIZZARIA LTDA
   endereco: RUA EDUARDO SPRADA
   numero: 4880
@@ -3126,7 +3126,7 @@
 -
   idanuncio: 1594
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: LA CASA DA PIZZA
   endereco: RUA VICENTE CICCARINO
   numero: 361
@@ -3146,7 +3146,7 @@
 -
   idanuncio: 1595
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: LA CASA DA PIZZA
   endereco: RUA CIDADE DE LAGUNA
   numero: 125
@@ -3166,11 +3166,11 @@
 -
   idanuncio: 1596
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: LA MAMMA BELLA PIZZARIA E FOCACCERIA
   endereco: RUA CRUZEIRO DO SUL
   numero: 855
-  bairro: SIT CERCADO
+  bairro: SITIO CERCADO
   cidade: CURITIBA
   estado: PR
   cep: 81900-230
@@ -3186,7 +3186,7 @@
 -
   idanuncio: 1597
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: LA NONNA MARIA PIZZARIA
   endereco: RUA BERNARDO KRASINSKI
   numero: 155
@@ -3206,7 +3206,7 @@
 -
   idanuncio: 1598
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: LA PIAZZA
   endereco: RUA CHILE
   numero: 2258
@@ -3226,7 +3226,7 @@
 -
   idanuncio: 1599
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: LA VENUTA
   endereco: RUA CAPITAO ANTONIO JOSE
   numero: 985
@@ -3246,7 +3246,7 @@
 -
   idanuncio: 1600
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: LANCHONETE PIZZARIA MENUDO
   endereco: RUA PROFESSOR JOAO SOARES BARCELOS
   numero: 1925
@@ -3266,7 +3266,7 @@
 -
   idanuncio: 1601
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: LILAS'S PIZZARIA
   endereco: RUA JOSE NICCO
   numero: 75
@@ -3286,7 +3286,7 @@
 -
   idanuncio: 1602
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: LOLA PIZZERIA
   endereco: RUA PADRE GERMANO MAYER
   numero: 1181
@@ -3306,7 +3306,7 @@
 -
   idanuncio: 1603
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: LUIZ ALVES SOBRINHO
   endereco: RUA PEDRO GUSSO
   numero: 631
@@ -3326,7 +3326,7 @@
 -
   idanuncio: 1604
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: LUIZ FARIAS BRESSAN
   endereco: RUA PAULO SETUBAL
   numero: 1881
@@ -3346,7 +3346,7 @@
 -
   idanuncio: 1605
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: MAESTRO DA PIZZA
   endereco: RUA CASTRO ALVES
   numero: 500
@@ -3366,7 +3366,7 @@
 -
   idanuncio: 1606
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: MAICON DUARTE MULLET
   endereco: AVENIDA DA REPUBLICA
   numero: 6464
@@ -3386,7 +3386,7 @@
 -
   idanuncio: 1607
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: MAIS MAIS PIZZARIA
   endereco: RUA JORGE COLERAUS BARBOSA
   numero: 8
@@ -3406,7 +3406,7 @@
 -
   idanuncio: 1608
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: MAIS PIZZA
   endereco: RUA DESEMBARGADOR WESTPHALEN
   numero: 1236
@@ -3426,7 +3426,7 @@
 -
   idanuncio: 1609
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: MALURA PIZZARIA
   endereco: RUA CUIABA
   numero: 1450
@@ -3446,7 +3446,7 @@
 -
   idanuncio: 1610
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: MAMA BENE PIZZARIAS
   endereco: RUA PADRE JOAO WISLINSKI
   numero: 652
@@ -3466,7 +3466,7 @@
 -
   idanuncio: 1611
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: MAMA CHYQUYTA PIZZARIA
   endereco: RUA DEPUTADO WALDEMIRO PEDROSO
   numero: 235
@@ -3486,7 +3486,7 @@
 -
   idanuncio: 1612
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: MAMMA GULLA 2
   endereco: RUA BRIGADEIRO FRANCO
   numero: 864
@@ -3506,7 +3506,7 @@
 -
   idanuncio: 1613
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: MAMMA LUIZA
   endereco: RUA FRANCISCO DEROSSO
   numero: 5592
@@ -3526,7 +3526,7 @@
 -
   idanuncio: 1614
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: MANDALA'S PIZZAS BURGUER
   endereco: RUA DOM ALBERTO GONCALVES
   numero: 47
@@ -3546,7 +3546,7 @@
 -
   idanuncio: 1615
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: MANOEL F BUENO
   endereco: RUA CORONEL LUIZ JOSE DOS SANTOS
   numero: 3593
@@ -3566,7 +3566,7 @@
 -
   idanuncio: 1616
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: MANOEL FERNANDO BUENO
   endereco: RUA WALDEMAR KOST
   numero: 1365
@@ -3586,7 +3586,7 @@
 -
   idanuncio: 1617
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: MAPP PIZZA
   endereco: AVENIDA VEREADOR TOALDO TULIO
   numero: 4293
@@ -3606,7 +3606,7 @@
 -
   idanuncio: 1618
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: MAPP PIZZAS SAO BRAZ
   endereco: AVENIDA VEREADOR TOALDO TULIO 4293 TÉR   LJ
   numero: 1
@@ -3626,7 +3626,7 @@
 -
   idanuncio: 1619
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: MARCHIONALE PIZZARIA
   endereco: AVENIDA MANOEL RIBAS
   numero: 2241
@@ -3646,7 +3646,7 @@
 -
   idanuncio: 1620
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: MARCOS AURELIO DE ASSIS
   endereco: AVENIDA MARECHAL FLORIANO PEIXOTO
   numero: 114
@@ -3666,7 +3666,7 @@
 -
   idanuncio: 1621
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: MARIA DE FATIMA ADUR
   endereco: RUA NILO PECANHA
   numero: 3313
@@ -3686,7 +3686,7 @@
 -
   idanuncio: 1622
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: MB PIZZA
   endereco: AVENIDA PRESIDENTE KENNEDY
   numero: 3332
@@ -3706,7 +3706,7 @@
 -
   idanuncio: 1623
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: MELB'S PIZZARIA
   endereco: RUA JULIA WANDERLEY
   numero: 1360
@@ -3726,7 +3726,7 @@
 -
   idanuncio: 1624
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: MERCATU PIZZA
   endereco: RUA BRIGADEIRO FRANCO
   numero: 454
@@ -3746,7 +3746,7 @@
 -
   idanuncio: 1625
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: MERCATU PIZZA
   endereco: RUA CHILE
   numero: 2091
@@ -3766,7 +3766,7 @@
 -
   idanuncio: 1626
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: MIDAS PIZZA
   endereco: RUA MATEUS LEME
   numero: 3324
@@ -3786,7 +3786,7 @@
 -
   idanuncio: 1627
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: MILLENIUM PIZZAS E CALZONES
   endereco: AVENIDA PRESIDENTE WENCESLAU BRAZ
   numero: 2624
@@ -3806,7 +3806,7 @@
 -
   idanuncio: 1628
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: MINEIRU'S PIZZARIA
   endereco: RUA RENATO POLATTI
   numero: 2535
@@ -3826,7 +3826,7 @@
 -
   idanuncio: 1629
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: MUNDO DA PIZZA
   endereco: RUA ALBINO FREDERICO FOERSTER
   numero: 13
@@ -3846,7 +3846,7 @@
 -
   idanuncio: 1630
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: NEUROS PIZZARIA
   endereco: RUA PEDRO GUSSO
   numero: 3350
@@ -3866,7 +3866,7 @@
 -
   idanuncio: 1631
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: NEW MAX PIZZARIA
   endereco: AVENIDA JOAO GUALBERTO
   numero: 1050
@@ -3886,7 +3886,7 @@
 -
   idanuncio: 1632
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: NEY ANTUNES DA SILVA
   endereco: RUA ROBERT REDZIMSKI
   numero: 675
@@ -3906,7 +3906,7 @@
 -
   idanuncio: 1633
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: NICLEVICZ COMERCIO DE ALIMENTOS
   endereco: RUA PADRE ANCHIETA
   numero: 1425
@@ -3926,7 +3926,7 @@
 -
   idanuncio: 1634
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: NONNA PINA
   endereco: RUA VICTORIO VIEZZER
   numero: 890
@@ -3946,7 +3946,7 @@
 -
   idanuncio: 1635
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: NOSSA PIZZA
   endereco: RUA DIAS DA ROCHA FILHO
   numero: 79
@@ -3966,7 +3966,7 @@
 -
   idanuncio: 1636
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: NOSTRA PIZZA RESTAURANTE
   endereco: RUA OMAR RAYMUNDO PICHETH
   numero: 710
@@ -3986,7 +3986,7 @@
 -
   idanuncio: 1637
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: O FORNAO PIZZARIA
   endereco: AVENIDA VICTOR FERREIRA DO AMARAL
   numero: 142
@@ -4006,7 +4006,7 @@
 -
   idanuncio: 1638
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: O FORNAO PIZZARIA ALTO DA XV
   endereco: AVENIDA VICTOR FERREIRA DO AMARAL
   numero: 120
@@ -4026,7 +4026,7 @@
 -
   idanuncio: 1639
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: O FORNAO PIZZARIA MERCES
   endereco: AVENIDA MANOEL RIBAS
   numero: 640
@@ -4046,7 +4046,7 @@
 -
   idanuncio: 1640
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: O FORNAO PIZZARIA E RESTAURANTE
   endereco: AVENIDA JOAO GUALBERTO
   numero: 1697
@@ -4066,7 +4066,7 @@
 -
   idanuncio: 1641
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: O FORNARI PIZZARIA
   endereco: RUA FERNANDO DE NORONHA
   numero: 137
@@ -4086,7 +4086,7 @@
 -
   idanuncio: 1642
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: O PEDAL PIZZA POR METRO
   endereco: AVENIDA JAIME REIS
   numero: 480
@@ -4106,7 +4106,7 @@
 -
   idanuncio: 1643
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: OBA OBA PIZZARIA
   endereco: AVENIDA SENADOR SOUZA NAVES
   numero: 1845
@@ -4126,7 +4126,7 @@
 -
   idanuncio: 1644
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: OPTE PIZZA PIZZARIA
   endereco: AVENIDA PRESIDENTE KENNEDY
   numero: 2800
@@ -4146,7 +4146,7 @@
 -
   idanuncio: 1645
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: ORIGINALLE PIZZA DELIVERY ECOVILLE
   endereco: RUA PAULO GORSKI
   numero: 861
@@ -4166,11 +4166,11 @@
 -
   idanuncio: 1646
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: PAJA DELIVERY CLUB
   endereco: RUA CANDIDO XAVIER
   numero: 880
-  bairro: VL IZABEL
+  bairro: VILA IZABEL
   cidade: CURITIBA
   estado: PR
   cep: 80320-220
@@ -4186,7 +4186,7 @@
 -
   idanuncio: 1647
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: PALAZZO PIZZARIA
   endereco: RUA BISPO-DOM JOSE
   numero: 2070
@@ -4206,7 +4206,7 @@
 -
   idanuncio: 1648
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: PALAZZO PIZZARIA
   endereco: RUA CARNEIRO LOBO
   numero: 444
@@ -4226,7 +4226,7 @@
 -
   idanuncio: 1649
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: PASTA PIZZA COM PIZZA E ROTISSERIA
   endereco: AVENIDA 3 MARIAS
   numero: 40
@@ -4246,7 +4246,7 @@
 -
   idanuncio: 1650
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: PAULISTA PIZZA
   endereco: RUA CONEGO JANUARIO DA CUNHA BARBOSA
   numero: 701
@@ -4266,7 +4266,7 @@
 -
   idanuncio: 1651
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: PAULO R B PEREIRA
   endereco: RUA SALUSTIANO CORDEIRO
   numero: 14
@@ -4286,7 +4286,7 @@
 -
   idanuncio: 1652
   iddepartamento: 39
-  idsubdepartamento: 349
+  idsubdepartamento: 287
   nome: PAULO ROBERTO DA LUZ VOSS
   endereco: RUA CAPITAO LEONIDAS MARQUES
   numero: 2030
