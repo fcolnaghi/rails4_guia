@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require underscore
+//= require raty.min
 //= require gmaps/google
 //= require bootstrap/bootstrap.min
 //= require bootstrap/typeahead
@@ -20,6 +21,16 @@
 //= require_tree .
 
 $(document).ready(function() {
+
+  $('.rating').each(function() {
+    $(this).raty({
+      readOnly: true,
+      half: true,
+      score: $(this).data("score"),
+      path: '/assets'
+    })
+  });
+
   /* typeahead.js categories */
   var categories = new Bloodhound({
     datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),

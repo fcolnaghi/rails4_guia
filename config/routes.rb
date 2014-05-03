@@ -15,6 +15,8 @@ Guia041::Application.routes.draw do
     collection do
       get "nearby"
     end
+
+    resources :ratings, only: :update
   end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

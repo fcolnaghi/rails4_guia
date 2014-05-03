@@ -1,46 +1,44 @@
 <div style="width: 70%;float: left">
-<%# if @places.any? && !@places.suggestions.nil? %>
-  <%# @places.suggestions.each do |sugestao| %>
-    <%#= link_to sugestao, search_places_path(:q => sugestao, :w => params[:w] ) %>
-  <%# end %>
-<%# end %>
 
-<h4>Listing <%=pluralize(@places.count, "place")%> found</h4>
-<div class="table-responsive">
-  <table class="table table-condensed" style="font-size: 10px">
-  <thead>
-    <tr>
-      <th>TITULO</th>
-      <th>ENDEREÇO</th>
-      <th>SCORE</th>
-      <!--th>Lon</th>
-      <th>Score</th>
-      <th></th-->
-      <th>Phone</th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <% @places.each_with_hit do |place,hit| -%>
-    <tr>
-      <td><%= place.title %></td>
-      <td><%= place.full_address %></td>
-      <td><%= hit['_score'] %></td>
-      <td><%= place.phone %></td>
-      <td><%= link_to 'Show', place %> - <%= link_to 'Edit', edit_place_path(place) %> - <%= link_to 'Destroy', place, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <hgroup class="mb20">
+    <h1>Search Results</h1>
+    <h2 class="lead"><%=pluralize(@places.count, "place")%> results were found for the search for <strong class="text-danger"><%=params[:q]%></strong> <% if params[:w] %> perto <strong class="text-danger"><%=params[:w]%></strong> <% end %></h2>
+    </hgroup>
+      <section class="col-xs-10 col-sm-6 col-md-10">
 
-      <!--td><%= link_to 'Show', place %></td>
-      <td><%= link_to 'Edit', edit_place_path(place) %></td>
-      <td><%= link_to 'Destroy', place, method: :delete, data: { confirm: 'Are you sure?' } %></td-->
-    </tr>
+    <% @places.each_with_hit do |place, hit| %>
+        <article class="search-result row">
+        <div class="info">
+          <div class="col-sm-2">
+            <a href="#" title="<%=place.title%>"><img src="http://lorempixel.com/120/90/food?rand=<%=place.id%>" alt="Lorem ipsum" /></a>
+          </div>
+          <div class="col-sm-8">
+            <h3 class="title"><%= link_to place.title, place_path(place) %></h3>
+            <span class="rating" data-score="<%= place.average_rating %>"></span>
+            <p><%=place.full_address()%></p>
+            <p class="phone"><%=place.phone%></p>
+          </div>
+          <div class="col-sm-2">
+            <button class="btn btn-xs btn-success">Get Directions</button>
+            <button class="btn btn-xs btn-danger">More info</button>
+            <button class="btn btn-xs btn-alert">Visit website</button>
+          </div>
+        </div>
+        </article>
     <% end %>
-  </tbody>
-</table>
-<%= paginate @places %>
-</div>
+    </section>
+    <section class="col-xs-2 col-sm-6 col-md-2">
+    <% @places.facets.each do |filter| %>
+    <ul><span><%=filter.first%></span>
+    <% @places.facets[filter.first]['terms'].each do |term| %>
+      <li style="font-size: 10px;"><%= term['term'] %> (<%= term['count']%>)</li>
+    <% end %>
+    </ul>
+    <% end %>
+  </section>
+    <%= paginate @places %>
+  </div>
 
-<%= link_to 'New Place', new_place_path, :class=> "btn btn-success" %>
-</div>
 <div style='width: 300px; float: right'>
   <div id="map" style='width: 300px; height: 300px;'></div>
 </div>

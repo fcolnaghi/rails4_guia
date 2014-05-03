@@ -36,20 +36,20 @@ class PlacesController < ApplicationController
     if params[:w].present? && params[:q].present?
       localizacao = Neighborhood.search(params[:w]).map(&:id)
       if localizacao.any?
-        @places = Place.search( params[:q], suggest: true, where: { neighborhood_id: localizacao } )
+        @places = Place.search( params[:q], suggest: true, where: { neighborhood_id: localizacao }, facets: [:rating, :categories, :city_id] )
       else
         address = Place.search( params[:w], suggest: true, fields: [ {address: :text_middle} ], order: {_score: :desc} ).map(&:address).first
-        @places = Place.search( params[:q], suggest: true, fields: [:title], where: {address: address } )
+        @places = Place.search( params[:q], suggest: true, fields: [:title], facets: [:neighborhood, :rating, :categories, :city_id], where: {address: address } )
       end
     elsif params[:w].present?
       localizacao = Neighborhood.search(params[:w]).map(&:id)
       if localizacao.any?
-        @places = Place.search( "*", suggest: true, where: { neighborhood_id: localizacao }, order: {_score: :desc} )
+        @places = Place.search( "*", suggest: true, where: { neighborhood_id: localizacao },facets: [:neighborhood, :rating, :categories, :city_id], order: {_score: :desc} )
       else
-        @places = Place.search( params[:w], suggest: true, fields: [ {address: :text_middle} ], order: {_score: :desc} )
+        @places = Place.search( params[:w], suggest: true, fields: [ {address: :text_middle} ],facets: [:neighborhood, :rating, :categories, :city_id], order: {_score: :desc} )
       end
     elsif params[:q].present?
-      @places = Place.search(params[:q], suggest: true, order: {_score: :desc})
+      @places = Place.search(params[:q], suggest: true, facets: [:neighborhood, :rating, :categories, :city_id], order: { rating: :desc })
     else
       #@places = Place.search("*")
       redirect_to places_path()

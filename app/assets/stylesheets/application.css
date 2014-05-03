@@ -125,5 +125,33 @@ img.logo  {
      -moz-border-radius: 8px 8px 0px 0px;
           border-radius: 8px 8px 0px 0px;
 }
-/* End typeahead */
 
+.search-result .thumbnail-result {
+	float: left;
+	width: 100px;
+}
+
+.search-result .thumbnail-result img {
+	padding: 4px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.search-result ul {
+
+}
+
+.search-result h3.title {
+	font-size: 20px;
+	margin: 0px;
+}
+
+.search-result {
+	height: 120px;
+	border-top: 1px solid #ddd;
+	padding-top: 10px;
+}
+
+.search-result p.phone {
+	font-size: 14px;
+}
