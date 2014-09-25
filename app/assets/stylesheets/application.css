@@ -14,68 +14,68 @@
  *= require_tree .
  */
 
-/* THEME */
-.navbar-default {
-	background-color: #EEE;
-}
-.navbar-brand {
-	padding: 2px;
-	padding-right: 20px;
-}
-.navbar-nav>li>a {
-	padding: 10px;
-}
+ /* THEME */
+ .navbar-default {
+   background-color: #EEE;
+ }
+ .navbar-brand {
+   padding: 2px;
+   padding-right: 20px;
+ }
+ .navbar-nav>li>a {
+   padding: 10px;
+ }
 
-.icon-2x {
-	font-size: 200%;
-}
+ .icon-2x {
+   font-size: 200%;
+ }
 
-.icon-3x {
-	font-size: 300%;
-}
+ .icon-3x {
+   font-size: 300%;
+ }
 
-.input-search, .typeahead {
-	width: 280px;
-}
+ .input-search, .typeahead {
+   width: 280px;
+ }
 
-.input-search-small {
-	width: 180px;
-}
+ .input-search-small {
+   width: 180px;
+ }
 
-.content {
-	padding-top: 55px;
-	padding-bottom: 15px;
-}
+ .content {
+   padding-top: 55px;
+   padding-bottom: 15px;
+ }
 
-.search-form {
-	padding: 0px;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-	margin: 8px 0px;
-}
+ .search-form {
+   padding: 0px;
+   -webkit-box-shadow: none;
+   box-shadow: none;
+   margin: 8px 0px;
+ }
 
-.search-form .form-group {
-	display: inline-block;
-	margin-bottom: 0;
-	vertical-align: middle;
-}
+ .search-form .form-group {
+   display: inline-block;
+   margin-bottom: 0;
+   vertical-align: middle;
+ }
 
-img.logo  {
-	margin: 2px;
-	max-height: 42px;
-}
+ img.logo  {
+   margin: 2px;
+   max-height: 42px;
+ }
 
-/* END THEME */
+ /* END THEME */
 
-/* typeahead */
-.typeahead {
+ /* typeahead */
+ .typeahead {
   background-color: #fff;
 }
 
 .tt-query {
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 
 .tt-hint {
@@ -90,11 +90,169 @@ img.logo  {
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.2);
   -webkit-border-radius: 8px;
-     -moz-border-radius: 8px;
-          border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
   -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
-     -moz-box-shadow: 0 5px 10px rgba(0,0,0,.2);
-          box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  -moz-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.tt-suggestion {
+  padding: 3px 20px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.tt-suggestion.tt-cursor {
+  color: #fff;
+  background-color: #0097cf;
+
+}
+
+.tt-suggestion p {
+  margin: 0;
+}
+
+.header-typeahead {
+  font-family: helvetica,arial,sans-serif;
+  padding: 8px 0 8px 15px;
+  color: #999;
+  font-style: italic;
+  font-size: 12px;
+  line-height: 12px;
+  background: #f0f0f0;
+  -webkit-border-radius: 8px 8px 0px 0px;
+  -moz-border-radius: 8px 8px 0px 0px;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.search-result .thumbnail-result {
+  float: left;
+  width: 100px;
+}
+
+.search-result .thumbnail-result img {
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-result ul {
+
+}
+
+.search-result h3.title {
+  font-size: 20px;
+  margin: 0px;
+}
+
+.search-result {
+  height: 120px;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+.search-result p.phone {
+  font-size: 14px;
+}
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require bootstrap/bootstrap.min
+ *= require bootstrap/bootstrap-theme.min
+ *= require_self
+ *= require_tree .
+ */
+
+ /* THEME */
+ .navbar-default {
+   background-color: #EEE;
+ }
+ .navbar-brand {
+   padding: 2px;
+   padding-right: 20px;
+ }
+ .navbar-nav>li>a {
+   padding: 10px;
+ }
+
+ .icon-2x {
+   font-size: 200%;
+ }
+
+ .icon-3x {
+   font-size: 300%;
+ }
+
+ .input-search, .typeahead {
+   width: 280px;
+ }
+
+ .input-search-small {
+   width: 180px;
+ }
+
+ .content {
+   padding-top: 55px;
+   padding-bottom: 15px;
+ }
+
+ .search-form {
+   padding: 0px;
+   -webkit-box-shadow: none;
+   box-shadow: none;
+   margin: 8px 0px;
+ }
+
+ .search-form .form-group {
+   display: inline-block;
+   margin-bottom: 0;
+   vertical-align: middle;
+ }
+
+ img.logo  {
+   margin: 2px;
+   max-height: 42px;
+ }
+
+ /* END THEME */
+
+ /* typeahead */
+ .typeahead {
+  background-color: #fff;
+}
+
+.tt-query {
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.tt-hint {
+  color: #999
+}
+
+.tt-dropdown-menu {
+  width: 422px;
+  /*margin-top: 12px;*/
+  padding: 0px 0px 8px 0px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  -moz-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
 }
 
 .tt-suggestion {
@@ -122,8 +280,8 @@ img.logo  {
 	line-height: 12px;
 	background: #f0f0f0;
 	-webkit-border-radius: 8px 8px 0px 0px;
-     -moz-border-radius: 8px 8px 0px 0px;
-          border-radius: 8px 8px 0px 0px;
+ -moz-border-radius: 8px 8px 0px 0px;
+ border-radius: 8px 8px 0px 0px;
 }
 
 .search-result .thumbnail-result {
@@ -154,4 +312,40 @@ img.logo  {
 
 .search-result p.phone {
 	font-size: 14px;
+}
+
+#mapOverlay #map {
+  height: 100%;
+  overflow: hidden;
+}
+
+#mapOverlay {
+  bottom: 0;
+  left: 720px;
+  position: fixed;
+  width: 50%;
+  right: 0;
+  top: 52px;
+  z-index: 1;
+}
+
+#results {
+  position: relative;
+  width: 720px;
+  z-index: 2;
+  left: 0;
+  right: 50%;
+}
+#results ul {
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+}
+.conteudo  {
+  top: 52px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  /* padding-left: 15px; */
+  /* padding-right: 15px; */
 }
